@@ -71,7 +71,7 @@
       <PackageReference Include="Xamarin.TestCloud.Agent" Version="0.21.9" />
       <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
       <PackageReference Include="com.arina57.crosslibrary">
-        <Version>1.0.1</Version>
+        <Version>1.0.5</Version>
       </PackageReference>
     </ItemGroup>
     <ItemGroup>
@@ -124,6 +124,7 @@
     </ItemGroup>
     <ItemGroup>
         <InterfaceDefinition Include="LaunchScreen.storyboard" />
+        <InterfaceDefinition Include="Views\MainView.xib" />
     </ItemGroup>
     <ItemGroup>
         <None Include="Info.plist" />
@@ -133,6 +134,10 @@
         <Compile Include="Main.cs" />
         <Compile Include="AppDelegate.cs" />
         <Compile Include="SceneDelegate.cs" />
+        <Compile Include="Views\MainView.cs" />
+        <Compile Include="Views\MainView.designer.cs">
+          <DependentUpon>MainView.cs</DependentUpon>
+        </Compile>
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\EduApp.Core\EduApp.Core.csproj">
