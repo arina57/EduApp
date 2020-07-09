@@ -1,4 +1,5 @@
 ﻿using System;
+using EduApp.Core.ViewModels;
 using Foundation;
 using UIKit;
 
@@ -16,11 +17,12 @@ namespace NewSingleViewTemplate {
             // This delegate does not imply the connecting scene or session are new (see UIApplicationDelegate `GetConfiguration` instead).
 
             if (scene is UIWindowScene windowScene) {
-                Window = new UIWindow(windowScene);
-                var homeViewController = new UIViewController();
-                homeViewController.View.BackgroundColor = UIColor.Red;
-                Window.RootViewController = homeViewController;
+                Window = new UIWindow(UIScreen.MainScreen.Bounds);
+                var nav = new UINavigationController();
+                Window.RootViewController = nav;
                 Window.MakeKeyAndVisible();
+                var main = new MainViewModel();
+                main.Show();
             }
         }
 
