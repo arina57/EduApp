@@ -1,10 +1,11 @@
 ﻿using System;
-
+using CrossLibrary.iOS.Views;
+using EduApp.Core.ViewModels;
 using UIKit;
 
 namespace EduApp.iOS.Views {
-    public partial class MainView : UIViewController {
-        public MainView() : base("MainView", null) {
+    public partial class MainView : PlatformCrossView<MainViewModel> {
+        public MainView() {
         }
 
         public override void ViewDidLoad() {

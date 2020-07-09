@@ -15,7 +15,7 @@ using CrossLibrary.Droid.Views;
 using EduApp.Core.ViewModels;
 
 namespace EduApp.Droid.Views {
-    public class MainView : CrossFragment<MainViewModel> {
+    public class MainView : PlatformCrossView<MainViewModel> {
         public override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
 
