@@ -70,6 +70,9 @@
     <ItemGroup>
       <PackageReference Include="Xamarin.TestCloud.Agent" Version="0.21.9" />
       <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+      <PackageReference Include="com.arina57.crosslibrary">
+        <Version>1.0.1</Version>
+      </PackageReference>
     </ItemGroup>
     <ItemGroup>
         <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
@@ -117,6 +120,7 @@
     </ItemGroup>
     <ItemGroup>
         <Folder Include="Resources\" />
+        <Folder Include="Views\" />
     </ItemGroup>
     <ItemGroup>
         <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -134,6 +138,12 @@
         <Compile Include="ViewController.designer.cs">
             <DependentUpon>ViewController.cs</DependentUpon>
         </Compile>
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\EduApp.Core\EduApp.Core.csproj">
+        <Project>{0E5D50DC-03DD-4DC8-99EE-09E82C3C6C26}</Project>
+        <Name>EduApp.Core</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

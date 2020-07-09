@@ -102,6 +102,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
+    <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
@@ -117,7 +118,16 @@
     <PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData">
       <Version>2.2.0.1</Version>
     </PackageReference>
+    <PackageReference Include="com.arina57.crosslibrary">
+      <Version>1.0.1</Version>
+    </PackageReference>
 </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EduApp.Core\EduApp.Core.csproj">
+      <Project>{0E5D50DC-03DD-4DC8-99EE-09E82C3C6C26}</Project>
+      <Name>EduApp.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
     Other similar extension points exist, see Microsoft.Common.targets.
