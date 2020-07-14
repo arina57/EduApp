@@ -28,5 +28,17 @@ namespace EduApp.Droid.Views {
             var view = inflater.Inflate(Resource.Layout.main_view, container, false);
             return view;
         }
+
+        public override void OnResume() {
+            base.OnResume();
+            var activity = Plugin.CurrentActivity.CrossCurrentActivity.Current.Activity as ICrossActivity;
+            activity.BackAction = CrossLibrary.Droid.Enums.ActivityBackAction.CloseActivity;
+        }
+
+        public override void OnPause() {
+            base.OnPause();
+            var activity = Plugin.CurrentActivity.CrossCurrentActivity.Current.Activity as ICrossActivity;
+            activity.BackAction = CrossLibrary.Droid.Enums.ActivityBackAction.Normal;
+        }
     }
 }

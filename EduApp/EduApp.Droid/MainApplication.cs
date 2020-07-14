@@ -16,5 +16,6 @@ namespace EduApp.Droid {
         public override void OnActivityCreated(Activity activity, Bundle savedInstanceState) {
             base.OnActivityCreated(activity, savedInstanceState);
         }
+
     }
 }

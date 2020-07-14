@@ -14,7 +14,7 @@ using EduApp.Core.ViewModels;
 
 namespace EduApp.Droid {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity {
+    public class MainActivity : CrossLibrary.Droid.Views.CrossActivity {
 
 
         protected override void OnCreate(Bundle savedInstanceState) {
