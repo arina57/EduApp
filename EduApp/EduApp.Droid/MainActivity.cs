@@ -13,14 +13,14 @@ using Android.Util;
 using EduApp.Core.ViewModels;
 
 namespace EduApp.Droid {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/splashScreenTheme", MainLauncher = true)]
     public class MainActivity : CrossLibrary.Droid.Views.CrossActivity {
 
 
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
-
+            SetTheme(Resource.Style.AppTheme_NoActionBar);
             SetContentView(Resource.Layout.activity_main);
 
             //var toolbar = FindViewById<AndroidX.AppCompat.Widget.Toolbar>(Resource.Id.toolbar);

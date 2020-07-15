@@ -9,7 +9,7 @@ namespace EduApp.Core {
         public override void AppLoaded() {
             base.AppLoaded();
             var main = new MainViewModel();
-            main.Show();
+            main.Show(false);
         }
     }
 }
