@@ -8,6 +8,6 @@
     <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\CrossLibrary\CrossLibrary.Core\CrossLibrary.Core.csproj" />
+    <PackageReference Include="com.arina57.crosslibrary" Version="1.0.7.4" />
   </ItemGroup>
 </Project>
