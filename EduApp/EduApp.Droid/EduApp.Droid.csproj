@@ -139,19 +139,14 @@
     <PackageReference Include="Plugin.CurrentActivity">
       <Version>2.1.0.4</Version>
     </PackageReference>
+    <PackageReference Include="com.arina57.crosslibrary">
+      <Version>1.0.7.4</Version>
+    </PackageReference>
 </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EduApp.Core\EduApp.Core.csproj">
       <Project>{0E5D50DC-03DD-4DC8-99EE-09E82C3C6C26}</Project>
       <Name>EduApp.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\CrossLibrary\CrossLibrary.Droid\CrossLibrary.Droid.csproj">
-      <Project>{CC33E7DB-5126-40E6-AE8E-11307EE36A24}</Project>
-      <Name>CrossLibrary.Droid</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\CrossLibrary\CrossLibrary.Core\CrossLibrary.Core.csproj">
-      <Project>{EB9C9083-EE19-40EB-875F-10EFA0E514A7}</Project>
-      <Name>CrossLibrary.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
