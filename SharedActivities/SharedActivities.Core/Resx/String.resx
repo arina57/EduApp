@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+        <data name="CheckAnswersButton" xml:space="preserve">
+    <value>Check Answers</value>
+  </data>
+  
+    
+            <data name="FeedbackPerfect" xml:space="preserve">
+    <value>Perfect</value>
+  </data>
+    
+            <data name="FeedbackGood" xml:space="preserve">
+    <value>Good</value>
+  </data>
+    
+            <data name="FeedbackNotGood" xml:space="preserve">
+    <value>Better luck next time</value>
+  </data>
+        <data name="PlusPoints" xml:space="preserve">
+    <value>+{0} points</value>
+  </data>
+        <data name="NthAttemptBonus" xml:space="preserve">
+    <value>{0} Attempt Bonus x{1}</value>
+  </data>
+        <data name="PerfectScoreBonus" xml:space="preserve">
+    <value>Perfect Score Bonus: +{0}</value>
+  </data>
+</root>

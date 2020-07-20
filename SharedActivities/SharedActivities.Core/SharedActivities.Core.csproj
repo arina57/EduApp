@@ -6,5 +6,34 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="ViewModels\Exercises\" />
+    <Folder Include="ViewModels\Exercises\Results\" />
+    <Folder Include="Resx\" />
+    <Folder Include="Models\Database\" />
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="com.arina57.crosslibrary" Version="1.0.7.4" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Resx\String.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>String.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resx\Lottie.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Lottie.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Resx\String.Designer.cs">
+      <DependentUpon>String.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resx\Lottie.Designer.cs">
+      <DependentUpon>Lottie.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

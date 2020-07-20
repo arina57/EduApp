@@ -37,5 +37,19 @@ namespace SharedActivities.Core {
 
             return assembly.GetManifestResourceStream(resourcePaths.Single());
         }
+
+
+        /// Attempts to find and return the given resource from within the specified assembly.
+        /// </summary>
+        /// <returns>The embedded resource as a string.</returns>
+        /// <param name="assembly">Assembly.</param>
+        /// <param name="resourceFileName">Resource file name.</param>
+        public static string GetEmbeddedResourceString(Assembly assembly, string resourceFileName) {
+            var stream = GetEmbeddedResourceStream(assembly, resourceFileName);
+
+            using (var streamReader = new StreamReader(stream)) {
+                return streamReader.ReadToEnd();
+            }
+        }
     }
 }
