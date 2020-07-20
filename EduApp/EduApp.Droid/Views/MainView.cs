@@ -18,7 +18,7 @@ namespace EduApp.Droid.Views {
     public class MainView : PlatformCrossView<MainViewModel> {
         public override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
-
+            HasOptionsMenu = true;
             // Create your fragment here
         }
 
@@ -40,5 +40,6 @@ namespace EduApp.Droid.Views {
             var activity = Plugin.CurrentActivity.CrossCurrentActivity.Current.Activity as ICrossActivity;
             activity.BackAction = CrossLibrary.Droid.Enums.ActivityBackAction.Normal;
         }
+
     }
 }
