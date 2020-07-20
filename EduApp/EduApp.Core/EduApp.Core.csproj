@@ -6,8 +6,20 @@
 
   <ItemGroup>
     <Folder Include="ViewModels\" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="com.arina57.crosslibrary" Version="1.0.7.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\..\TestData\ActivityNames.xml">
+      <Link>Resources\ActivityNames.xml</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\TestData\DialogueGapFill.xml">
+      <Link>Resources\DialogueGapFill.xml</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\TestData\Roles.xml">
+      <Link>Resources\Roles.xml</Link>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
