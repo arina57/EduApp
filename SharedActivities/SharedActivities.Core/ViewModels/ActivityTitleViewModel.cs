@@ -12,5 +12,7 @@ namespace SharedActivities.Core.ViewModels {
         public string SubtitleText => viewModel.SubtitleText;
         public string SituationText => viewModel.SituationText;
         public string TitleText => viewModel.TitleText;
+
+        public string IconLottie { get; set; }
     }
 }
