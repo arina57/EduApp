@@ -1,17 +1,12 @@
-﻿using SharedActivities.Interfaces;
-using SharedActivities.Models;
-using SharedActivities.ViewModels;
-using CrossLibrary;
+﻿using CrossLibrary;
 using CrossLibrary.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System;
 using SharedActivities.Core.Models;
 using SharedActivities.Core.ViewModels.Exercises.Results;
+using SharedActivities.Core.Data;
 
 namespace SharedActivities.Core.ViewModels.Exercises {
-    public abstract class ExerciseViewModel : CrossViewModel, IExerciseLogic {
+    public abstract class ExerciseViewModel : CrossViewModelExtra, IExerciseLogic {
 
 
         public abstract string TitleText { get; }
@@ -74,14 +69,14 @@ namespace SharedActivities.Core.ViewModels.Exercises {
 
         public void Finish() {
             Finished = true;
-            AttemptDatabaseQueries.LocalDatabase.IncrementTimeInActivity(ActivityData, TimeSinceAppeared);
+            ModuleDatabaseQueries.LocalDatabase.IncrementTimeInActivity(ActivityData, TimeSinceAppeared);
             appearedTime = DateTime.Now;
             ExerciseFinished?.Invoke(this, new EventArgs());
         }
 
         public override void ViewDisappearing() {
             if (!Finished) {
-                AttemptDatabaseQueries.LocalDatabase.IncrementTimeInActivity(ActivityData, TimeSinceAppeared);
+                ModuleDatabaseQueries.LocalDatabase.IncrementTimeInActivity(ActivityData, TimeSinceAppeared);
                 appearedTime = DateTime.Now;
             }
         }

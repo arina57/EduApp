@@ -1,22 +1,23 @@
 ﻿using System;
 using System.Globalization;
+using CrossLibrary.Dependency;
+using SharedActivities.Core.CrossPlatformInterfaces;
 using SQLite;
 
 namespace SharedActivities.Core {
     public static class SharedFunctions {
 
-        public static GlobalEnums.Language GetUILanguage() {
-            switch (CultureInfo.CurrentUICulture.TwoLetterISOLanguageName) {
-                case "ja":
-                    return GlobalEnums.Language.Japanese;
-                default:
-                    return GlobalEnums.Language.English;
-            }
+        public static ISharedCrossFuctions SharedCrossFuctions = CrossViewDependencyService.Get<ISharedCrossFuctions>(CrossViewDependencyService.DependencyFetchTarget.GlobalInstance);
+
+        
+
+
+        public static void SetLanguage(CultureInfo language) {
+            SharedCrossFuctions.SetLanguage(language);
         }
 
-
-        public static string ToOrdinalString(int num, GlobalEnums.Language language) {
-            if (num <= 0 || language == GlobalEnums.Language.Japanese) {
+        public static string ToOrdinalString(int num, CultureInfo language) {
+            if (num <= 0 || language.SameLanguage(GlobalValues.Japanese)) {
                 return num.ToString();
             }
             switch (num % 100) {
@@ -49,6 +50,11 @@ namespace SharedActivities.Core {
             var cmd = connection.CreateCommand(cmdText, typeof(T).Name);
             return cmd.ExecuteScalar<string>() != null;
         }
+
+
+
+        public static bool SameLanguage(this CultureInfo cultureInfo1, CultureInfo cultureInfo2)
+            => cultureInfo1.TwoLetterISOLanguageName == cultureInfo2.TwoLetterISOLanguageName;
 
     }
 }

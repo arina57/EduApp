@@ -36,7 +36,7 @@ namespace SharedActivities.Core.Models.Database {
             ProductId = activityDataModel.CourseId;
             UnitId = activityDataModel.UnitId;
             ActivityId = activityDataModel.ActivityId;
-            AppSessionId = GlobalItems.Settings.AppSessionCount;
+            AppSessionId = GlobalValues.Settings.AppSessionCount;
             SessionAttempt = sessionAttempt;
         }
     }

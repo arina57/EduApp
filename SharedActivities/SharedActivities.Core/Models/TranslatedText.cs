@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Xml.Serialization;
 
 namespace SharedActivities.Core.Models {
@@ -19,15 +20,15 @@ namespace SharedActivities.Core.Models {
         [XmlElement("Japanese")]
         public virtual string Japanese { get; set; } = string.Empty;
 
-        public virtual string GetString(GlobalEnums.Language language) {
-            if (language == GlobalEnums.Language.Japanese && !string.IsNullOrWhiteSpace(Japanese)) {
+        public virtual string GetString(CultureInfo language) {
+            if (language.SameLanguage(GlobalValues.Japanese) && !string.IsNullOrWhiteSpace(Japanese)) {
                 return Japanese;
             } else {
                 return English;
             }
         }
         public virtual string GetString() {
-            return GetString(SharedFunctions.GetUILanguage());
+            return GetString(CultureInfo.DefaultThreadCurrentUICulture);
         }
     }
 }

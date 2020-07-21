@@ -4,10 +4,11 @@ using SharedActivities.Core.Data;
 using SharedActivities.Core.Models;
 using SharedActivities.Core.Models.Database;
 using System;
+using System.Globalization;
 using System.Threading;
 using System.Threading.Tasks;
 namespace SharedActivities.Core.ViewModels.Exercises.Results {
-    public class ScoringViewModel : CrossViewModel {
+    public class ScoringViewModel : CrossViewModelExtra {
 
 
 
@@ -125,7 +126,7 @@ namespace SharedActivities.Core.ViewModels.Exercises.Results {
             if (PointMultiplier > 1 && CurrentSessionBaseScore > 0) {
                 MultiplierTextVisible = true;
                 var ordinal = SharedFunctions.ToOrdinalString(TotalCompletedCount,
-                    SharedFunctions.GetUILanguage());
+                    CultureInfo.DefaultThreadCurrentUICulture);
                 var nthAttemptBonus = string.Format(Resx.String.NthAttemptBonus, ordinal, "{0}");
                 await CommonFunctions.AnimateTextNumberAsync(value => MultiplierText = value,
                                                              1,
@@ -223,7 +224,7 @@ namespace SharedActivities.Core.ViewModels.Exercises.Results {
             Resx.Lottie.ScoringBad;
 
         bool ScoreAtEndOnly { get; }
-        private ExerciseAttemptStats currectStats => AttemptDatabaseQueries.LocalDatabase.GetExistOrNewExerciseAttemptStats(activityDataModel);
+        private ExerciseAttemptStats currectStats => ModuleDatabaseQueries.LocalDatabase.GetExistOrNewExerciseAttemptStats(activityDataModel);
 
 
         public bool Perfect => NumberOfCorrectAnswers == TotalNumberOfQuestions;
@@ -249,13 +250,13 @@ namespace SharedActivities.Core.ViewModels.Exercises.Results {
 
         private void ScoredExerciseLogic_ExerciseFinished(object sender, EventArgs e) {
             if (ScoreAtEndOnly) {
-                AttemptDatabaseQueries.LocalDatabase.UpdateAttempt(activityDataModel, true, CurrentSessionScore, NumberOfCorrectAnswers, TotalNumberOfQuestions);
+                ModuleDatabaseQueries.LocalDatabase.UpdateAttempt(activityDataModel, true, CurrentSessionScore, NumberOfCorrectAnswers, TotalNumberOfQuestions);
                 if (NumberOfCorrectAnswers > 0) {
                     ScoreChanged?.Invoke(this, EventArgs.Empty);
                 }
             } else {
                 //Points were added during the activity so only add the perfect bonus;
-                AttemptDatabaseQueries.LocalDatabase.UpdateAttempt(activityDataModel, true, BonusPointsFromPerfectScore);
+                ModuleDatabaseQueries.LocalDatabase.UpdateAttempt(activityDataModel, true, BonusPointsFromPerfectScore);
                 if (BonusPointsFromPerfectScore > 0) {
                     ScoreChanged?.Invoke(this, EventArgs.Empty);
                 }
@@ -266,10 +267,10 @@ namespace SharedActivities.Core.ViewModels.Exercises.Results {
         internal void SetAnswered(bool correct) {
             if (!ScoreAtEndOnly) {
                 if (correct) {
-                    AttemptDatabaseQueries.LocalDatabase.UpdateAttempt(activityDataModel, false, PointMultiplier, 1, 1);
+                    ModuleDatabaseQueries.LocalDatabase.UpdateAttempt(activityDataModel, false, PointMultiplier, 1, 1);
                     ScoreChanged?.Invoke(this, EventArgs.Empty);
                 } else {
-                    AttemptDatabaseQueries.LocalDatabase.UpdateAttempt(activityDataModel, false, 0, 0, 1);
+                    ModuleDatabaseQueries.LocalDatabase.UpdateAttempt(activityDataModel, false, 0, 0, 1);
                 }
             }
         }

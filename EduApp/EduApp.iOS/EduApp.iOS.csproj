@@ -144,6 +144,14 @@
         <Project>{0E5D50DC-03DD-4DC8-99EE-09E82C3C6C26}</Project>
         <Name>EduApp.Core</Name>
       </ProjectReference>
+      <ProjectReference Include="..\..\SharedActivities\SharedActivities.Core\SharedActivities.Core.csproj">
+        <Project>{5B9ABEB5-ADF3-4ED6-A590-D4EF861A143A}</Project>
+        <Name>SharedActivities.Core</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\..\SharedActivities\SharedActivities.iOS\SharedActivities.iOS.csproj">
+        <Project>{51419C38-C176-4149-A69F-17246595E1EF}</Project>
+        <Name>SharedActivities.iOS</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

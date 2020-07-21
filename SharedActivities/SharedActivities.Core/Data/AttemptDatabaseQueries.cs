@@ -8,14 +8,14 @@ using SharedActivities.Core.Models.Database;
 using SQLite;
 
 namespace SharedActivities.Core.Data {
-	public class AttemptDatabaseQueries {
-		public const string DatabaseName = "AttemptDatabase.db3";
-		static AttemptDatabaseQueries localDatabase;
-		public static AttemptDatabaseQueries LocalDatabase {
+	public class ModuleDatabaseQueries {
+		public const string DatabaseName = "SharedActivitiesDb.db3";
+		static ModuleDatabaseQueries localDatabase;
+		public static ModuleDatabaseQueries LocalDatabase {
 			get {
 				if (localDatabase == null) {
 					var databasepath = CommonFunctions.GetLocalDatabaseFilePath(DatabaseName);
-					localDatabase = new AttemptDatabaseQueries(databasepath);
+					localDatabase = new ModuleDatabaseQueries(databasepath);
 				}
 				return localDatabase;
 			}
@@ -24,7 +24,7 @@ namespace SharedActivities.Core.Data {
 
 
 		private string databasePath;
-		public AttemptDatabaseQueries(string databasePath) {
+		public ModuleDatabaseQueries(string databasePath) {
 			this.databasePath = databasePath;
 			SetupDatabase();
 		}
@@ -34,6 +34,26 @@ namespace SharedActivities.Core.Data {
 			using (var connection = new SQLiteConnection(databasePath)) {
 				connection.CreateTable<ExerciseAttemptStats>();
 				connection.CreateTable<AttemptRecord>();
+				connection.CreateTable<Settings>();
+			}
+		}
+
+		public Settings GetSettings() {
+			using (var connection = new SQLiteConnection(databasePath)) {
+				try {
+					var table = connection.Table<Settings>();
+					return table.FirstOrDefault();
+				} catch {
+					connection.DropTable<Settings>();
+					connection.CreateTable<Settings>();
+					return null;
+				}
+			}
+		}
+
+		public int SaveSettings(Settings item) {
+			using (var connection = new SQLiteConnection(databasePath)) {
+				return connection.InsertOrReplace(item);
 			}
 		}
 
@@ -69,7 +89,7 @@ namespace SharedActivities.Core.Data {
 				if (connection.TableExists<AttemptRecord>()) {
 					var table = connection.Table<AttemptRecord>();
 					var query = table.AsEnumerable().Where(i =>
-							i.AppSessionId == GlobalItems.Settings.AppSessionCount
+							i.AppSessionId == GlobalValues.Settings.AppSessionCount
 							&& !i.NoLongerActive);
 					return query.ToList();
 				}
@@ -159,7 +179,7 @@ namespace SharedActivities.Core.Data {
 			if (connection.TableExists<AttemptRecord>()) {
 				var table = connection.Table<AttemptRecord>();
 				var query = ExercisesAttemptRecords(connection, activityDataModel)
-					.Where(i => i.AppSessionId == GlobalItems.Settings.AppSessionCount);
+					.Where(i => i.AppSessionId == GlobalValues.Settings.AppSessionCount);
 				return query;
 			}
 			return Enumerable.Empty<AttemptRecord>();
@@ -291,7 +311,7 @@ namespace SharedActivities.Core.Data {
 				if (connection.TableExists<AttemptRecord>()) {
 					var table = connection.Table<AttemptRecord>();
 					var query = ExercisesAttemptRecords(connection, activityDataModel)
-						.Where(i => i.AppSessionId == GlobalItems.Settings.AppSessionCount);
+						.Where(i => i.AppSessionId == GlobalValues.Settings.AppSessionCount);
 					return query.ToList();
 				}
 			}

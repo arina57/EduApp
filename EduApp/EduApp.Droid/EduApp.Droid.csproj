@@ -148,6 +148,14 @@
       <Project>{0E5D50DC-03DD-4DC8-99EE-09E82C3C6C26}</Project>
       <Name>EduApp.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\SharedActivities\SharedActivities.Core\SharedActivities.Core.csproj">
+      <Project>{5B9ABEB5-ADF3-4ED6-A590-D4EF861A143A}</Project>
+      <Name>SharedActivities.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SharedActivities\SharedActivities.Droid\SharedActivities.Droid.csproj">
+      <Project>{610F5BA4-E1FB-492A-A3B6-1A536907AA7C}</Project>
+      <Name>SharedActivities.Droid</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

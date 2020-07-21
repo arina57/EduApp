@@ -2,7 +2,7 @@
 using CrossLibrary;
 
 namespace SharedActivities.Core.ViewModels.Exercises.Results {
-    public class GapFillResultsViewModel : CrossViewModel {
+    public class GapFillResultsViewModel : CrossViewModelExtra {
         public GapFillViewModel GapFillViewModel { get; }
         public GapFillResultsViewModel(GapFillViewModel gapFillViewModel) {
             this.GapFillViewModel = gapFillViewModel;
