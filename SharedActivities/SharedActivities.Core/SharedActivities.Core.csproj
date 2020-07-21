@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="Resources\" />
     <Folder Include="ViewModels\" />
     <Folder Include="ViewModels\Exercises\" />
     <Folder Include="ViewModels\Exercises\Results\" />
@@ -21,20 +22,24 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Resx\String.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>String.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Resx\Lottie.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Lottie.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Resx\String.Designer.cs">
       <DependentUpon>String.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
     </Compile>
     <Compile Update="Resx\Lottie.Designer.cs">
       <DependentUpon>Lottie.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
     </Compile>
   </ItemGroup>
 </Project>
