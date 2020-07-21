@@ -219,7 +219,7 @@ namespace SharedActivities.Core.ViewModels.Exercises.Results {
 
 
         public string ResultImageJson => CompletedGood ? CompletedGreat ?
-            Resx.Lottie.ScoringGreat :
+            Resx.Lottie.ScoringPerfect :
             Resx.Lottie.ScoringGood :
             Resx.Lottie.ScoringBad;
 

@@ -12,4 +12,16 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+    <data name="FeedbackNotGood" xml:space="preserve">
+    <value>Better luck next time</value>
+        </data>
+  <data name="ActivityNames" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\TestData\ActivityNames.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+    <data name="Roles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\TestData\Roles.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+    <data name="DialogueGapFill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\TestData\DialogueGapFill.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
 </root>

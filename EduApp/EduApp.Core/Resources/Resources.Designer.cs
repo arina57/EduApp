@@ -46,5 +46,29 @@ namespace EduApp.Core.Resources {
                 resourceCulture = value;
             }
         }
+        
+        internal static string FeedbackNotGood {
+            get {
+                return ResourceManager.GetString("FeedbackNotGood", resourceCulture);
+            }
+        }
+        
+        internal static string ActivityNames {
+            get {
+                return ResourceManager.GetString("ActivityNames", resourceCulture);
+            }
+        }
+        
+        internal static string Roles {
+            get {
+                return ResourceManager.GetString("Roles", resourceCulture);
+            }
+        }
+        
+        internal static string DialogueGapFill {
+            get {
+                return ResourceManager.GetString("DialogueGapFill", resourceCulture);
+            }
+        }
     }
 }

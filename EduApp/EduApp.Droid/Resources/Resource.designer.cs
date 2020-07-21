@@ -1717,6 +1717,2006 @@ namespace EduApp.Droid
 			global::CrossLibrary.Droid.Resource.Styleable.View_paddingEnd = global::EduApp.Droid.Resource.Styleable.View_paddingEnd;
 			global::CrossLibrary.Droid.Resource.Styleable.View_paddingStart = global::EduApp.Droid.Resource.Styleable.View_paddingStart;
 			global::CrossLibrary.Droid.Resource.Styleable.View_theme = global::EduApp.Droid.Resource.Styleable.View_theme;
+			global::SharedActivities.Droid.Resource.Animation.abc_fade_in = global::EduApp.Droid.Resource.Animation.abc_fade_in;
+			global::SharedActivities.Droid.Resource.Animation.abc_fade_out = global::EduApp.Droid.Resource.Animation.abc_fade_out;
+			global::SharedActivities.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::EduApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::SharedActivities.Droid.Resource.Animation.abc_popup_enter = global::EduApp.Droid.Resource.Animation.abc_popup_enter;
+			global::SharedActivities.Droid.Resource.Animation.abc_popup_exit = global::EduApp.Droid.Resource.Animation.abc_popup_exit;
+			global::SharedActivities.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::EduApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::SharedActivities.Droid.Resource.Animation.abc_slide_in_bottom = global::EduApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::SharedActivities.Droid.Resource.Animation.abc_slide_in_top = global::EduApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::SharedActivities.Droid.Resource.Animation.abc_slide_out_bottom = global::EduApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::SharedActivities.Droid.Resource.Animation.abc_slide_out_top = global::EduApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::SharedActivities.Droid.Resource.Animation.abc_tooltip_enter = global::EduApp.Droid.Resource.Animation.abc_tooltip_enter;
+			global::SharedActivities.Droid.Resource.Animation.abc_tooltip_exit = global::EduApp.Droid.Resource.Animation.abc_tooltip_exit;
+			global::SharedActivities.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::EduApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::SharedActivities.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::EduApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::SharedActivities.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::EduApp.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::SharedActivities.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::EduApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::SharedActivities.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::EduApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::SharedActivities.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::EduApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::SharedActivities.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::EduApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::SharedActivities.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::EduApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::SharedActivities.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::EduApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::SharedActivities.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::EduApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::SharedActivities.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::EduApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::SharedActivities.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::EduApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::SharedActivities.Droid.Resource.Animation.fade_in_fast = global::EduApp.Droid.Resource.Animation.fade_in_fast;
+			global::SharedActivities.Droid.Resource.Animation.fade_out_fast = global::EduApp.Droid.Resource.Animation.fade_out_fast;
+			global::SharedActivities.Droid.Resource.Animation.none = global::EduApp.Droid.Resource.Animation.none;
+			global::SharedActivities.Droid.Resource.Animation.slide_in_from_bottom = global::EduApp.Droid.Resource.Animation.slide_in_from_bottom;
+			global::SharedActivities.Droid.Resource.Animation.slide_in_from_left = global::EduApp.Droid.Resource.Animation.slide_in_from_left;
+			global::SharedActivities.Droid.Resource.Animation.slide_in_from_right = global::EduApp.Droid.Resource.Animation.slide_in_from_right;
+			global::SharedActivities.Droid.Resource.Animation.slide_in_from_top = global::EduApp.Droid.Resource.Animation.slide_in_from_top;
+			global::SharedActivities.Droid.Resource.Animation.slide_out_bottom = global::EduApp.Droid.Resource.Animation.slide_out_bottom;
+			global::SharedActivities.Droid.Resource.Animation.slide_out_top = global::EduApp.Droid.Resource.Animation.slide_out_top;
+			global::SharedActivities.Droid.Resource.Animation.slide_out_to_left = global::EduApp.Droid.Resource.Animation.slide_out_to_left;
+			global::SharedActivities.Droid.Resource.Animation.slide_out_to_right = global::EduApp.Droid.Resource.Animation.slide_out_to_right;
+			global::SharedActivities.Droid.Resource.Attribute.actionBarDivider = global::EduApp.Droid.Resource.Attribute.actionBarDivider;
+			global::SharedActivities.Droid.Resource.Attribute.actionBarItemBackground = global::EduApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::SharedActivities.Droid.Resource.Attribute.actionBarPopupTheme = global::EduApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::SharedActivities.Droid.Resource.Attribute.actionBarSize = global::EduApp.Droid.Resource.Attribute.actionBarSize;
+			global::SharedActivities.Droid.Resource.Attribute.actionBarSplitStyle = global::EduApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::SharedActivities.Droid.Resource.Attribute.actionBarStyle = global::EduApp.Droid.Resource.Attribute.actionBarStyle;
+			global::SharedActivities.Droid.Resource.Attribute.actionBarTabBarStyle = global::EduApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::SharedActivities.Droid.Resource.Attribute.actionBarTabStyle = global::EduApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::SharedActivities.Droid.Resource.Attribute.actionBarTabTextStyle = global::EduApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::SharedActivities.Droid.Resource.Attribute.actionBarTheme = global::EduApp.Droid.Resource.Attribute.actionBarTheme;
+			global::SharedActivities.Droid.Resource.Attribute.actionBarWidgetTheme = global::EduApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::SharedActivities.Droid.Resource.Attribute.actionButtonStyle = global::EduApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::SharedActivities.Droid.Resource.Attribute.actionDropDownStyle = global::EduApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::SharedActivities.Droid.Resource.Attribute.actionLayout = global::EduApp.Droid.Resource.Attribute.actionLayout;
+			global::SharedActivities.Droid.Resource.Attribute.actionMenuTextAppearance = global::EduApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::SharedActivities.Droid.Resource.Attribute.actionMenuTextColor = global::EduApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::SharedActivities.Droid.Resource.Attribute.actionModeBackground = global::EduApp.Droid.Resource.Attribute.actionModeBackground;
+			global::SharedActivities.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::EduApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::SharedActivities.Droid.Resource.Attribute.actionModeCloseDrawable = global::EduApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::SharedActivities.Droid.Resource.Attribute.actionModeCopyDrawable = global::EduApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::SharedActivities.Droid.Resource.Attribute.actionModeCutDrawable = global::EduApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::SharedActivities.Droid.Resource.Attribute.actionModeFindDrawable = global::EduApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::SharedActivities.Droid.Resource.Attribute.actionModePasteDrawable = global::EduApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::SharedActivities.Droid.Resource.Attribute.actionModePopupWindowStyle = global::EduApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::SharedActivities.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::EduApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::SharedActivities.Droid.Resource.Attribute.actionModeShareDrawable = global::EduApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::SharedActivities.Droid.Resource.Attribute.actionModeSplitBackground = global::EduApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::SharedActivities.Droid.Resource.Attribute.actionModeStyle = global::EduApp.Droid.Resource.Attribute.actionModeStyle;
+			global::SharedActivities.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::EduApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::SharedActivities.Droid.Resource.Attribute.actionOverflowButtonStyle = global::EduApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::SharedActivities.Droid.Resource.Attribute.actionOverflowMenuStyle = global::EduApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::SharedActivities.Droid.Resource.Attribute.actionProviderClass = global::EduApp.Droid.Resource.Attribute.actionProviderClass;
+			global::SharedActivities.Droid.Resource.Attribute.actionViewClass = global::EduApp.Droid.Resource.Attribute.actionViewClass;
+			global::SharedActivities.Droid.Resource.Attribute.activityChooserViewStyle = global::EduApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::SharedActivities.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::EduApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::SharedActivities.Droid.Resource.Attribute.alertDialogCenterButtons = global::EduApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::SharedActivities.Droid.Resource.Attribute.alertDialogStyle = global::EduApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::SharedActivities.Droid.Resource.Attribute.alertDialogTheme = global::EduApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::SharedActivities.Droid.Resource.Attribute.allowStacking = global::EduApp.Droid.Resource.Attribute.allowStacking;
+			global::SharedActivities.Droid.Resource.Attribute.alpha = global::EduApp.Droid.Resource.Attribute.alpha;
+			global::SharedActivities.Droid.Resource.Attribute.alphabeticModifiers = global::EduApp.Droid.Resource.Attribute.alphabeticModifiers;
+			global::SharedActivities.Droid.Resource.Attribute.arrowHeadLength = global::EduApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::SharedActivities.Droid.Resource.Attribute.arrowShaftLength = global::EduApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::SharedActivities.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::EduApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::SharedActivities.Droid.Resource.Attribute.autoSizeMaxTextSize = global::EduApp.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::SharedActivities.Droid.Resource.Attribute.autoSizeMinTextSize = global::EduApp.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::SharedActivities.Droid.Resource.Attribute.autoSizePresetSizes = global::EduApp.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::SharedActivities.Droid.Resource.Attribute.autoSizeStepGranularity = global::EduApp.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::SharedActivities.Droid.Resource.Attribute.autoSizeTextType = global::EduApp.Droid.Resource.Attribute.autoSizeTextType;
+			global::SharedActivities.Droid.Resource.Attribute.background = global::EduApp.Droid.Resource.Attribute.background;
+			global::SharedActivities.Droid.Resource.Attribute.backgroundSplit = global::EduApp.Droid.Resource.Attribute.backgroundSplit;
+			global::SharedActivities.Droid.Resource.Attribute.backgroundStacked = global::EduApp.Droid.Resource.Attribute.backgroundStacked;
+			global::SharedActivities.Droid.Resource.Attribute.backgroundTint = global::EduApp.Droid.Resource.Attribute.backgroundTint;
+			global::SharedActivities.Droid.Resource.Attribute.backgroundTintMode = global::EduApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::SharedActivities.Droid.Resource.Attribute.barLength = global::EduApp.Droid.Resource.Attribute.barLength;
+			global::SharedActivities.Droid.Resource.Attribute.barrierAllowsGoneWidgets = global::EduApp.Droid.Resource.Attribute.barrierAllowsGoneWidgets;
+			global::SharedActivities.Droid.Resource.Attribute.barrierDirection = global::EduApp.Droid.Resource.Attribute.barrierDirection;
+			global::SharedActivities.Droid.Resource.Attribute.borderlessButtonStyle = global::EduApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::SharedActivities.Droid.Resource.Attribute.buttonBarButtonStyle = global::EduApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::SharedActivities.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::EduApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::SharedActivities.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::EduApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::SharedActivities.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::EduApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::SharedActivities.Droid.Resource.Attribute.buttonBarStyle = global::EduApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::SharedActivities.Droid.Resource.Attribute.buttonCompat = global::EduApp.Droid.Resource.Attribute.buttonCompat;
+			global::SharedActivities.Droid.Resource.Attribute.buttonGravity = global::EduApp.Droid.Resource.Attribute.buttonGravity;
+			global::SharedActivities.Droid.Resource.Attribute.buttonIconDimen = global::EduApp.Droid.Resource.Attribute.buttonIconDimen;
+			global::SharedActivities.Droid.Resource.Attribute.buttonPanelSideLayout = global::EduApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::SharedActivities.Droid.Resource.Attribute.buttonStyle = global::EduApp.Droid.Resource.Attribute.buttonStyle;
+			global::SharedActivities.Droid.Resource.Attribute.buttonStyleSmall = global::EduApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::SharedActivities.Droid.Resource.Attribute.buttonTint = global::EduApp.Droid.Resource.Attribute.buttonTint;
+			global::SharedActivities.Droid.Resource.Attribute.buttonTintMode = global::EduApp.Droid.Resource.Attribute.buttonTintMode;
+			global::SharedActivities.Droid.Resource.Attribute.chainUseRtl = global::EduApp.Droid.Resource.Attribute.chainUseRtl;
+			global::SharedActivities.Droid.Resource.Attribute.checkboxStyle = global::EduApp.Droid.Resource.Attribute.checkboxStyle;
+			global::SharedActivities.Droid.Resource.Attribute.checkedTextViewStyle = global::EduApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::SharedActivities.Droid.Resource.Attribute.closeIcon = global::EduApp.Droid.Resource.Attribute.closeIcon;
+			global::SharedActivities.Droid.Resource.Attribute.closeItemLayout = global::EduApp.Droid.Resource.Attribute.closeItemLayout;
+			global::SharedActivities.Droid.Resource.Attribute.collapseContentDescription = global::EduApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::SharedActivities.Droid.Resource.Attribute.collapseIcon = global::EduApp.Droid.Resource.Attribute.collapseIcon;
+			global::SharedActivities.Droid.Resource.Attribute.color = global::EduApp.Droid.Resource.Attribute.color;
+			global::SharedActivities.Droid.Resource.Attribute.colorAccent = global::EduApp.Droid.Resource.Attribute.colorAccent;
+			global::SharedActivities.Droid.Resource.Attribute.colorBackgroundFloating = global::EduApp.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::SharedActivities.Droid.Resource.Attribute.colorButtonNormal = global::EduApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::SharedActivities.Droid.Resource.Attribute.colorControlActivated = global::EduApp.Droid.Resource.Attribute.colorControlActivated;
+			global::SharedActivities.Droid.Resource.Attribute.colorControlHighlight = global::EduApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::SharedActivities.Droid.Resource.Attribute.colorControlNormal = global::EduApp.Droid.Resource.Attribute.colorControlNormal;
+			global::SharedActivities.Droid.Resource.Attribute.colorError = global::EduApp.Droid.Resource.Attribute.colorError;
+			global::SharedActivities.Droid.Resource.Attribute.colorPrimary = global::EduApp.Droid.Resource.Attribute.colorPrimary;
+			global::SharedActivities.Droid.Resource.Attribute.colorPrimaryDark = global::EduApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::SharedActivities.Droid.Resource.Attribute.colorSwitchThumbNormal = global::EduApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::SharedActivities.Droid.Resource.Attribute.commitIcon = global::EduApp.Droid.Resource.Attribute.commitIcon;
+			global::SharedActivities.Droid.Resource.Attribute.constraintSet = global::EduApp.Droid.Resource.Attribute.constraintSet;
+			global::SharedActivities.Droid.Resource.Attribute.constraint_referenced_ids = global::EduApp.Droid.Resource.Attribute.constraint_referenced_ids;
+			global::SharedActivities.Droid.Resource.Attribute.containerId = global::EduApp.Droid.Resource.Attribute.containerId;
+			global::SharedActivities.Droid.Resource.Attribute.content = global::EduApp.Droid.Resource.Attribute.content;
+			global::SharedActivities.Droid.Resource.Attribute.contentDescription = global::EduApp.Droid.Resource.Attribute.contentDescription;
+			global::SharedActivities.Droid.Resource.Attribute.contentInsetEnd = global::EduApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::SharedActivities.Droid.Resource.Attribute.contentInsetEndWithActions = global::EduApp.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::SharedActivities.Droid.Resource.Attribute.contentInsetLeft = global::EduApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::SharedActivities.Droid.Resource.Attribute.contentInsetRight = global::EduApp.Droid.Resource.Attribute.contentInsetRight;
+			global::SharedActivities.Droid.Resource.Attribute.contentInsetStart = global::EduApp.Droid.Resource.Attribute.contentInsetStart;
+			global::SharedActivities.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::EduApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::SharedActivities.Droid.Resource.Attribute.controlBackground = global::EduApp.Droid.Resource.Attribute.controlBackground;
+			global::SharedActivities.Droid.Resource.Attribute.coordinatorLayoutStyle = global::EduApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::SharedActivities.Droid.Resource.Attribute.customNavigationLayout = global::EduApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::SharedActivities.Droid.Resource.Attribute.defaultQueryHint = global::EduApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::SharedActivities.Droid.Resource.Attribute.dialogCornerRadius = global::EduApp.Droid.Resource.Attribute.dialogCornerRadius;
+			global::SharedActivities.Droid.Resource.Attribute.dialogPreferredPadding = global::EduApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::SharedActivities.Droid.Resource.Attribute.dialogTheme = global::EduApp.Droid.Resource.Attribute.dialogTheme;
+			global::SharedActivities.Droid.Resource.Attribute.displayOptions = global::EduApp.Droid.Resource.Attribute.displayOptions;
+			global::SharedActivities.Droid.Resource.Attribute.divider = global::EduApp.Droid.Resource.Attribute.divider;
+			global::SharedActivities.Droid.Resource.Attribute.dividerHorizontal = global::EduApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::SharedActivities.Droid.Resource.Attribute.dividerPadding = global::EduApp.Droid.Resource.Attribute.dividerPadding;
+			global::SharedActivities.Droid.Resource.Attribute.dividerVertical = global::EduApp.Droid.Resource.Attribute.dividerVertical;
+			global::SharedActivities.Droid.Resource.Attribute.drawableBottomCompat = global::EduApp.Droid.Resource.Attribute.drawableBottomCompat;
+			global::SharedActivities.Droid.Resource.Attribute.drawableEndCompat = global::EduApp.Droid.Resource.Attribute.drawableEndCompat;
+			global::SharedActivities.Droid.Resource.Attribute.drawableLeftCompat = global::EduApp.Droid.Resource.Attribute.drawableLeftCompat;
+			global::SharedActivities.Droid.Resource.Attribute.drawableRightCompat = global::EduApp.Droid.Resource.Attribute.drawableRightCompat;
+			global::SharedActivities.Droid.Resource.Attribute.drawableSize = global::EduApp.Droid.Resource.Attribute.drawableSize;
+			global::SharedActivities.Droid.Resource.Attribute.drawableStartCompat = global::EduApp.Droid.Resource.Attribute.drawableStartCompat;
+			global::SharedActivities.Droid.Resource.Attribute.drawableTint = global::EduApp.Droid.Resource.Attribute.drawableTint;
+			global::SharedActivities.Droid.Resource.Attribute.drawableTintMode = global::EduApp.Droid.Resource.Attribute.drawableTintMode;
+			global::SharedActivities.Droid.Resource.Attribute.drawableTopCompat = global::EduApp.Droid.Resource.Attribute.drawableTopCompat;
+			global::SharedActivities.Droid.Resource.Attribute.drawerArrowStyle = global::EduApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::SharedActivities.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::EduApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::SharedActivities.Droid.Resource.Attribute.dropDownListViewStyle = global::EduApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::SharedActivities.Droid.Resource.Attribute.editTextBackground = global::EduApp.Droid.Resource.Attribute.editTextBackground;
+			global::SharedActivities.Droid.Resource.Attribute.editTextColor = global::EduApp.Droid.Resource.Attribute.editTextColor;
+			global::SharedActivities.Droid.Resource.Attribute.editTextStyle = global::EduApp.Droid.Resource.Attribute.editTextStyle;
+			global::SharedActivities.Droid.Resource.Attribute.elevation = global::EduApp.Droid.Resource.Attribute.elevation;
+			global::SharedActivities.Droid.Resource.Attribute.emptyVisibility = global::EduApp.Droid.Resource.Attribute.emptyVisibility;
+			global::SharedActivities.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::EduApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::SharedActivities.Droid.Resource.Attribute.firstBaselineToTopHeight = global::EduApp.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::SharedActivities.Droid.Resource.Attribute.font = global::EduApp.Droid.Resource.Attribute.font;
+			global::SharedActivities.Droid.Resource.Attribute.fontFamily = global::EduApp.Droid.Resource.Attribute.fontFamily;
+			global::SharedActivities.Droid.Resource.Attribute.fontProviderAuthority = global::EduApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::SharedActivities.Droid.Resource.Attribute.fontProviderCerts = global::EduApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::SharedActivities.Droid.Resource.Attribute.fontProviderFetchStrategy = global::EduApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::SharedActivities.Droid.Resource.Attribute.fontProviderFetchTimeout = global::EduApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::SharedActivities.Droid.Resource.Attribute.fontProviderPackage = global::EduApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::SharedActivities.Droid.Resource.Attribute.fontProviderQuery = global::EduApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::SharedActivities.Droid.Resource.Attribute.fontStyle = global::EduApp.Droid.Resource.Attribute.fontStyle;
+			global::SharedActivities.Droid.Resource.Attribute.fontVariationSettings = global::EduApp.Droid.Resource.Attribute.fontVariationSettings;
+			global::SharedActivities.Droid.Resource.Attribute.fontWeight = global::EduApp.Droid.Resource.Attribute.fontWeight;
+			global::SharedActivities.Droid.Resource.Attribute.gapBetweenBars = global::EduApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::SharedActivities.Droid.Resource.Attribute.goIcon = global::EduApp.Droid.Resource.Attribute.goIcon;
+			global::SharedActivities.Droid.Resource.Attribute.height = global::EduApp.Droid.Resource.Attribute.height;
+			global::SharedActivities.Droid.Resource.Attribute.hideOnContentScroll = global::EduApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::SharedActivities.Droid.Resource.Attribute.homeAsUpIndicator = global::EduApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::SharedActivities.Droid.Resource.Attribute.homeLayout = global::EduApp.Droid.Resource.Attribute.homeLayout;
+			global::SharedActivities.Droid.Resource.Attribute.icon = global::EduApp.Droid.Resource.Attribute.icon;
+			global::SharedActivities.Droid.Resource.Attribute.iconifiedByDefault = global::EduApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::SharedActivities.Droid.Resource.Attribute.iconTint = global::EduApp.Droid.Resource.Attribute.iconTint;
+			global::SharedActivities.Droid.Resource.Attribute.iconTintMode = global::EduApp.Droid.Resource.Attribute.iconTintMode;
+			global::SharedActivities.Droid.Resource.Attribute.imageButtonStyle = global::EduApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::SharedActivities.Droid.Resource.Attribute.indeterminateProgressStyle = global::EduApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::SharedActivities.Droid.Resource.Attribute.initialActivityCount = global::EduApp.Droid.Resource.Attribute.initialActivityCount;
+			global::SharedActivities.Droid.Resource.Attribute.isLightTheme = global::EduApp.Droid.Resource.Attribute.isLightTheme;
+			global::SharedActivities.Droid.Resource.Attribute.itemPadding = global::EduApp.Droid.Resource.Attribute.itemPadding;
+			global::SharedActivities.Droid.Resource.Attribute.keylines = global::EduApp.Droid.Resource.Attribute.keylines;
+			global::SharedActivities.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::EduApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::SharedActivities.Droid.Resource.Attribute.layout = global::EduApp.Droid.Resource.Attribute.layout;
+			global::SharedActivities.Droid.Resource.Attribute.layout_anchor = global::EduApp.Droid.Resource.Attribute.layout_anchor;
+			global::SharedActivities.Droid.Resource.Attribute.layout_anchorGravity = global::EduApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::SharedActivities.Droid.Resource.Attribute.layout_behavior = global::EduApp.Droid.Resource.Attribute.layout_behavior;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constrainedHeight = global::EduApp.Droid.Resource.Attribute.layout_constrainedHeight;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constrainedWidth = global::EduApp.Droid.Resource.Attribute.layout_constrainedWidth;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintBaseline_creator = global::EduApp.Droid.Resource.Attribute.layout_constraintBaseline_creator;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintBaseline_toBaselineOf = global::EduApp.Droid.Resource.Attribute.layout_constraintBaseline_toBaselineOf;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintBottom_creator = global::EduApp.Droid.Resource.Attribute.layout_constraintBottom_creator;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintBottom_toBottomOf = global::EduApp.Droid.Resource.Attribute.layout_constraintBottom_toBottomOf;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintBottom_toTopOf = global::EduApp.Droid.Resource.Attribute.layout_constraintBottom_toTopOf;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintCircle = global::EduApp.Droid.Resource.Attribute.layout_constraintCircle;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintCircleAngle = global::EduApp.Droid.Resource.Attribute.layout_constraintCircleAngle;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintCircleRadius = global::EduApp.Droid.Resource.Attribute.layout_constraintCircleRadius;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintDimensionRatio = global::EduApp.Droid.Resource.Attribute.layout_constraintDimensionRatio;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintEnd_toEndOf = global::EduApp.Droid.Resource.Attribute.layout_constraintEnd_toEndOf;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintEnd_toStartOf = global::EduApp.Droid.Resource.Attribute.layout_constraintEnd_toStartOf;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintGuide_begin = global::EduApp.Droid.Resource.Attribute.layout_constraintGuide_begin;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintGuide_end = global::EduApp.Droid.Resource.Attribute.layout_constraintGuide_end;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintGuide_percent = global::EduApp.Droid.Resource.Attribute.layout_constraintGuide_percent;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintHeight_default = global::EduApp.Droid.Resource.Attribute.layout_constraintHeight_default;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintHeight_max = global::EduApp.Droid.Resource.Attribute.layout_constraintHeight_max;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintHeight_min = global::EduApp.Droid.Resource.Attribute.layout_constraintHeight_min;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintHeight_percent = global::EduApp.Droid.Resource.Attribute.layout_constraintHeight_percent;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintHorizontal_bias = global::EduApp.Droid.Resource.Attribute.layout_constraintHorizontal_bias;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintHorizontal_chainStyle = global::EduApp.Droid.Resource.Attribute.layout_constraintHorizontal_chainStyle;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintHorizontal_weight = global::EduApp.Droid.Resource.Attribute.layout_constraintHorizontal_weight;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintLeft_creator = global::EduApp.Droid.Resource.Attribute.layout_constraintLeft_creator;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintLeft_toLeftOf = global::EduApp.Droid.Resource.Attribute.layout_constraintLeft_toLeftOf;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintLeft_toRightOf = global::EduApp.Droid.Resource.Attribute.layout_constraintLeft_toRightOf;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintRight_creator = global::EduApp.Droid.Resource.Attribute.layout_constraintRight_creator;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintRight_toLeftOf = global::EduApp.Droid.Resource.Attribute.layout_constraintRight_toLeftOf;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintRight_toRightOf = global::EduApp.Droid.Resource.Attribute.layout_constraintRight_toRightOf;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintStart_toEndOf = global::EduApp.Droid.Resource.Attribute.layout_constraintStart_toEndOf;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintStart_toStartOf = global::EduApp.Droid.Resource.Attribute.layout_constraintStart_toStartOf;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintTop_creator = global::EduApp.Droid.Resource.Attribute.layout_constraintTop_creator;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintTop_toBottomOf = global::EduApp.Droid.Resource.Attribute.layout_constraintTop_toBottomOf;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintTop_toTopOf = global::EduApp.Droid.Resource.Attribute.layout_constraintTop_toTopOf;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintVertical_bias = global::EduApp.Droid.Resource.Attribute.layout_constraintVertical_bias;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintVertical_chainStyle = global::EduApp.Droid.Resource.Attribute.layout_constraintVertical_chainStyle;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintVertical_weight = global::EduApp.Droid.Resource.Attribute.layout_constraintVertical_weight;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintWidth_default = global::EduApp.Droid.Resource.Attribute.layout_constraintWidth_default;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintWidth_max = global::EduApp.Droid.Resource.Attribute.layout_constraintWidth_max;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintWidth_min = global::EduApp.Droid.Resource.Attribute.layout_constraintWidth_min;
+			global::SharedActivities.Droid.Resource.Attribute.layout_constraintWidth_percent = global::EduApp.Droid.Resource.Attribute.layout_constraintWidth_percent;
+			global::SharedActivities.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::EduApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::SharedActivities.Droid.Resource.Attribute.layout_editor_absoluteX = global::EduApp.Droid.Resource.Attribute.layout_editor_absoluteX;
+			global::SharedActivities.Droid.Resource.Attribute.layout_editor_absoluteY = global::EduApp.Droid.Resource.Attribute.layout_editor_absoluteY;
+			global::SharedActivities.Droid.Resource.Attribute.layout_goneMarginBottom = global::EduApp.Droid.Resource.Attribute.layout_goneMarginBottom;
+			global::SharedActivities.Droid.Resource.Attribute.layout_goneMarginEnd = global::EduApp.Droid.Resource.Attribute.layout_goneMarginEnd;
+			global::SharedActivities.Droid.Resource.Attribute.layout_goneMarginLeft = global::EduApp.Droid.Resource.Attribute.layout_goneMarginLeft;
+			global::SharedActivities.Droid.Resource.Attribute.layout_goneMarginRight = global::EduApp.Droid.Resource.Attribute.layout_goneMarginRight;
+			global::SharedActivities.Droid.Resource.Attribute.layout_goneMarginStart = global::EduApp.Droid.Resource.Attribute.layout_goneMarginStart;
+			global::SharedActivities.Droid.Resource.Attribute.layout_goneMarginTop = global::EduApp.Droid.Resource.Attribute.layout_goneMarginTop;
+			global::SharedActivities.Droid.Resource.Attribute.layout_insetEdge = global::EduApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::SharedActivities.Droid.Resource.Attribute.layout_keyline = global::EduApp.Droid.Resource.Attribute.layout_keyline;
+			global::SharedActivities.Droid.Resource.Attribute.layout_optimizationLevel = global::EduApp.Droid.Resource.Attribute.layout_optimizationLevel;
+			global::SharedActivities.Droid.Resource.Attribute.lineHeight = global::EduApp.Droid.Resource.Attribute.lineHeight;
+			global::SharedActivities.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::EduApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::SharedActivities.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::EduApp.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::SharedActivities.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::EduApp.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::SharedActivities.Droid.Resource.Attribute.listDividerAlertDialog = global::EduApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::SharedActivities.Droid.Resource.Attribute.listItemLayout = global::EduApp.Droid.Resource.Attribute.listItemLayout;
+			global::SharedActivities.Droid.Resource.Attribute.listLayout = global::EduApp.Droid.Resource.Attribute.listLayout;
+			global::SharedActivities.Droid.Resource.Attribute.listMenuViewStyle = global::EduApp.Droid.Resource.Attribute.listMenuViewStyle;
+			global::SharedActivities.Droid.Resource.Attribute.listPopupWindowStyle = global::EduApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::SharedActivities.Droid.Resource.Attribute.listPreferredItemHeight = global::EduApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::SharedActivities.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::EduApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::SharedActivities.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::EduApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::SharedActivities.Droid.Resource.Attribute.listPreferredItemPaddingEnd = global::EduApp.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::SharedActivities.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::EduApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::SharedActivities.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::EduApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::SharedActivities.Droid.Resource.Attribute.listPreferredItemPaddingStart = global::EduApp.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::SharedActivities.Droid.Resource.Attribute.logo = global::EduApp.Droid.Resource.Attribute.logo;
+			global::SharedActivities.Droid.Resource.Attribute.logoDescription = global::EduApp.Droid.Resource.Attribute.logoDescription;
+			global::SharedActivities.Droid.Resource.Attribute.lottie_autoPlay = global::EduApp.Droid.Resource.Attribute.lottie_autoPlay;
+			global::SharedActivities.Droid.Resource.Attribute.lottie_cacheComposition = global::EduApp.Droid.Resource.Attribute.lottie_cacheComposition;
+			global::SharedActivities.Droid.Resource.Attribute.lottie_colorFilter = global::EduApp.Droid.Resource.Attribute.lottie_colorFilter;
+			global::SharedActivities.Droid.Resource.Attribute.lottie_enableMergePathsForKitKatAndAbove = global::EduApp.Droid.Resource.Attribute.lottie_enableMergePathsForKitKatAndAbove;
+			global::SharedActivities.Droid.Resource.Attribute.lottie_fallbackRes = global::EduApp.Droid.Resource.Attribute.lottie_fallbackRes;
+			global::SharedActivities.Droid.Resource.Attribute.lottie_fileName = global::EduApp.Droid.Resource.Attribute.lottie_fileName;
+			global::SharedActivities.Droid.Resource.Attribute.lottie_imageAssetsFolder = global::EduApp.Droid.Resource.Attribute.lottie_imageAssetsFolder;
+			global::SharedActivities.Droid.Resource.Attribute.lottie_loop = global::EduApp.Droid.Resource.Attribute.lottie_loop;
+			global::SharedActivities.Droid.Resource.Attribute.lottie_progress = global::EduApp.Droid.Resource.Attribute.lottie_progress;
+			global::SharedActivities.Droid.Resource.Attribute.lottie_rawRes = global::EduApp.Droid.Resource.Attribute.lottie_rawRes;
+			global::SharedActivities.Droid.Resource.Attribute.lottie_renderMode = global::EduApp.Droid.Resource.Attribute.lottie_renderMode;
+			global::SharedActivities.Droid.Resource.Attribute.lottie_repeatCount = global::EduApp.Droid.Resource.Attribute.lottie_repeatCount;
+			global::SharedActivities.Droid.Resource.Attribute.lottie_repeatMode = global::EduApp.Droid.Resource.Attribute.lottie_repeatMode;
+			global::SharedActivities.Droid.Resource.Attribute.lottie_scale = global::EduApp.Droid.Resource.Attribute.lottie_scale;
+			global::SharedActivities.Droid.Resource.Attribute.lottie_speed = global::EduApp.Droid.Resource.Attribute.lottie_speed;
+			global::SharedActivities.Droid.Resource.Attribute.lottie_url = global::EduApp.Droid.Resource.Attribute.lottie_url;
+			global::SharedActivities.Droid.Resource.Attribute.maxButtonHeight = global::EduApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::SharedActivities.Droid.Resource.Attribute.measureWithLargestChild = global::EduApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::SharedActivities.Droid.Resource.Attribute.menu = global::EduApp.Droid.Resource.Attribute.menu;
+			global::SharedActivities.Droid.Resource.Attribute.multiChoiceItemLayout = global::EduApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::SharedActivities.Droid.Resource.Attribute.navigationContentDescription = global::EduApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::SharedActivities.Droid.Resource.Attribute.navigationIcon = global::EduApp.Droid.Resource.Attribute.navigationIcon;
+			global::SharedActivities.Droid.Resource.Attribute.navigationMode = global::EduApp.Droid.Resource.Attribute.navigationMode;
+			global::SharedActivities.Droid.Resource.Attribute.numericModifiers = global::EduApp.Droid.Resource.Attribute.numericModifiers;
+			global::SharedActivities.Droid.Resource.Attribute.overlapAnchor = global::EduApp.Droid.Resource.Attribute.overlapAnchor;
+			global::SharedActivities.Droid.Resource.Attribute.paddingBottomNoButtons = global::EduApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::SharedActivities.Droid.Resource.Attribute.paddingEnd = global::EduApp.Droid.Resource.Attribute.paddingEnd;
+			global::SharedActivities.Droid.Resource.Attribute.paddingStart = global::EduApp.Droid.Resource.Attribute.paddingStart;
+			global::SharedActivities.Droid.Resource.Attribute.paddingTopNoTitle = global::EduApp.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::SharedActivities.Droid.Resource.Attribute.panelBackground = global::EduApp.Droid.Resource.Attribute.panelBackground;
+			global::SharedActivities.Droid.Resource.Attribute.panelMenuListTheme = global::EduApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::SharedActivities.Droid.Resource.Attribute.panelMenuListWidth = global::EduApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::SharedActivities.Droid.Resource.Attribute.popupMenuStyle = global::EduApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::SharedActivities.Droid.Resource.Attribute.popupTheme = global::EduApp.Droid.Resource.Attribute.popupTheme;
+			global::SharedActivities.Droid.Resource.Attribute.popupWindowStyle = global::EduApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::SharedActivities.Droid.Resource.Attribute.preserveIconSpacing = global::EduApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::SharedActivities.Droid.Resource.Attribute.progressBarPadding = global::EduApp.Droid.Resource.Attribute.progressBarPadding;
+			global::SharedActivities.Droid.Resource.Attribute.progressBarStyle = global::EduApp.Droid.Resource.Attribute.progressBarStyle;
+			global::SharedActivities.Droid.Resource.Attribute.queryBackground = global::EduApp.Droid.Resource.Attribute.queryBackground;
+			global::SharedActivities.Droid.Resource.Attribute.queryHint = global::EduApp.Droid.Resource.Attribute.queryHint;
+			global::SharedActivities.Droid.Resource.Attribute.radioButtonStyle = global::EduApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::SharedActivities.Droid.Resource.Attribute.ratingBarStyle = global::EduApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::SharedActivities.Droid.Resource.Attribute.ratingBarStyleIndicator = global::EduApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::SharedActivities.Droid.Resource.Attribute.ratingBarStyleSmall = global::EduApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::SharedActivities.Droid.Resource.Attribute.searchHintIcon = global::EduApp.Droid.Resource.Attribute.searchHintIcon;
+			global::SharedActivities.Droid.Resource.Attribute.searchIcon = global::EduApp.Droid.Resource.Attribute.searchIcon;
+			global::SharedActivities.Droid.Resource.Attribute.searchViewStyle = global::EduApp.Droid.Resource.Attribute.searchViewStyle;
+			global::SharedActivities.Droid.Resource.Attribute.seekBarStyle = global::EduApp.Droid.Resource.Attribute.seekBarStyle;
+			global::SharedActivities.Droid.Resource.Attribute.selectableItemBackground = global::EduApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::SharedActivities.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::EduApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::SharedActivities.Droid.Resource.Attribute.showAsAction = global::EduApp.Droid.Resource.Attribute.showAsAction;
+			global::SharedActivities.Droid.Resource.Attribute.showDividers = global::EduApp.Droid.Resource.Attribute.showDividers;
+			global::SharedActivities.Droid.Resource.Attribute.showText = global::EduApp.Droid.Resource.Attribute.showText;
+			global::SharedActivities.Droid.Resource.Attribute.showTitle = global::EduApp.Droid.Resource.Attribute.showTitle;
+			global::SharedActivities.Droid.Resource.Attribute.singleChoiceItemLayout = global::EduApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::SharedActivities.Droid.Resource.Attribute.spinBars = global::EduApp.Droid.Resource.Attribute.spinBars;
+			global::SharedActivities.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::EduApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::SharedActivities.Droid.Resource.Attribute.spinnerStyle = global::EduApp.Droid.Resource.Attribute.spinnerStyle;
+			global::SharedActivities.Droid.Resource.Attribute.splitTrack = global::EduApp.Droid.Resource.Attribute.splitTrack;
+			global::SharedActivities.Droid.Resource.Attribute.srcCompat = global::EduApp.Droid.Resource.Attribute.srcCompat;
+			global::SharedActivities.Droid.Resource.Attribute.state_above_anchor = global::EduApp.Droid.Resource.Attribute.state_above_anchor;
+			global::SharedActivities.Droid.Resource.Attribute.statusBarBackground = global::EduApp.Droid.Resource.Attribute.statusBarBackground;
+			global::SharedActivities.Droid.Resource.Attribute.subMenuArrow = global::EduApp.Droid.Resource.Attribute.subMenuArrow;
+			global::SharedActivities.Droid.Resource.Attribute.submitBackground = global::EduApp.Droid.Resource.Attribute.submitBackground;
+			global::SharedActivities.Droid.Resource.Attribute.subtitle = global::EduApp.Droid.Resource.Attribute.subtitle;
+			global::SharedActivities.Droid.Resource.Attribute.subtitleTextAppearance = global::EduApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::SharedActivities.Droid.Resource.Attribute.subtitleTextColor = global::EduApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::SharedActivities.Droid.Resource.Attribute.subtitleTextStyle = global::EduApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::SharedActivities.Droid.Resource.Attribute.suggestionRowLayout = global::EduApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::SharedActivities.Droid.Resource.Attribute.switchMinWidth = global::EduApp.Droid.Resource.Attribute.switchMinWidth;
+			global::SharedActivities.Droid.Resource.Attribute.switchPadding = global::EduApp.Droid.Resource.Attribute.switchPadding;
+			global::SharedActivities.Droid.Resource.Attribute.switchStyle = global::EduApp.Droid.Resource.Attribute.switchStyle;
+			global::SharedActivities.Droid.Resource.Attribute.switchTextAppearance = global::EduApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::SharedActivities.Droid.Resource.Attribute.textAllCaps = global::EduApp.Droid.Resource.Attribute.textAllCaps;
+			global::SharedActivities.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::EduApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::SharedActivities.Droid.Resource.Attribute.textAppearanceListItem = global::EduApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::SharedActivities.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::EduApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::SharedActivities.Droid.Resource.Attribute.textAppearanceListItemSmall = global::EduApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::SharedActivities.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::EduApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::SharedActivities.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::EduApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::SharedActivities.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::EduApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::SharedActivities.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::EduApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::SharedActivities.Droid.Resource.Attribute.textColorAlertDialogListItem = global::EduApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::SharedActivities.Droid.Resource.Attribute.textColorSearchUrl = global::EduApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::SharedActivities.Droid.Resource.Attribute.textLocale = global::EduApp.Droid.Resource.Attribute.textLocale;
+			global::SharedActivities.Droid.Resource.Attribute.theme = global::EduApp.Droid.Resource.Attribute.theme;
+			global::SharedActivities.Droid.Resource.Attribute.thickness = global::EduApp.Droid.Resource.Attribute.thickness;
+			global::SharedActivities.Droid.Resource.Attribute.thumbTextPadding = global::EduApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::SharedActivities.Droid.Resource.Attribute.thumbTint = global::EduApp.Droid.Resource.Attribute.thumbTint;
+			global::SharedActivities.Droid.Resource.Attribute.thumbTintMode = global::EduApp.Droid.Resource.Attribute.thumbTintMode;
+			global::SharedActivities.Droid.Resource.Attribute.tickMark = global::EduApp.Droid.Resource.Attribute.tickMark;
+			global::SharedActivities.Droid.Resource.Attribute.tickMarkTint = global::EduApp.Droid.Resource.Attribute.tickMarkTint;
+			global::SharedActivities.Droid.Resource.Attribute.tickMarkTintMode = global::EduApp.Droid.Resource.Attribute.tickMarkTintMode;
+			global::SharedActivities.Droid.Resource.Attribute.tint = global::EduApp.Droid.Resource.Attribute.tint;
+			global::SharedActivities.Droid.Resource.Attribute.tintMode = global::EduApp.Droid.Resource.Attribute.tintMode;
+			global::SharedActivities.Droid.Resource.Attribute.title = global::EduApp.Droid.Resource.Attribute.title;
+			global::SharedActivities.Droid.Resource.Attribute.titleMargin = global::EduApp.Droid.Resource.Attribute.titleMargin;
+			global::SharedActivities.Droid.Resource.Attribute.titleMarginBottom = global::EduApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::SharedActivities.Droid.Resource.Attribute.titleMarginEnd = global::EduApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::SharedActivities.Droid.Resource.Attribute.titleMargins = global::EduApp.Droid.Resource.Attribute.titleMargins;
+			global::SharedActivities.Droid.Resource.Attribute.titleMarginStart = global::EduApp.Droid.Resource.Attribute.titleMarginStart;
+			global::SharedActivities.Droid.Resource.Attribute.titleMarginTop = global::EduApp.Droid.Resource.Attribute.titleMarginTop;
+			global::SharedActivities.Droid.Resource.Attribute.titleTextAppearance = global::EduApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::SharedActivities.Droid.Resource.Attribute.titleTextColor = global::EduApp.Droid.Resource.Attribute.titleTextColor;
+			global::SharedActivities.Droid.Resource.Attribute.titleTextStyle = global::EduApp.Droid.Resource.Attribute.titleTextStyle;
+			global::SharedActivities.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::EduApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::SharedActivities.Droid.Resource.Attribute.toolbarStyle = global::EduApp.Droid.Resource.Attribute.toolbarStyle;
+			global::SharedActivities.Droid.Resource.Attribute.tooltipForegroundColor = global::EduApp.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::SharedActivities.Droid.Resource.Attribute.tooltipFrameBackground = global::EduApp.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::SharedActivities.Droid.Resource.Attribute.tooltipText = global::EduApp.Droid.Resource.Attribute.tooltipText;
+			global::SharedActivities.Droid.Resource.Attribute.track = global::EduApp.Droid.Resource.Attribute.track;
+			global::SharedActivities.Droid.Resource.Attribute.trackTint = global::EduApp.Droid.Resource.Attribute.trackTint;
+			global::SharedActivities.Droid.Resource.Attribute.trackTintMode = global::EduApp.Droid.Resource.Attribute.trackTintMode;
+			global::SharedActivities.Droid.Resource.Attribute.ttcIndex = global::EduApp.Droid.Resource.Attribute.ttcIndex;
+			global::SharedActivities.Droid.Resource.Attribute.viewInflaterClass = global::EduApp.Droid.Resource.Attribute.viewInflaterClass;
+			global::SharedActivities.Droid.Resource.Attribute.voiceIcon = global::EduApp.Droid.Resource.Attribute.voiceIcon;
+			global::SharedActivities.Droid.Resource.Attribute.windowActionBar = global::EduApp.Droid.Resource.Attribute.windowActionBar;
+			global::SharedActivities.Droid.Resource.Attribute.windowActionBarOverlay = global::EduApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::SharedActivities.Droid.Resource.Attribute.windowActionModeOverlay = global::EduApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::SharedActivities.Droid.Resource.Attribute.windowFixedHeightMajor = global::EduApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::SharedActivities.Droid.Resource.Attribute.windowFixedHeightMinor = global::EduApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::SharedActivities.Droid.Resource.Attribute.windowFixedWidthMajor = global::EduApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::SharedActivities.Droid.Resource.Attribute.windowFixedWidthMinor = global::EduApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::SharedActivities.Droid.Resource.Attribute.windowMinWidthMajor = global::EduApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::SharedActivities.Droid.Resource.Attribute.windowMinWidthMinor = global::EduApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::SharedActivities.Droid.Resource.Attribute.windowNoTitle = global::EduApp.Droid.Resource.Attribute.windowNoTitle;
+			global::SharedActivities.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::EduApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::SharedActivities.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::EduApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::SharedActivities.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::EduApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::SharedActivities.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::EduApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::SharedActivities.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::EduApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::SharedActivities.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::EduApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::SharedActivities.Droid.Resource.Color.abc_btn_colored_text_material = global::EduApp.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::SharedActivities.Droid.Resource.Color.abc_color_highlight_material = global::EduApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::SharedActivities.Droid.Resource.Color.abc_hint_foreground_material_dark = global::EduApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::SharedActivities.Droid.Resource.Color.abc_hint_foreground_material_light = global::EduApp.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::SharedActivities.Droid.Resource.Color.abc_input_method_navigation_guard = global::EduApp.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::SharedActivities.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::EduApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::SharedActivities.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::EduApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::SharedActivities.Droid.Resource.Color.abc_primary_text_material_dark = global::EduApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::SharedActivities.Droid.Resource.Color.abc_primary_text_material_light = global::EduApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::SharedActivities.Droid.Resource.Color.abc_search_url_text = global::EduApp.Droid.Resource.Color.abc_search_url_text;
+			global::SharedActivities.Droid.Resource.Color.abc_search_url_text_normal = global::EduApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::SharedActivities.Droid.Resource.Color.abc_search_url_text_pressed = global::EduApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::SharedActivities.Droid.Resource.Color.abc_search_url_text_selected = global::EduApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::SharedActivities.Droid.Resource.Color.abc_secondary_text_material_dark = global::EduApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::SharedActivities.Droid.Resource.Color.abc_secondary_text_material_light = global::EduApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::SharedActivities.Droid.Resource.Color.abc_tint_btn_checkable = global::EduApp.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::SharedActivities.Droid.Resource.Color.abc_tint_default = global::EduApp.Droid.Resource.Color.abc_tint_default;
+			global::SharedActivities.Droid.Resource.Color.abc_tint_edittext = global::EduApp.Droid.Resource.Color.abc_tint_edittext;
+			global::SharedActivities.Droid.Resource.Color.abc_tint_seek_thumb = global::EduApp.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::SharedActivities.Droid.Resource.Color.abc_tint_spinner = global::EduApp.Droid.Resource.Color.abc_tint_spinner;
+			global::SharedActivities.Droid.Resource.Color.abc_tint_switch_track = global::EduApp.Droid.Resource.Color.abc_tint_switch_track;
+			global::SharedActivities.Droid.Resource.Color.accent_material_dark = global::EduApp.Droid.Resource.Color.accent_material_dark;
+			global::SharedActivities.Droid.Resource.Color.accent_material_light = global::EduApp.Droid.Resource.Color.accent_material_light;
+			global::SharedActivities.Droid.Resource.Color.background_floating_material_dark = global::EduApp.Droid.Resource.Color.background_floating_material_dark;
+			global::SharedActivities.Droid.Resource.Color.background_floating_material_light = global::EduApp.Droid.Resource.Color.background_floating_material_light;
+			global::SharedActivities.Droid.Resource.Color.background_material_dark = global::EduApp.Droid.Resource.Color.background_material_dark;
+			global::SharedActivities.Droid.Resource.Color.background_material_light = global::EduApp.Droid.Resource.Color.background_material_light;
+			global::SharedActivities.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::EduApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::SharedActivities.Droid.Resource.Color.bright_foreground_disabled_material_light = global::EduApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::SharedActivities.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::EduApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::SharedActivities.Droid.Resource.Color.bright_foreground_inverse_material_light = global::EduApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::SharedActivities.Droid.Resource.Color.bright_foreground_material_dark = global::EduApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::SharedActivities.Droid.Resource.Color.bright_foreground_material_light = global::EduApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::SharedActivities.Droid.Resource.Color.browser_actions_bg_grey = global::EduApp.Droid.Resource.Color.browser_actions_bg_grey;
+			global::SharedActivities.Droid.Resource.Color.browser_actions_divider_color = global::EduApp.Droid.Resource.Color.browser_actions_divider_color;
+			global::SharedActivities.Droid.Resource.Color.browser_actions_text_color = global::EduApp.Droid.Resource.Color.browser_actions_text_color;
+			global::SharedActivities.Droid.Resource.Color.browser_actions_title_color = global::EduApp.Droid.Resource.Color.browser_actions_title_color;
+			global::SharedActivities.Droid.Resource.Color.button_material_dark = global::EduApp.Droid.Resource.Color.button_material_dark;
+			global::SharedActivities.Droid.Resource.Color.button_material_light = global::EduApp.Droid.Resource.Color.button_material_light;
+			global::SharedActivities.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::EduApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::SharedActivities.Droid.Resource.Color.dim_foreground_disabled_material_light = global::EduApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::SharedActivities.Droid.Resource.Color.dim_foreground_material_dark = global::EduApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::SharedActivities.Droid.Resource.Color.dim_foreground_material_light = global::EduApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::SharedActivities.Droid.Resource.Color.error_color_material_dark = global::EduApp.Droid.Resource.Color.error_color_material_dark;
+			global::SharedActivities.Droid.Resource.Color.error_color_material_light = global::EduApp.Droid.Resource.Color.error_color_material_light;
+			global::SharedActivities.Droid.Resource.Color.foreground_material_dark = global::EduApp.Droid.Resource.Color.foreground_material_dark;
+			global::SharedActivities.Droid.Resource.Color.foreground_material_light = global::EduApp.Droid.Resource.Color.foreground_material_light;
+			global::SharedActivities.Droid.Resource.Color.highlighted_text_material_dark = global::EduApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::SharedActivities.Droid.Resource.Color.highlighted_text_material_light = global::EduApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::SharedActivities.Droid.Resource.Color.material_blue_grey_800 = global::EduApp.Droid.Resource.Color.material_blue_grey_800;
+			global::SharedActivities.Droid.Resource.Color.material_blue_grey_900 = global::EduApp.Droid.Resource.Color.material_blue_grey_900;
+			global::SharedActivities.Droid.Resource.Color.material_blue_grey_950 = global::EduApp.Droid.Resource.Color.material_blue_grey_950;
+			global::SharedActivities.Droid.Resource.Color.material_deep_teal_200 = global::EduApp.Droid.Resource.Color.material_deep_teal_200;
+			global::SharedActivities.Droid.Resource.Color.material_deep_teal_500 = global::EduApp.Droid.Resource.Color.material_deep_teal_500;
+			global::SharedActivities.Droid.Resource.Color.material_grey_100 = global::EduApp.Droid.Resource.Color.material_grey_100;
+			global::SharedActivities.Droid.Resource.Color.material_grey_300 = global::EduApp.Droid.Resource.Color.material_grey_300;
+			global::SharedActivities.Droid.Resource.Color.material_grey_50 = global::EduApp.Droid.Resource.Color.material_grey_50;
+			global::SharedActivities.Droid.Resource.Color.material_grey_600 = global::EduApp.Droid.Resource.Color.material_grey_600;
+			global::SharedActivities.Droid.Resource.Color.material_grey_800 = global::EduApp.Droid.Resource.Color.material_grey_800;
+			global::SharedActivities.Droid.Resource.Color.material_grey_850 = global::EduApp.Droid.Resource.Color.material_grey_850;
+			global::SharedActivities.Droid.Resource.Color.material_grey_900 = global::EduApp.Droid.Resource.Color.material_grey_900;
+			global::SharedActivities.Droid.Resource.Color.notification_action_color_filter = global::EduApp.Droid.Resource.Color.notification_action_color_filter;
+			global::SharedActivities.Droid.Resource.Color.notification_icon_bg_color = global::EduApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::SharedActivities.Droid.Resource.Color.primary_dark_material_dark = global::EduApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::SharedActivities.Droid.Resource.Color.primary_dark_material_light = global::EduApp.Droid.Resource.Color.primary_dark_material_light;
+			global::SharedActivities.Droid.Resource.Color.primary_material_dark = global::EduApp.Droid.Resource.Color.primary_material_dark;
+			global::SharedActivities.Droid.Resource.Color.primary_material_light = global::EduApp.Droid.Resource.Color.primary_material_light;
+			global::SharedActivities.Droid.Resource.Color.primary_text_default_material_dark = global::EduApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::SharedActivities.Droid.Resource.Color.primary_text_default_material_light = global::EduApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::SharedActivities.Droid.Resource.Color.primary_text_disabled_material_dark = global::EduApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::SharedActivities.Droid.Resource.Color.primary_text_disabled_material_light = global::EduApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::SharedActivities.Droid.Resource.Color.ripple_material_dark = global::EduApp.Droid.Resource.Color.ripple_material_dark;
+			global::SharedActivities.Droid.Resource.Color.ripple_material_light = global::EduApp.Droid.Resource.Color.ripple_material_light;
+			global::SharedActivities.Droid.Resource.Color.secondary_text_default_material_dark = global::EduApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::SharedActivities.Droid.Resource.Color.secondary_text_default_material_light = global::EduApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::SharedActivities.Droid.Resource.Color.secondary_text_disabled_material_dark = global::EduApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::SharedActivities.Droid.Resource.Color.secondary_text_disabled_material_light = global::EduApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::SharedActivities.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::EduApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::SharedActivities.Droid.Resource.Color.switch_thumb_disabled_material_light = global::EduApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::SharedActivities.Droid.Resource.Color.switch_thumb_material_dark = global::EduApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::SharedActivities.Droid.Resource.Color.switch_thumb_material_light = global::EduApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::SharedActivities.Droid.Resource.Color.switch_thumb_normal_material_dark = global::EduApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::SharedActivities.Droid.Resource.Color.switch_thumb_normal_material_light = global::EduApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::SharedActivities.Droid.Resource.Color.tooltip_background_dark = global::EduApp.Droid.Resource.Color.tooltip_background_dark;
+			global::SharedActivities.Droid.Resource.Color.tooltip_background_light = global::EduApp.Droid.Resource.Color.tooltip_background_light;
+			global::SharedActivities.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::EduApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::EduApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::SharedActivities.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::EduApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::EduApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::EduApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::EduApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::EduApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::EduApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::EduApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::EduApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::SharedActivities.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::EduApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::SharedActivities.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::EduApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::EduApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_action_button_min_height_material = global::EduApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_action_button_min_width_material = global::EduApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::EduApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::EduApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::SharedActivities.Droid.Resource.Dimension.abc_alert_dialog_button_dimen = global::EduApp.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::SharedActivities.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::EduApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::EduApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::EduApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::EduApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::EduApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::SharedActivities.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::EduApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::SharedActivities.Droid.Resource.Dimension.abc_control_corner_material = global::EduApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_control_inset_material = global::EduApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_control_padding_material = global::EduApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_dialog_corner_radius_material = global::EduApp.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::EduApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::SharedActivities.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::EduApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::SharedActivities.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::EduApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::SharedActivities.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::EduApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::SharedActivities.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::EduApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::SharedActivities.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::EduApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::SharedActivities.Droid.Resource.Dimension.abc_dialog_min_width_major = global::EduApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::SharedActivities.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::EduApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::SharedActivities.Droid.Resource.Dimension.abc_dialog_padding_material = global::EduApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::EduApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::EduApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::EduApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::SharedActivities.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::EduApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::SharedActivities.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::EduApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::SharedActivities.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::EduApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::SharedActivities.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::EduApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::SharedActivities.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::EduApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::EduApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::EduApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_floating_window_z = global::EduApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::SharedActivities.Droid.Resource.Dimension.abc_list_item_height_large_material = global::EduApp.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_list_item_height_material = global::EduApp.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_list_item_height_small_material = global::EduApp.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::EduApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_panel_menu_list_width = global::EduApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::SharedActivities.Droid.Resource.Dimension.abc_progress_bar_height_material = global::EduApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_search_view_preferred_height = global::EduApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::SharedActivities.Droid.Resource.Dimension.abc_search_view_preferred_width = global::EduApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::SharedActivities.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::EduApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::EduApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::EduApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_switch_padding = global::EduApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::SharedActivities.Droid.Resource.Dimension.abc_text_size_body_1_material = global::EduApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_text_size_body_2_material = global::EduApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_text_size_button_material = global::EduApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_text_size_caption_material = global::EduApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_text_size_display_1_material = global::EduApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_text_size_display_2_material = global::EduApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_text_size_display_3_material = global::EduApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_text_size_display_4_material = global::EduApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_text_size_headline_material = global::EduApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_text_size_large_material = global::EduApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_text_size_medium_material = global::EduApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::EduApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_text_size_menu_material = global::EduApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_text_size_small_material = global::EduApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_text_size_subhead_material = global::EduApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::EduApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::SharedActivities.Droid.Resource.Dimension.abc_text_size_title_material = global::EduApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::SharedActivities.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::EduApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::SharedActivities.Droid.Resource.Dimension.browser_actions_context_menu_max_width = global::EduApp.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::SharedActivities.Droid.Resource.Dimension.browser_actions_context_menu_min_padding = global::EduApp.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::SharedActivities.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::EduApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::SharedActivities.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::EduApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::SharedActivities.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::EduApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::SharedActivities.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::EduApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::SharedActivities.Droid.Resource.Dimension.compat_control_corner_material = global::EduApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::SharedActivities.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::EduApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::SharedActivities.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::EduApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::SharedActivities.Droid.Resource.Dimension.disabled_alpha_material_dark = global::EduApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::SharedActivities.Droid.Resource.Dimension.disabled_alpha_material_light = global::EduApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::SharedActivities.Droid.Resource.Dimension.highlight_alpha_material_colored = global::EduApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::SharedActivities.Droid.Resource.Dimension.highlight_alpha_material_dark = global::EduApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::SharedActivities.Droid.Resource.Dimension.highlight_alpha_material_light = global::EduApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::SharedActivities.Droid.Resource.Dimension.hint_alpha_material_dark = global::EduApp.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::SharedActivities.Droid.Resource.Dimension.hint_alpha_material_light = global::EduApp.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::SharedActivities.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::EduApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::SharedActivities.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::EduApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::SharedActivities.Droid.Resource.Dimension.notification_action_icon_size = global::EduApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::SharedActivities.Droid.Resource.Dimension.notification_action_text_size = global::EduApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::SharedActivities.Droid.Resource.Dimension.notification_big_circle_margin = global::EduApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::SharedActivities.Droid.Resource.Dimension.notification_content_margin_start = global::EduApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::SharedActivities.Droid.Resource.Dimension.notification_large_icon_height = global::EduApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::SharedActivities.Droid.Resource.Dimension.notification_large_icon_width = global::EduApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::SharedActivities.Droid.Resource.Dimension.notification_main_column_padding_top = global::EduApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::SharedActivities.Droid.Resource.Dimension.notification_media_narrow_margin = global::EduApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::SharedActivities.Droid.Resource.Dimension.notification_right_icon_size = global::EduApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::SharedActivities.Droid.Resource.Dimension.notification_right_side_padding_top = global::EduApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::SharedActivities.Droid.Resource.Dimension.notification_small_icon_background_padding = global::EduApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::SharedActivities.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::EduApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::SharedActivities.Droid.Resource.Dimension.notification_subtext_size = global::EduApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::SharedActivities.Droid.Resource.Dimension.notification_top_pad = global::EduApp.Droid.Resource.Dimension.notification_top_pad;
+			global::SharedActivities.Droid.Resource.Dimension.notification_top_pad_large_text = global::EduApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::SharedActivities.Droid.Resource.Dimension.tooltip_corner_radius = global::EduApp.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::SharedActivities.Droid.Resource.Dimension.tooltip_horizontal_padding = global::EduApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::SharedActivities.Droid.Resource.Dimension.tooltip_margin = global::EduApp.Droid.Resource.Dimension.tooltip_margin;
+			global::SharedActivities.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::EduApp.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::SharedActivities.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::EduApp.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::SharedActivities.Droid.Resource.Dimension.tooltip_vertical_padding = global::EduApp.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::SharedActivities.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::EduApp.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::SharedActivities.Droid.Resource.Dimension.tooltip_y_offset_touch = global::EduApp.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::EduApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::EduApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_btn_borderless_material = global::EduApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_btn_check_material = global::EduApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_btn_check_material_anim = global::EduApp.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::SharedActivities.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::EduApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::SharedActivities.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::EduApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::SharedActivities.Droid.Resource.Drawable.abc_btn_colored_material = global::EduApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::EduApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::SharedActivities.Droid.Resource.Drawable.abc_btn_radio_material = global::EduApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_btn_radio_material_anim = global::EduApp.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::SharedActivities.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::EduApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::SharedActivities.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::EduApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::SharedActivities.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::EduApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::SharedActivities.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::EduApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::SharedActivities.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::EduApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::SharedActivities.Droid.Resource.Drawable.abc_cab_background_top_material = global::EduApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::EduApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_control_background_material = global::EduApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_dialog_material_background = global::EduApp.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::SharedActivities.Droid.Resource.Drawable.abc_edit_text_material = global::EduApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_ab_back_material = global::EduApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::EduApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_clear_material = global::EduApp.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::EduApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::EduApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::EduApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::EduApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::EduApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::EduApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::EduApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::EduApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_search_api_material = global::EduApp.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::EduApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::EduApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::EduApp.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::EduApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::EduApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::EduApp.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::EduApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_item_background_holo_dark = global::EduApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::SharedActivities.Droid.Resource.Drawable.abc_item_background_holo_light = global::EduApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::SharedActivities.Droid.Resource.Drawable.abc_list_divider_material = global::EduApp.Droid.Resource.Drawable.abc_list_divider_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::EduApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_list_focused_holo = global::EduApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::SharedActivities.Droid.Resource.Drawable.abc_list_longpressed_holo = global::EduApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::SharedActivities.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::EduApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::SharedActivities.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::EduApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::SharedActivities.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::EduApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::SharedActivities.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::EduApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::SharedActivities.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::EduApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::SharedActivities.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::EduApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::SharedActivities.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::EduApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::SharedActivities.Droid.Resource.Drawable.abc_list_selector_holo_light = global::EduApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::SharedActivities.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::EduApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::SharedActivities.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::EduApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::EduApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ratingbar_material = global::EduApp.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_ratingbar_small_material = global::EduApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::EduApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::EduApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::SharedActivities.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::EduApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::SharedActivities.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::EduApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::EduApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::EduApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::EduApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_seekbar_track_material = global::EduApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::EduApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::EduApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_switch_thumb_material = global::EduApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::EduApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_tab_indicator_material = global::EduApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::EduApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::EduApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::EduApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::EduApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::EduApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::SharedActivities.Droid.Resource.Drawable.abc_textfield_search_material = global::EduApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_text_cursor_material = global::EduApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::SharedActivities.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::EduApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::SharedActivities.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::EduApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::SharedActivities.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::EduApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::SharedActivities.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::EduApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::SharedActivities.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::EduApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::SharedActivities.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::EduApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::SharedActivities.Droid.Resource.Drawable.abc_vector_test = global::EduApp.Droid.Resource.Drawable.abc_vector_test;
+			global::SharedActivities.Droid.Resource.Drawable.btn_checkbox_checked_mtrl = global::EduApp.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::SharedActivities.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::EduApp.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::SharedActivities.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::EduApp.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::SharedActivities.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::EduApp.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::SharedActivities.Droid.Resource.Drawable.btn_radio_off_mtrl = global::EduApp.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::SharedActivities.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::EduApp.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::SharedActivities.Droid.Resource.Drawable.btn_radio_on_mtrl = global::EduApp.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::SharedActivities.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::EduApp.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::SharedActivities.Droid.Resource.Drawable.notification_action_background = global::EduApp.Droid.Resource.Drawable.notification_action_background;
+			global::SharedActivities.Droid.Resource.Drawable.notification_bg = global::EduApp.Droid.Resource.Drawable.notification_bg;
+			global::SharedActivities.Droid.Resource.Drawable.notification_bg_low = global::EduApp.Droid.Resource.Drawable.notification_bg_low;
+			global::SharedActivities.Droid.Resource.Drawable.notification_bg_low_normal = global::EduApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::SharedActivities.Droid.Resource.Drawable.notification_bg_low_pressed = global::EduApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::SharedActivities.Droid.Resource.Drawable.notification_bg_normal = global::EduApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::SharedActivities.Droid.Resource.Drawable.notification_bg_normal_pressed = global::EduApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::SharedActivities.Droid.Resource.Drawable.notification_icon_background = global::EduApp.Droid.Resource.Drawable.notification_icon_background;
+			global::SharedActivities.Droid.Resource.Drawable.notification_template_icon_bg = global::EduApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::SharedActivities.Droid.Resource.Drawable.notification_template_icon_low_bg = global::EduApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::SharedActivities.Droid.Resource.Drawable.notification_tile_bg = global::EduApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::SharedActivities.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::EduApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::SharedActivities.Droid.Resource.Drawable.tooltip_frame_dark = global::EduApp.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::SharedActivities.Droid.Resource.Drawable.tooltip_frame_light = global::EduApp.Droid.Resource.Drawable.tooltip_frame_light;
+			global::SharedActivities.Droid.Resource.Id.accessibility_action_clickable_span = global::EduApp.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_0 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_0;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_1 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_1;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_10 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_10;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_11 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_11;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_12 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_12;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_13 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_13;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_14 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_14;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_15 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_15;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_16 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_16;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_17 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_17;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_18 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_18;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_19 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_19;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_2 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_2;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_20 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_20;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_21 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_21;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_22 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_22;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_23 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_23;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_24 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_24;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_25 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_25;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_26 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_26;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_27 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_27;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_28 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_28;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_29 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_29;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_3 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_3;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_30 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_30;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_31 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_31;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_4 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_4;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_5 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_5;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_6 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_6;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_7 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_7;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_8 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_8;
+			global::SharedActivities.Droid.Resource.Id.accessibility_custom_action_9 = global::EduApp.Droid.Resource.Id.accessibility_custom_action_9;
+			global::SharedActivities.Droid.Resource.Id.actions = global::EduApp.Droid.Resource.Id.actions;
+			global::SharedActivities.Droid.Resource.Id.action_bar = global::EduApp.Droid.Resource.Id.action_bar;
+			global::SharedActivities.Droid.Resource.Id.action_bar_activity_content = global::EduApp.Droid.Resource.Id.action_bar_activity_content;
+			global::SharedActivities.Droid.Resource.Id.action_bar_container = global::EduApp.Droid.Resource.Id.action_bar_container;
+			global::SharedActivities.Droid.Resource.Id.action_bar_root = global::EduApp.Droid.Resource.Id.action_bar_root;
+			global::SharedActivities.Droid.Resource.Id.action_bar_spinner = global::EduApp.Droid.Resource.Id.action_bar_spinner;
+			global::SharedActivities.Droid.Resource.Id.action_bar_subtitle = global::EduApp.Droid.Resource.Id.action_bar_subtitle;
+			global::SharedActivities.Droid.Resource.Id.action_bar_title = global::EduApp.Droid.Resource.Id.action_bar_title;
+			global::SharedActivities.Droid.Resource.Id.action_container = global::EduApp.Droid.Resource.Id.action_container;
+			global::SharedActivities.Droid.Resource.Id.action_context_bar = global::EduApp.Droid.Resource.Id.action_context_bar;
+			global::SharedActivities.Droid.Resource.Id.action_divider = global::EduApp.Droid.Resource.Id.action_divider;
+			global::SharedActivities.Droid.Resource.Id.action_image = global::EduApp.Droid.Resource.Id.action_image;
+			global::SharedActivities.Droid.Resource.Id.action_menu_divider = global::EduApp.Droid.Resource.Id.action_menu_divider;
+			global::SharedActivities.Droid.Resource.Id.action_menu_presenter = global::EduApp.Droid.Resource.Id.action_menu_presenter;
+			global::SharedActivities.Droid.Resource.Id.action_mode_bar = global::EduApp.Droid.Resource.Id.action_mode_bar;
+			global::SharedActivities.Droid.Resource.Id.action_mode_bar_stub = global::EduApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::SharedActivities.Droid.Resource.Id.action_mode_close_button = global::EduApp.Droid.Resource.Id.action_mode_close_button;
+			global::SharedActivities.Droid.Resource.Id.action_text = global::EduApp.Droid.Resource.Id.action_text;
+			global::SharedActivities.Droid.Resource.Id.activity_chooser_view_content = global::EduApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::SharedActivities.Droid.Resource.Id.add = global::EduApp.Droid.Resource.Id.add;
+			global::SharedActivities.Droid.Resource.Id.alertTitle = global::EduApp.Droid.Resource.Id.alertTitle;
+			global::SharedActivities.Droid.Resource.Id.all = global::EduApp.Droid.Resource.Id.all;
+			global::SharedActivities.Droid.Resource.Id.ALT = global::EduApp.Droid.Resource.Id.ALT;
+			global::SharedActivities.Droid.Resource.Id.always = global::EduApp.Droid.Resource.Id.always;
+			global::SharedActivities.Droid.Resource.Id.async = global::EduApp.Droid.Resource.Id.async;
+			global::SharedActivities.Droid.Resource.Id.automatic = global::EduApp.Droid.Resource.Id.automatic;
+			global::SharedActivities.Droid.Resource.Id.barrier = global::EduApp.Droid.Resource.Id.barrier;
+			global::SharedActivities.Droid.Resource.Id.beginning = global::EduApp.Droid.Resource.Id.beginning;
+			global::SharedActivities.Droid.Resource.Id.blocking = global::EduApp.Droid.Resource.Id.blocking;
+			global::SharedActivities.Droid.Resource.Id.bottom = global::EduApp.Droid.Resource.Id.bottom;
+			global::SharedActivities.Droid.Resource.Id.browser_actions_header_text = global::EduApp.Droid.Resource.Id.browser_actions_header_text;
+			global::SharedActivities.Droid.Resource.Id.browser_actions_menu_items = global::EduApp.Droid.Resource.Id.browser_actions_menu_items;
+			global::SharedActivities.Droid.Resource.Id.browser_actions_menu_item_icon = global::EduApp.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::SharedActivities.Droid.Resource.Id.browser_actions_menu_item_text = global::EduApp.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::SharedActivities.Droid.Resource.Id.browser_actions_menu_view = global::EduApp.Droid.Resource.Id.browser_actions_menu_view;
+			global::SharedActivities.Droid.Resource.Id.buttonPanel = global::EduApp.Droid.Resource.Id.buttonPanel;
+			global::SharedActivities.Droid.Resource.Id.center = global::EduApp.Droid.Resource.Id.center;
+			global::SharedActivities.Droid.Resource.Id.center_horizontal = global::EduApp.Droid.Resource.Id.center_horizontal;
+			global::SharedActivities.Droid.Resource.Id.center_vertical = global::EduApp.Droid.Resource.Id.center_vertical;
+			global::SharedActivities.Droid.Resource.Id.chains = global::EduApp.Droid.Resource.Id.chains;
+			global::SharedActivities.Droid.Resource.Id.checkbox = global::EduApp.Droid.Resource.Id.checkbox;
+			global::SharedActivities.Droid.Resource.Id.@checked = global::EduApp.Droid.Resource.Id.@checked;
+			global::SharedActivities.Droid.Resource.Id.chronometer = global::EduApp.Droid.Resource.Id.chronometer;
+			global::SharedActivities.Droid.Resource.Id.clip_horizontal = global::EduApp.Droid.Resource.Id.clip_horizontal;
+			global::SharedActivities.Droid.Resource.Id.clip_vertical = global::EduApp.Droid.Resource.Id.clip_vertical;
+			global::SharedActivities.Droid.Resource.Id.collapseActionView = global::EduApp.Droid.Resource.Id.collapseActionView;
+			global::SharedActivities.Droid.Resource.Id.content = global::EduApp.Droid.Resource.Id.content;
+			global::SharedActivities.Droid.Resource.Id.contentPanel = global::EduApp.Droid.Resource.Id.contentPanel;
+			global::SharedActivities.Droid.Resource.Id.CTRL = global::EduApp.Droid.Resource.Id.CTRL;
+			global::SharedActivities.Droid.Resource.Id.custom = global::EduApp.Droid.Resource.Id.custom;
+			global::SharedActivities.Droid.Resource.Id.customPanel = global::EduApp.Droid.Resource.Id.customPanel;
+			global::SharedActivities.Droid.Resource.Id.decor_content_parent = global::EduApp.Droid.Resource.Id.decor_content_parent;
+			global::SharedActivities.Droid.Resource.Id.default_activity_button = global::EduApp.Droid.Resource.Id.default_activity_button;
+			global::SharedActivities.Droid.Resource.Id.dialog_button = global::EduApp.Droid.Resource.Id.dialog_button;
+			global::SharedActivities.Droid.Resource.Id.dimensions = global::EduApp.Droid.Resource.Id.dimensions;
+			global::SharedActivities.Droid.Resource.Id.direct = global::EduApp.Droid.Resource.Id.direct;
+			global::SharedActivities.Droid.Resource.Id.disableHome = global::EduApp.Droid.Resource.Id.disableHome;
+			global::SharedActivities.Droid.Resource.Id.edit_query = global::EduApp.Droid.Resource.Id.edit_query;
+			global::SharedActivities.Droid.Resource.Id.end = global::EduApp.Droid.Resource.Id.end;
+			global::SharedActivities.Droid.Resource.Id.expanded_menu = global::EduApp.Droid.Resource.Id.expanded_menu;
+			global::SharedActivities.Droid.Resource.Id.expand_activities_button = global::EduApp.Droid.Resource.Id.expand_activities_button;
+			global::SharedActivities.Droid.Resource.Id.fill = global::EduApp.Droid.Resource.Id.fill;
+			global::SharedActivities.Droid.Resource.Id.fill_horizontal = global::EduApp.Droid.Resource.Id.fill_horizontal;
+			global::SharedActivities.Droid.Resource.Id.fill_vertical = global::EduApp.Droid.Resource.Id.fill_vertical;
+			global::SharedActivities.Droid.Resource.Id.forever = global::EduApp.Droid.Resource.Id.forever;
+			global::SharedActivities.Droid.Resource.Id.FUNCTION = global::EduApp.Droid.Resource.Id.FUNCTION;
+			global::SharedActivities.Droid.Resource.Id.gone = global::EduApp.Droid.Resource.Id.gone;
+			global::SharedActivities.Droid.Resource.Id.groups = global::EduApp.Droid.Resource.Id.groups;
+			global::SharedActivities.Droid.Resource.Id.group_divider = global::EduApp.Droid.Resource.Id.group_divider;
+			global::SharedActivities.Droid.Resource.Id.hardware = global::EduApp.Droid.Resource.Id.hardware;
+			global::SharedActivities.Droid.Resource.Id.home = global::EduApp.Droid.Resource.Id.home;
+			global::SharedActivities.Droid.Resource.Id.homeAsUp = global::EduApp.Droid.Resource.Id.homeAsUp;
+			global::SharedActivities.Droid.Resource.Id.icon = global::EduApp.Droid.Resource.Id.icon;
+			global::SharedActivities.Droid.Resource.Id.icon_group = global::EduApp.Droid.Resource.Id.icon_group;
+			global::SharedActivities.Droid.Resource.Id.ifRoom = global::EduApp.Droid.Resource.Id.ifRoom;
+			global::SharedActivities.Droid.Resource.Id.image = global::EduApp.Droid.Resource.Id.image;
+			global::SharedActivities.Droid.Resource.Id.info = global::EduApp.Droid.Resource.Id.info;
+			global::SharedActivities.Droid.Resource.Id.invisible = global::EduApp.Droid.Resource.Id.invisible;
+			global::SharedActivities.Droid.Resource.Id.italic = global::EduApp.Droid.Resource.Id.italic;
+			global::SharedActivities.Droid.Resource.Id.left = global::EduApp.Droid.Resource.Id.left;
+			global::SharedActivities.Droid.Resource.Id.line1 = global::EduApp.Droid.Resource.Id.line1;
+			global::SharedActivities.Droid.Resource.Id.line3 = global::EduApp.Droid.Resource.Id.line3;
+			global::SharedActivities.Droid.Resource.Id.listMode = global::EduApp.Droid.Resource.Id.listMode;
+			global::SharedActivities.Droid.Resource.Id.list_item = global::EduApp.Droid.Resource.Id.list_item;
+			global::SharedActivities.Droid.Resource.Id.lottie_layer_name = global::EduApp.Droid.Resource.Id.lottie_layer_name;
+			global::SharedActivities.Droid.Resource.Id.message = global::EduApp.Droid.Resource.Id.message;
+			global::SharedActivities.Droid.Resource.Id.META = global::EduApp.Droid.Resource.Id.META;
+			global::SharedActivities.Droid.Resource.Id.middle = global::EduApp.Droid.Resource.Id.middle;
+			global::SharedActivities.Droid.Resource.Id.multiply = global::EduApp.Droid.Resource.Id.multiply;
+			global::SharedActivities.Droid.Resource.Id.never = global::EduApp.Droid.Resource.Id.never;
+			global::SharedActivities.Droid.Resource.Id.none = global::EduApp.Droid.Resource.Id.none;
+			global::SharedActivities.Droid.Resource.Id.normal = global::EduApp.Droid.Resource.Id.normal;
+			global::SharedActivities.Droid.Resource.Id.notification_background = global::EduApp.Droid.Resource.Id.notification_background;
+			global::SharedActivities.Droid.Resource.Id.notification_main_column = global::EduApp.Droid.Resource.Id.notification_main_column;
+			global::SharedActivities.Droid.Resource.Id.notification_main_column_container = global::EduApp.Droid.Resource.Id.notification_main_column_container;
+			global::SharedActivities.Droid.Resource.Id.off = global::EduApp.Droid.Resource.Id.off;
+			global::SharedActivities.Droid.Resource.Id.on = global::EduApp.Droid.Resource.Id.on;
+			global::SharedActivities.Droid.Resource.Id.packed = global::EduApp.Droid.Resource.Id.packed;
+			global::SharedActivities.Droid.Resource.Id.parent = global::EduApp.Droid.Resource.Id.parent;
+			global::SharedActivities.Droid.Resource.Id.parentPanel = global::EduApp.Droid.Resource.Id.parentPanel;
+			global::SharedActivities.Droid.Resource.Id.percent = global::EduApp.Droid.Resource.Id.percent;
+			global::SharedActivities.Droid.Resource.Id.progress_circular = global::EduApp.Droid.Resource.Id.progress_circular;
+			global::SharedActivities.Droid.Resource.Id.progress_horizontal = global::EduApp.Droid.Resource.Id.progress_horizontal;
+			global::SharedActivities.Droid.Resource.Id.questionIconLottieView = global::EduApp.Droid.Resource.Id.questionIconLottieView;
+			global::SharedActivities.Droid.Resource.Id.radio = global::EduApp.Droid.Resource.Id.radio;
+			global::SharedActivities.Droid.Resource.Id.restart = global::EduApp.Droid.Resource.Id.restart;
+			global::SharedActivities.Droid.Resource.Id.reverse = global::EduApp.Droid.Resource.Id.reverse;
+			global::SharedActivities.Droid.Resource.Id.right = global::EduApp.Droid.Resource.Id.right;
+			global::SharedActivities.Droid.Resource.Id.right_icon = global::EduApp.Droid.Resource.Id.right_icon;
+			global::SharedActivities.Droid.Resource.Id.right_side = global::EduApp.Droid.Resource.Id.right_side;
+			global::SharedActivities.Droid.Resource.Id.screen = global::EduApp.Droid.Resource.Id.screen;
+			global::SharedActivities.Droid.Resource.Id.scrollIndicatorDown = global::EduApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::SharedActivities.Droid.Resource.Id.scrollIndicatorUp = global::EduApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::SharedActivities.Droid.Resource.Id.scrollView = global::EduApp.Droid.Resource.Id.scrollView;
+			global::SharedActivities.Droid.Resource.Id.search_badge = global::EduApp.Droid.Resource.Id.search_badge;
+			global::SharedActivities.Droid.Resource.Id.search_bar = global::EduApp.Droid.Resource.Id.search_bar;
+			global::SharedActivities.Droid.Resource.Id.search_button = global::EduApp.Droid.Resource.Id.search_button;
+			global::SharedActivities.Droid.Resource.Id.search_close_btn = global::EduApp.Droid.Resource.Id.search_close_btn;
+			global::SharedActivities.Droid.Resource.Id.search_edit_frame = global::EduApp.Droid.Resource.Id.search_edit_frame;
+			global::SharedActivities.Droid.Resource.Id.search_go_btn = global::EduApp.Droid.Resource.Id.search_go_btn;
+			global::SharedActivities.Droid.Resource.Id.search_mag_icon = global::EduApp.Droid.Resource.Id.search_mag_icon;
+			global::SharedActivities.Droid.Resource.Id.search_plate = global::EduApp.Droid.Resource.Id.search_plate;
+			global::SharedActivities.Droid.Resource.Id.search_src_text = global::EduApp.Droid.Resource.Id.search_src_text;
+			global::SharedActivities.Droid.Resource.Id.search_voice_btn = global::EduApp.Droid.Resource.Id.search_voice_btn;
+			global::SharedActivities.Droid.Resource.Id.select_dialog_listview = global::EduApp.Droid.Resource.Id.select_dialog_listview;
+			global::SharedActivities.Droid.Resource.Id.SHIFT = global::EduApp.Droid.Resource.Id.SHIFT;
+			global::SharedActivities.Droid.Resource.Id.shortcut = global::EduApp.Droid.Resource.Id.shortcut;
+			global::SharedActivities.Droid.Resource.Id.showCustom = global::EduApp.Droid.Resource.Id.showCustom;
+			global::SharedActivities.Droid.Resource.Id.showHome = global::EduApp.Droid.Resource.Id.showHome;
+			global::SharedActivities.Droid.Resource.Id.showTitle = global::EduApp.Droid.Resource.Id.showTitle;
+			global::SharedActivities.Droid.Resource.Id.situationTextView = global::EduApp.Droid.Resource.Id.situationTextView;
+			global::SharedActivities.Droid.Resource.Id.software = global::EduApp.Droid.Resource.Id.software;
+			global::SharedActivities.Droid.Resource.Id.spacer = global::EduApp.Droid.Resource.Id.spacer;
+			global::SharedActivities.Droid.Resource.Id.split_action_bar = global::EduApp.Droid.Resource.Id.split_action_bar;
+			global::SharedActivities.Droid.Resource.Id.spread = global::EduApp.Droid.Resource.Id.spread;
+			global::SharedActivities.Droid.Resource.Id.spread_inside = global::EduApp.Droid.Resource.Id.spread_inside;
+			global::SharedActivities.Droid.Resource.Id.src_atop = global::EduApp.Droid.Resource.Id.src_atop;
+			global::SharedActivities.Droid.Resource.Id.src_in = global::EduApp.Droid.Resource.Id.src_in;
+			global::SharedActivities.Droid.Resource.Id.src_over = global::EduApp.Droid.Resource.Id.src_over;
+			global::SharedActivities.Droid.Resource.Id.standard = global::EduApp.Droid.Resource.Id.standard;
+			global::SharedActivities.Droid.Resource.Id.start = global::EduApp.Droid.Resource.Id.start;
+			global::SharedActivities.Droid.Resource.Id.submenuarrow = global::EduApp.Droid.Resource.Id.submenuarrow;
+			global::SharedActivities.Droid.Resource.Id.submit_area = global::EduApp.Droid.Resource.Id.submit_area;
+			global::SharedActivities.Droid.Resource.Id.subTitleTextView = global::EduApp.Droid.Resource.Id.subTitleTextView;
+			global::SharedActivities.Droid.Resource.Id.SYM = global::EduApp.Droid.Resource.Id.SYM;
+			global::SharedActivities.Droid.Resource.Id.tabMode = global::EduApp.Droid.Resource.Id.tabMode;
+			global::SharedActivities.Droid.Resource.Id.tag_accessibility_actions = global::EduApp.Droid.Resource.Id.tag_accessibility_actions;
+			global::SharedActivities.Droid.Resource.Id.tag_accessibility_clickable_spans = global::EduApp.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::SharedActivities.Droid.Resource.Id.tag_accessibility_heading = global::EduApp.Droid.Resource.Id.tag_accessibility_heading;
+			global::SharedActivities.Droid.Resource.Id.tag_accessibility_pane_title = global::EduApp.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::SharedActivities.Droid.Resource.Id.tag_screen_reader_focusable = global::EduApp.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::SharedActivities.Droid.Resource.Id.tag_transition_group = global::EduApp.Droid.Resource.Id.tag_transition_group;
+			global::SharedActivities.Droid.Resource.Id.tag_unhandled_key_event_manager = global::EduApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::SharedActivities.Droid.Resource.Id.tag_unhandled_key_listeners = global::EduApp.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::SharedActivities.Droid.Resource.Id.text = global::EduApp.Droid.Resource.Id.text;
+			global::SharedActivities.Droid.Resource.Id.text2 = global::EduApp.Droid.Resource.Id.text2;
+			global::SharedActivities.Droid.Resource.Id.textSpacerNoButtons = global::EduApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::SharedActivities.Droid.Resource.Id.textSpacerNoTitle = global::EduApp.Droid.Resource.Id.textSpacerNoTitle;
+			global::SharedActivities.Droid.Resource.Id.time = global::EduApp.Droid.Resource.Id.time;
+			global::SharedActivities.Droid.Resource.Id.title = global::EduApp.Droid.Resource.Id.title;
+			global::SharedActivities.Droid.Resource.Id.titleDividerNoCustom = global::EduApp.Droid.Resource.Id.titleDividerNoCustom;
+			global::SharedActivities.Droid.Resource.Id.titleTextView = global::EduApp.Droid.Resource.Id.titleTextView;
+			global::SharedActivities.Droid.Resource.Id.title_template = global::EduApp.Droid.Resource.Id.title_template;
+			global::SharedActivities.Droid.Resource.Id.top = global::EduApp.Droid.Resource.Id.top;
+			global::SharedActivities.Droid.Resource.Id.topPanel = global::EduApp.Droid.Resource.Id.topPanel;
+			global::SharedActivities.Droid.Resource.Id.@unchecked = global::EduApp.Droid.Resource.Id.@unchecked;
+			global::SharedActivities.Droid.Resource.Id.uniform = global::EduApp.Droid.Resource.Id.uniform;
+			global::SharedActivities.Droid.Resource.Id.up = global::EduApp.Droid.Resource.Id.up;
+			global::SharedActivities.Droid.Resource.Id.useLogo = global::EduApp.Droid.Resource.Id.useLogo;
+			global::SharedActivities.Droid.Resource.Id.withText = global::EduApp.Droid.Resource.Id.withText;
+			global::SharedActivities.Droid.Resource.Id.wrap = global::EduApp.Droid.Resource.Id.wrap;
+			global::SharedActivities.Droid.Resource.Id.wrap_content = global::EduApp.Droid.Resource.Id.wrap_content;
+			global::SharedActivities.Droid.Resource.Integer.abc_config_activityDefaultDur = global::EduApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::SharedActivities.Droid.Resource.Integer.abc_config_activityShortDur = global::EduApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::SharedActivities.Droid.Resource.Integer.cancel_button_image_alpha = global::EduApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::SharedActivities.Droid.Resource.Integer.config_tooltipAnimTime = global::EduApp.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::SharedActivities.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::EduApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::SharedActivities.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::EduApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::SharedActivities.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::EduApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::SharedActivities.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::EduApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::SharedActivities.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::EduApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::SharedActivities.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::EduApp.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::SharedActivities.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::EduApp.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::SharedActivities.Droid.Resource.Interpolator.fast_out_slow_in = global::EduApp.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::SharedActivities.Droid.Resource.Layout.abc_action_bar_title_item = global::EduApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::SharedActivities.Droid.Resource.Layout.abc_action_bar_up_container = global::EduApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::SharedActivities.Droid.Resource.Layout.abc_action_menu_item_layout = global::EduApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::SharedActivities.Droid.Resource.Layout.abc_action_menu_layout = global::EduApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::SharedActivities.Droid.Resource.Layout.abc_action_mode_bar = global::EduApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::SharedActivities.Droid.Resource.Layout.abc_action_mode_close_item_material = global::EduApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::SharedActivities.Droid.Resource.Layout.abc_activity_chooser_view = global::EduApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::SharedActivities.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::EduApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::SharedActivities.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::EduApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::SharedActivities.Droid.Resource.Layout.abc_alert_dialog_material = global::EduApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::SharedActivities.Droid.Resource.Layout.abc_alert_dialog_title_material = global::EduApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::SharedActivities.Droid.Resource.Layout.abc_cascading_menu_item_layout = global::EduApp.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::SharedActivities.Droid.Resource.Layout.abc_dialog_title_material = global::EduApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::SharedActivities.Droid.Resource.Layout.abc_expanded_menu_layout = global::EduApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::SharedActivities.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::EduApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::SharedActivities.Droid.Resource.Layout.abc_list_menu_item_icon = global::EduApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::SharedActivities.Droid.Resource.Layout.abc_list_menu_item_layout = global::EduApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::SharedActivities.Droid.Resource.Layout.abc_list_menu_item_radio = global::EduApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::SharedActivities.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::EduApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::SharedActivities.Droid.Resource.Layout.abc_popup_menu_item_layout = global::EduApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::SharedActivities.Droid.Resource.Layout.abc_screen_content_include = global::EduApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::SharedActivities.Droid.Resource.Layout.abc_screen_simple = global::EduApp.Droid.Resource.Layout.abc_screen_simple;
+			global::SharedActivities.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::EduApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::SharedActivities.Droid.Resource.Layout.abc_screen_toolbar = global::EduApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::SharedActivities.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::EduApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::SharedActivities.Droid.Resource.Layout.abc_search_view = global::EduApp.Droid.Resource.Layout.abc_search_view;
+			global::SharedActivities.Droid.Resource.Layout.abc_select_dialog_material = global::EduApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::SharedActivities.Droid.Resource.Layout.abc_tooltip = global::EduApp.Droid.Resource.Layout.abc_tooltip;
+			global::SharedActivities.Droid.Resource.Layout.activity_title = global::EduApp.Droid.Resource.Layout.activity_title;
+			global::SharedActivities.Droid.Resource.Layout.browser_actions_context_menu_page = global::EduApp.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::SharedActivities.Droid.Resource.Layout.browser_actions_context_menu_row = global::EduApp.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::SharedActivities.Droid.Resource.Layout.custom_dialog = global::EduApp.Droid.Resource.Layout.custom_dialog;
+			global::SharedActivities.Droid.Resource.Layout.default_activity_layout = global::EduApp.Droid.Resource.Layout.default_activity_layout;
+			global::SharedActivities.Droid.Resource.Layout.notification_action = global::EduApp.Droid.Resource.Layout.notification_action;
+			global::SharedActivities.Droid.Resource.Layout.notification_action_tombstone = global::EduApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::SharedActivities.Droid.Resource.Layout.notification_template_custom_big = global::EduApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::SharedActivities.Droid.Resource.Layout.notification_template_icon_group = global::EduApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::SharedActivities.Droid.Resource.Layout.notification_template_part_chronometer = global::EduApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::SharedActivities.Droid.Resource.Layout.notification_template_part_time = global::EduApp.Droid.Resource.Layout.notification_template_part_time;
+			global::SharedActivities.Droid.Resource.Layout.select_dialog_item_material = global::EduApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::SharedActivities.Droid.Resource.Layout.select_dialog_multichoice_material = global::EduApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::SharedActivities.Droid.Resource.Layout.select_dialog_singlechoice_material = global::EduApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::SharedActivities.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::EduApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::SharedActivities.Droid.Resource.String.abc_action_bar_home_description = global::EduApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::SharedActivities.Droid.Resource.String.abc_action_bar_up_description = global::EduApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::SharedActivities.Droid.Resource.String.abc_action_menu_overflow_description = global::EduApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::SharedActivities.Droid.Resource.String.abc_action_mode_done = global::EduApp.Droid.Resource.String.abc_action_mode_done;
+			global::SharedActivities.Droid.Resource.String.abc_activitychooserview_choose_application = global::EduApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::SharedActivities.Droid.Resource.String.abc_activity_chooser_view_see_all = global::EduApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::SharedActivities.Droid.Resource.String.abc_capital_off = global::EduApp.Droid.Resource.String.abc_capital_off;
+			global::SharedActivities.Droid.Resource.String.abc_capital_on = global::EduApp.Droid.Resource.String.abc_capital_on;
+			global::SharedActivities.Droid.Resource.String.abc_menu_alt_shortcut_label = global::EduApp.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::SharedActivities.Droid.Resource.String.abc_menu_ctrl_shortcut_label = global::EduApp.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::SharedActivities.Droid.Resource.String.abc_menu_delete_shortcut_label = global::EduApp.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::SharedActivities.Droid.Resource.String.abc_menu_enter_shortcut_label = global::EduApp.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::SharedActivities.Droid.Resource.String.abc_menu_function_shortcut_label = global::EduApp.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::SharedActivities.Droid.Resource.String.abc_menu_meta_shortcut_label = global::EduApp.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::SharedActivities.Droid.Resource.String.abc_menu_shift_shortcut_label = global::EduApp.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::SharedActivities.Droid.Resource.String.abc_menu_space_shortcut_label = global::EduApp.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::SharedActivities.Droid.Resource.String.abc_menu_sym_shortcut_label = global::EduApp.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::SharedActivities.Droid.Resource.String.abc_prepend_shortcut_label = global::EduApp.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::SharedActivities.Droid.Resource.String.abc_searchview_description_clear = global::EduApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::SharedActivities.Droid.Resource.String.abc_searchview_description_query = global::EduApp.Droid.Resource.String.abc_searchview_description_query;
+			global::SharedActivities.Droid.Resource.String.abc_searchview_description_search = global::EduApp.Droid.Resource.String.abc_searchview_description_search;
+			global::SharedActivities.Droid.Resource.String.abc_searchview_description_submit = global::EduApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::SharedActivities.Droid.Resource.String.abc_searchview_description_voice = global::EduApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::SharedActivities.Droid.Resource.String.abc_search_hint = global::EduApp.Droid.Resource.String.abc_search_hint;
+			global::SharedActivities.Droid.Resource.String.abc_shareactionprovider_share_with = global::EduApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::SharedActivities.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::EduApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::SharedActivities.Droid.Resource.String.abc_toolbar_collapse_description = global::EduApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::SharedActivities.Droid.Resource.String.app_name = global::EduApp.Droid.Resource.String.app_name;
+			global::SharedActivities.Droid.Resource.String.hello = global::EduApp.Droid.Resource.String.hello;
+			global::SharedActivities.Droid.Resource.String.search_menu_title = global::EduApp.Droid.Resource.String.search_menu_title;
+			global::SharedActivities.Droid.Resource.String.status_bar_notification_info_overflow = global::EduApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::SharedActivities.Droid.Resource.Style.AlertDialog_AppCompat = global::EduApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::EduApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::SharedActivities.Droid.Resource.Style.Animation_AppCompat_Dialog = global::EduApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::SharedActivities.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::EduApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::SharedActivities.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::EduApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::SharedActivities.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::EduApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::EduApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::SharedActivities.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::EduApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::SharedActivities.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::EduApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::SharedActivities.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::EduApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::SharedActivities.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::EduApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::EduApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::EduApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::EduApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::EduApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::SharedActivities.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::EduApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::SharedActivities.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::EduApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::EduApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::SharedActivities.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::EduApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::SharedActivities.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::EduApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::SharedActivities.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::EduApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::SharedActivities.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::EduApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::SharedActivities.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::EduApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::SharedActivities.Droid.Resource.Style.Base_Theme_AppCompat = global::EduApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::EduApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::SharedActivities.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::EduApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::SharedActivities.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::EduApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::SharedActivities.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::EduApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::SharedActivities.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::EduApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::SharedActivities.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::EduApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::SharedActivities.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::EduApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::SharedActivities.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::EduApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::SharedActivities.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::EduApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::SharedActivities.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::EduApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::SharedActivities.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::EduApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::SharedActivities.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::EduApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::SharedActivities.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::EduApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::SharedActivities.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::EduApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::SharedActivities.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::EduApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::EduApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::SharedActivities.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::EduApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::SharedActivities.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::EduApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::SharedActivities.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::EduApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::EduApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::SharedActivities.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::EduApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::EduApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::SharedActivities.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::EduApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::EduApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::SharedActivities.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::EduApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::SharedActivities.Droid.Resource.Style.Base_V28_Theme_AppCompat = global::EduApp.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light = global::EduApp.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::SharedActivities.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::EduApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::SharedActivities.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::EduApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::EduApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::SharedActivities.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::EduApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::SharedActivities.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::EduApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::SharedActivities.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::EduApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::SharedActivities.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::EduApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::SharedActivities.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::EduApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_TextView = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::SharedActivities.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::EduApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::SharedActivities.Droid.Resource.Style.Platform_AppCompat = global::EduApp.Droid.Resource.Style.Platform_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.Platform_AppCompat_Light = global::EduApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::SharedActivities.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::EduApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::EduApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::SharedActivities.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::EduApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::SharedActivities.Droid.Resource.Style.Platform_V21_AppCompat = global::EduApp.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::EduApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::SharedActivities.Droid.Resource.Style.Platform_V25_AppCompat = global::EduApp.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::EduApp.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::SharedActivities.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::EduApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::SharedActivities.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::EduApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::EduApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::SharedActivities.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::EduApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::SharedActivities.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::EduApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::SharedActivities.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::EduApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::SharedActivities.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::EduApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::SharedActivities.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::EduApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::SharedActivities.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::EduApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::SharedActivities.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::EduApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::SharedActivities.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::EduApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::SharedActivities.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::EduApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::SharedActivities.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::EduApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::SharedActivities.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::EduApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::SharedActivities.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::EduApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::SharedActivities.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::EduApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::SharedActivities.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::EduApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::SharedActivities.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::EduApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::EduApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_Compat_Notification = global::EduApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::EduApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::EduApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::EduApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::EduApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::EduApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::EduApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::SharedActivities.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::EduApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::SharedActivities.Droid.Resource.Style.ThemeOverlay_AppCompat = global::EduApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::EduApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::SharedActivities.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::EduApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::SharedActivities.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::EduApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::SharedActivities.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::EduApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::SharedActivities.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::EduApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::SharedActivities.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::EduApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::SharedActivities.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::EduApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::SharedActivities.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::EduApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat = global::EduApp.Droid.Resource.Style.Theme_AppCompat;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::EduApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_DayNight = global::EduApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::EduApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::EduApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::EduApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::EduApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::EduApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::EduApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_Dialog = global::EduApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::EduApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::EduApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::EduApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_Light = global::EduApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::EduApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::EduApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::EduApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::EduApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::EduApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::EduApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::SharedActivities.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::EduApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::EduApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Button = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::EduApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::EduApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::EduApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::EduApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::EduApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_EditText = global::EduApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ListView = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::EduApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::EduApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::EduApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::EduApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::EduApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::EduApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::EduApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_SearchView = global::EduApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::EduApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::EduApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::EduApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Spinner = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_TextView = global::EduApp.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::EduApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::SharedActivities.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::EduApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::SharedActivities.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::EduApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::SharedActivities.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::EduApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::SharedActivities.Droid.Resource.Style.Widget_Support_CoordinatorLayout = global::EduApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar = global::EduApp.Droid.Resource.Styleable.ActionBar;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBarLayout = global::EduApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::EduApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_background = global::EduApp.Droid.Resource.Styleable.ActionBar_background;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::EduApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::EduApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::EduApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::EduApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::EduApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::EduApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::EduApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::EduApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::EduApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_displayOptions = global::EduApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_divider = global::EduApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_elevation = global::EduApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_height = global::EduApp.Droid.Resource.Styleable.ActionBar_height;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::EduApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::EduApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_homeLayout = global::EduApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_icon = global::EduApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::EduApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_itemPadding = global::EduApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_logo = global::EduApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_navigationMode = global::EduApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_popupTheme = global::EduApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::EduApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::EduApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_subtitle = global::EduApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::EduApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_title = global::EduApp.Droid.Resource.Styleable.ActionBar_title;
+			global::SharedActivities.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::EduApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::SharedActivities.Droid.Resource.Styleable.ActionMenuItemView = global::EduApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::SharedActivities.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::EduApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::SharedActivities.Droid.Resource.Styleable.ActionMenuView = global::EduApp.Droid.Resource.Styleable.ActionMenuView;
+			global::SharedActivities.Droid.Resource.Styleable.ActionMode = global::EduApp.Droid.Resource.Styleable.ActionMode;
+			global::SharedActivities.Droid.Resource.Styleable.ActionMode_background = global::EduApp.Droid.Resource.Styleable.ActionMode_background;
+			global::SharedActivities.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::EduApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::SharedActivities.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::EduApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::SharedActivities.Droid.Resource.Styleable.ActionMode_height = global::EduApp.Droid.Resource.Styleable.ActionMode_height;
+			global::SharedActivities.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::EduApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::SharedActivities.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::EduApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::SharedActivities.Droid.Resource.Styleable.ActivityChooserView = global::EduApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::SharedActivities.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::EduApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::SharedActivities.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::EduApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::SharedActivities.Droid.Resource.Styleable.AlertDialog = global::EduApp.Droid.Resource.Styleable.AlertDialog;
+			global::SharedActivities.Droid.Resource.Styleable.AlertDialog_android_layout = global::EduApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::SharedActivities.Droid.Resource.Styleable.AlertDialog_buttonIconDimen = global::EduApp.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::SharedActivities.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::EduApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::SharedActivities.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::EduApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::SharedActivities.Droid.Resource.Styleable.AlertDialog_listLayout = global::EduApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::SharedActivities.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::EduApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::SharedActivities.Droid.Resource.Styleable.AlertDialog_showTitle = global::EduApp.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::SharedActivities.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::EduApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::SharedActivities.Droid.Resource.Styleable.AnimatedStateListDrawableCompat = global::EduApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::SharedActivities.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::EduApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::SharedActivities.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::EduApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::SharedActivities.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::EduApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::SharedActivities.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::EduApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::SharedActivities.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::EduApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::SharedActivities.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::EduApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::SharedActivities.Droid.Resource.Styleable.AnimatedStateListDrawableItem = global::EduApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::SharedActivities.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::EduApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::SharedActivities.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::EduApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::SharedActivities.Droid.Resource.Styleable.AnimatedStateListDrawableTransition = global::EduApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::SharedActivities.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::EduApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::SharedActivities.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::EduApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::SharedActivities.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::EduApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::SharedActivities.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::EduApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatImageView = global::EduApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatImageView_android_src = global::EduApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::EduApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatImageView_tint = global::EduApp.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::EduApp.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatSeekBar = global::EduApp.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::EduApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::EduApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::EduApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::EduApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextHelper = global::EduApp.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::EduApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::EduApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::EduApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::EduApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::EduApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::EduApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::EduApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView = global::EduApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_drawableTint = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_lineHeight = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTextView_textLocale = global::EduApp.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme = global::EduApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_colorError = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::SharedActivities.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::EduApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::SharedActivities.Droid.Resource.Styleable.ButtonBarLayout = global::EduApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::SharedActivities.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::EduApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::SharedActivities.Droid.Resource.Styleable.ColorStateListItem = global::EduApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::SharedActivities.Droid.Resource.Styleable.ColorStateListItem_alpha = global::EduApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::SharedActivities.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::EduApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::SharedActivities.Droid.Resource.Styleable.ColorStateListItem_android_color = global::EduApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::SharedActivities.Droid.Resource.Styleable.CompoundButton = global::EduApp.Droid.Resource.Styleable.CompoundButton;
+			global::SharedActivities.Droid.Resource.Styleable.CompoundButton_android_button = global::EduApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::SharedActivities.Droid.Resource.Styleable.CompoundButton_buttonCompat = global::EduApp.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::SharedActivities.Droid.Resource.Styleable.CompoundButton_buttonTint = global::EduApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::SharedActivities.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::EduApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_android_maxHeight = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_android_maxHeight;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_android_maxWidth = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_android_maxWidth;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_android_minHeight = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_android_minHeight;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_android_minWidth = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_android_minWidth;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_android_orientation = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_android_orientation;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierAllowsGoneWidgets = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierAllowsGoneWidgets;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierDirection = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierDirection;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_chainUseRtl = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_chainUseRtl;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_constraintSet = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_constraintSet;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_ids = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_ids;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedHeight = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedHeight;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedWidth = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedWidth;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_creator = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_creator;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_creator = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_creator;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toBottomOf = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toBottomOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toTopOf = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toTopOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircle = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircle;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleAngle = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleAngle;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleRadius = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleRadius;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintDimensionRatio = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintDimensionRatio;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toEndOf = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toEndOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toStartOf = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toStartOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_begin = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_begin;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_end = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_end;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_percent = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_percent;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_default = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_default;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_max = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_max;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_min = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_min;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_percent = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_percent;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_bias = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_bias;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_weight = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_weight;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_creator = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_creator;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toLeftOf = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toLeftOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toRightOf = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toRightOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_creator = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_creator;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toLeftOf = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toLeftOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toRightOf = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toRightOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toEndOf = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toEndOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toStartOf = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toStartOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_creator = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_creator;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toBottomOf = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toBottomOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toTopOf = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toTopOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_bias = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_bias;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_chainStyle = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_chainStyle;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_weight = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_weight;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_default = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_default;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_max = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_max;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_min = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_min;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_percent = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_percent;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteX = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteX;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteY = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteY;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBottom = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBottom;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginEnd = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginEnd;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginLeft = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginLeft;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginRight = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginRight;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginStart = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginStart;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginTop = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginTop;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_optimizationLevel = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_optimizationLevel;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_placeholder = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_placeholder;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_placeholder_content = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_placeholder_content;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintLayout_placeholder_emptyVisibility = global::EduApp.Droid.Resource.Styleable.ConstraintLayout_placeholder_emptyVisibility;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet = global::EduApp.Droid.Resource.Styleable.ConstraintSet;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_alpha = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_alpha;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_elevation = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_elevation;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_id = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_id;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_layout_height = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_layout_height;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_layout_marginBottom = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_layout_marginBottom;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_layout_marginEnd = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_layout_marginEnd;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_layout_marginLeft = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_layout_marginLeft;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_layout_marginRight = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_layout_marginRight;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_layout_marginStart = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_layout_marginStart;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_layout_marginTop = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_layout_marginTop;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_layout_width = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_layout_width;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_maxHeight = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_maxHeight;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_maxWidth = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_maxWidth;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_minHeight = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_minHeight;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_minWidth = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_minWidth;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_orientation = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_orientation;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_rotation = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_rotation;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_rotationX = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_rotationX;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_rotationY = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_rotationY;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_scaleX = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_scaleX;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_scaleY = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_scaleY;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_transformPivotX = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_transformPivotX;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_transformPivotY = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_transformPivotY;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_translationX = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_translationX;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_translationY = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_translationY;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_translationZ = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_translationZ;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_android_visibility = global::EduApp.Droid.Resource.Styleable.ConstraintSet_android_visibility;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_barrierAllowsGoneWidgets = global::EduApp.Droid.Resource.Styleable.ConstraintSet_barrierAllowsGoneWidgets;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_barrierDirection = global::EduApp.Droid.Resource.Styleable.ConstraintSet_barrierDirection;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_chainUseRtl = global::EduApp.Droid.Resource.Styleable.ConstraintSet_chainUseRtl;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_ids = global::EduApp.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_ids;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constrainedHeight = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constrainedHeight;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constrainedWidth = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constrainedWidth;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_creator = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_creator;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBaselineOf = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBaselineOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_creator = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_creator;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toBottomOf = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toBottomOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toTopOf = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toTopOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircle = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircle;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircleAngle = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircleAngle;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircleRadius = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircleRadius;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintDimensionRatio = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintDimensionRatio;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toEndOf = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toEndOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toStartOf = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toStartOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_begin = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_begin;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_end = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_end;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_percent = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_percent;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_default = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_default;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_max = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_max;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_min = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_min;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_percent = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_percent;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_bias = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_bias;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_chainStyle = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_chainStyle;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_weight = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_weight;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_creator = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_creator;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toLeftOf = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toLeftOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toRightOf = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toRightOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_creator = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_creator;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_toLeftOf = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_toLeftOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_toRightOf = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_toRightOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintStart_toEndOf = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintStart_toEndOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintStart_toStartOf = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintStart_toStartOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_creator = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_creator;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_toBottomOf = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_toBottomOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_toTopOf = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_toTopOf;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_bias = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_bias;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_chainStyle = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_chainStyle;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_weight = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_weight;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_default = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_default;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_max = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_max;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_min = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_min;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_percent = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_percent;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_editor_absoluteX = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_editor_absoluteX;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_editor_absoluteY = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_editor_absoluteY;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginBottom = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginBottom;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginEnd = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginEnd;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginLeft = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginLeft;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginRight = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginRight;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginStart = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginStart;
+			global::SharedActivities.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginTop = global::EduApp.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginTop;
+			global::SharedActivities.Droid.Resource.Styleable.CoordinatorLayout = global::EduApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::SharedActivities.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::EduApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::SharedActivities.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::EduApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::SharedActivities.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::EduApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::SharedActivities.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::EduApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::SharedActivities.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::EduApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::SharedActivities.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::EduApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::SharedActivities.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::EduApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::SharedActivities.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::EduApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::SharedActivities.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::EduApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::SharedActivities.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::EduApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::SharedActivities.Droid.Resource.Styleable.CrossContainerView = global::EduApp.Droid.Resource.Styleable.CrossContainerView;
+			global::SharedActivities.Droid.Resource.Styleable.CrossContainerView_containerId = global::EduApp.Droid.Resource.Styleable.CrossContainerView_containerId;
+			global::SharedActivities.Droid.Resource.Styleable.DrawerArrowToggle = global::EduApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::SharedActivities.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::EduApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::SharedActivities.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::EduApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::SharedActivities.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::EduApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::SharedActivities.Droid.Resource.Styleable.DrawerArrowToggle_color = global::EduApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::SharedActivities.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::EduApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::SharedActivities.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::EduApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::SharedActivities.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::EduApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::SharedActivities.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::EduApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::SharedActivities.Droid.Resource.Styleable.FontFamily = global::EduApp.Droid.Resource.Styleable.FontFamily;
+			global::SharedActivities.Droid.Resource.Styleable.FontFamilyFont = global::EduApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::SharedActivities.Droid.Resource.Styleable.FontFamilyFont_android_font = global::EduApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::SharedActivities.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::EduApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::SharedActivities.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::EduApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::SharedActivities.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::EduApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::SharedActivities.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::EduApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::SharedActivities.Droid.Resource.Styleable.FontFamilyFont_font = global::EduApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::SharedActivities.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::EduApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::SharedActivities.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::EduApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::SharedActivities.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::EduApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::SharedActivities.Droid.Resource.Styleable.FontFamilyFont_ttcIndex = global::EduApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::SharedActivities.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::EduApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::SharedActivities.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::EduApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::SharedActivities.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::EduApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::SharedActivities.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::EduApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::SharedActivities.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::EduApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::SharedActivities.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::EduApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::SharedActivities.Droid.Resource.Styleable.GradientColor = global::EduApp.Droid.Resource.Styleable.GradientColor;
+			global::SharedActivities.Droid.Resource.Styleable.GradientColorItem = global::EduApp.Droid.Resource.Styleable.GradientColorItem;
+			global::SharedActivities.Droid.Resource.Styleable.GradientColorItem_android_color = global::EduApp.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::SharedActivities.Droid.Resource.Styleable.GradientColorItem_android_offset = global::EduApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::SharedActivities.Droid.Resource.Styleable.GradientColor_android_centerColor = global::EduApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::SharedActivities.Droid.Resource.Styleable.GradientColor_android_centerX = global::EduApp.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::SharedActivities.Droid.Resource.Styleable.GradientColor_android_centerY = global::EduApp.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::SharedActivities.Droid.Resource.Styleable.GradientColor_android_endColor = global::EduApp.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::SharedActivities.Droid.Resource.Styleable.GradientColor_android_endX = global::EduApp.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::SharedActivities.Droid.Resource.Styleable.GradientColor_android_endY = global::EduApp.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::SharedActivities.Droid.Resource.Styleable.GradientColor_android_gradientRadius = global::EduApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::SharedActivities.Droid.Resource.Styleable.GradientColor_android_startColor = global::EduApp.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::SharedActivities.Droid.Resource.Styleable.GradientColor_android_startX = global::EduApp.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::SharedActivities.Droid.Resource.Styleable.GradientColor_android_startY = global::EduApp.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::SharedActivities.Droid.Resource.Styleable.GradientColor_android_tileMode = global::EduApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::SharedActivities.Droid.Resource.Styleable.GradientColor_android_type = global::EduApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::SharedActivities.Droid.Resource.Styleable.LinearConstraintLayout = global::EduApp.Droid.Resource.Styleable.LinearConstraintLayout;
+			global::SharedActivities.Droid.Resource.Styleable.LinearConstraintLayout_android_orientation = global::EduApp.Droid.Resource.Styleable.LinearConstraintLayout_android_orientation;
+			global::SharedActivities.Droid.Resource.Styleable.LinearLayoutCompat = global::EduApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::SharedActivities.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::EduApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::SharedActivities.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::EduApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::SharedActivities.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::EduApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::SharedActivities.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::EduApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::SharedActivities.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::EduApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::SharedActivities.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::EduApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::SharedActivities.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::EduApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::SharedActivities.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::EduApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::SharedActivities.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::EduApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::SharedActivities.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::EduApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::SharedActivities.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::EduApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::SharedActivities.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::EduApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::SharedActivities.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::EduApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::SharedActivities.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::EduApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::SharedActivities.Droid.Resource.Styleable.ListPopupWindow = global::EduApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::SharedActivities.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::EduApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::SharedActivities.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::EduApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::SharedActivities.Droid.Resource.Styleable.LottieAnimationView = global::EduApp.Droid.Resource.Styleable.LottieAnimationView;
+			global::SharedActivities.Droid.Resource.Styleable.LottieAnimationView_lottie_autoPlay = global::EduApp.Droid.Resource.Styleable.LottieAnimationView_lottie_autoPlay;
+			global::SharedActivities.Droid.Resource.Styleable.LottieAnimationView_lottie_cacheComposition = global::EduApp.Droid.Resource.Styleable.LottieAnimationView_lottie_cacheComposition;
+			global::SharedActivities.Droid.Resource.Styleable.LottieAnimationView_lottie_colorFilter = global::EduApp.Droid.Resource.Styleable.LottieAnimationView_lottie_colorFilter;
+			global::SharedActivities.Droid.Resource.Styleable.LottieAnimationView_lottie_enableMergePathsForKitKatAndAbove = global::EduApp.Droid.Resource.Styleable.LottieAnimationView_lottie_enableMergePathsForKitKatAndAbove;
+			global::SharedActivities.Droid.Resource.Styleable.LottieAnimationView_lottie_fallbackRes = global::EduApp.Droid.Resource.Styleable.LottieAnimationView_lottie_fallbackRes;
+			global::SharedActivities.Droid.Resource.Styleable.LottieAnimationView_lottie_fileName = global::EduApp.Droid.Resource.Styleable.LottieAnimationView_lottie_fileName;
+			global::SharedActivities.Droid.Resource.Styleable.LottieAnimationView_lottie_imageAssetsFolder = global::EduApp.Droid.Resource.Styleable.LottieAnimationView_lottie_imageAssetsFolder;
+			global::SharedActivities.Droid.Resource.Styleable.LottieAnimationView_lottie_loop = global::EduApp.Droid.Resource.Styleable.LottieAnimationView_lottie_loop;
+			global::SharedActivities.Droid.Resource.Styleable.LottieAnimationView_lottie_progress = global::EduApp.Droid.Resource.Styleable.LottieAnimationView_lottie_progress;
+			global::SharedActivities.Droid.Resource.Styleable.LottieAnimationView_lottie_rawRes = global::EduApp.Droid.Resource.Styleable.LottieAnimationView_lottie_rawRes;
+			global::SharedActivities.Droid.Resource.Styleable.LottieAnimationView_lottie_renderMode = global::EduApp.Droid.Resource.Styleable.LottieAnimationView_lottie_renderMode;
+			global::SharedActivities.Droid.Resource.Styleable.LottieAnimationView_lottie_repeatCount = global::EduApp.Droid.Resource.Styleable.LottieAnimationView_lottie_repeatCount;
+			global::SharedActivities.Droid.Resource.Styleable.LottieAnimationView_lottie_repeatMode = global::EduApp.Droid.Resource.Styleable.LottieAnimationView_lottie_repeatMode;
+			global::SharedActivities.Droid.Resource.Styleable.LottieAnimationView_lottie_scale = global::EduApp.Droid.Resource.Styleable.LottieAnimationView_lottie_scale;
+			global::SharedActivities.Droid.Resource.Styleable.LottieAnimationView_lottie_speed = global::EduApp.Droid.Resource.Styleable.LottieAnimationView_lottie_speed;
+			global::SharedActivities.Droid.Resource.Styleable.LottieAnimationView_lottie_url = global::EduApp.Droid.Resource.Styleable.LottieAnimationView_lottie_url;
+			global::SharedActivities.Droid.Resource.Styleable.MenuGroup = global::EduApp.Droid.Resource.Styleable.MenuGroup;
+			global::SharedActivities.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::EduApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::SharedActivities.Droid.Resource.Styleable.MenuGroup_android_enabled = global::EduApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::SharedActivities.Droid.Resource.Styleable.MenuGroup_android_id = global::EduApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::SharedActivities.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::EduApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::SharedActivities.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::EduApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::SharedActivities.Droid.Resource.Styleable.MenuGroup_android_visible = global::EduApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem = global::EduApp.Droid.Resource.Styleable.MenuItem;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_actionLayout = global::EduApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::EduApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_actionViewClass = global::EduApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::EduApp.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::EduApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_android_checkable = global::EduApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_android_checked = global::EduApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_android_enabled = global::EduApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_android_icon = global::EduApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_android_id = global::EduApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::EduApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::EduApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_android_onClick = global::EduApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::EduApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_android_title = global::EduApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::EduApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_android_visible = global::EduApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_contentDescription = global::EduApp.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_iconTint = global::EduApp.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_iconTintMode = global::EduApp.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_numericModifiers = global::EduApp.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_showAsAction = global::EduApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::SharedActivities.Droid.Resource.Styleable.MenuItem_tooltipText = global::EduApp.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::SharedActivities.Droid.Resource.Styleable.MenuView = global::EduApp.Droid.Resource.Styleable.MenuView;
+			global::SharedActivities.Droid.Resource.Styleable.MenuView_android_headerBackground = global::EduApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::SharedActivities.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::EduApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::SharedActivities.Droid.Resource.Styleable.MenuView_android_itemBackground = global::EduApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::SharedActivities.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::EduApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::SharedActivities.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::EduApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::SharedActivities.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::EduApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::SharedActivities.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::EduApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::SharedActivities.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::EduApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::SharedActivities.Droid.Resource.Styleable.MenuView_subMenuArrow = global::EduApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::SharedActivities.Droid.Resource.Styleable.PopupWindow = global::EduApp.Droid.Resource.Styleable.PopupWindow;
+			global::SharedActivities.Droid.Resource.Styleable.PopupWindowBackgroundState = global::EduApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::SharedActivities.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::EduApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::SharedActivities.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::EduApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::SharedActivities.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::EduApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::SharedActivities.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::EduApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::SharedActivities.Droid.Resource.Styleable.RecycleListView = global::EduApp.Droid.Resource.Styleable.RecycleListView;
+			global::SharedActivities.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::EduApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::SharedActivities.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::EduApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::SharedActivities.Droid.Resource.Styleable.SearchView = global::EduApp.Droid.Resource.Styleable.SearchView;
+			global::SharedActivities.Droid.Resource.Styleable.SearchView_android_focusable = global::EduApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::SharedActivities.Droid.Resource.Styleable.SearchView_android_imeOptions = global::EduApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::SharedActivities.Droid.Resource.Styleable.SearchView_android_inputType = global::EduApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::SharedActivities.Droid.Resource.Styleable.SearchView_android_maxWidth = global::EduApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::SharedActivities.Droid.Resource.Styleable.SearchView_closeIcon = global::EduApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::SharedActivities.Droid.Resource.Styleable.SearchView_commitIcon = global::EduApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::SharedActivities.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::EduApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::SharedActivities.Droid.Resource.Styleable.SearchView_goIcon = global::EduApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::SharedActivities.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::EduApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::SharedActivities.Droid.Resource.Styleable.SearchView_layout = global::EduApp.Droid.Resource.Styleable.SearchView_layout;
+			global::SharedActivities.Droid.Resource.Styleable.SearchView_queryBackground = global::EduApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::SharedActivities.Droid.Resource.Styleable.SearchView_queryHint = global::EduApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::SharedActivities.Droid.Resource.Styleable.SearchView_searchHintIcon = global::EduApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::SharedActivities.Droid.Resource.Styleable.SearchView_searchIcon = global::EduApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::SharedActivities.Droid.Resource.Styleable.SearchView_submitBackground = global::EduApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::SharedActivities.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::EduApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::SharedActivities.Droid.Resource.Styleable.SearchView_voiceIcon = global::EduApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::SharedActivities.Droid.Resource.Styleable.Spinner = global::EduApp.Droid.Resource.Styleable.Spinner;
+			global::SharedActivities.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::EduApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::SharedActivities.Droid.Resource.Styleable.Spinner_android_entries = global::EduApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::SharedActivities.Droid.Resource.Styleable.Spinner_android_popupBackground = global::EduApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::SharedActivities.Droid.Resource.Styleable.Spinner_android_prompt = global::EduApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::SharedActivities.Droid.Resource.Styleable.Spinner_popupTheme = global::EduApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::SharedActivities.Droid.Resource.Styleable.StateListDrawable = global::EduApp.Droid.Resource.Styleable.StateListDrawable;
+			global::SharedActivities.Droid.Resource.Styleable.StateListDrawableItem = global::EduApp.Droid.Resource.Styleable.StateListDrawableItem;
+			global::SharedActivities.Droid.Resource.Styleable.StateListDrawableItem_android_drawable = global::EduApp.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::SharedActivities.Droid.Resource.Styleable.StateListDrawable_android_constantSize = global::EduApp.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::SharedActivities.Droid.Resource.Styleable.StateListDrawable_android_dither = global::EduApp.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::SharedActivities.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::EduApp.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::SharedActivities.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::EduApp.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::SharedActivities.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::EduApp.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::SharedActivities.Droid.Resource.Styleable.StateListDrawable_android_visible = global::EduApp.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::SharedActivities.Droid.Resource.Styleable.SwitchCompat = global::EduApp.Droid.Resource.Styleable.SwitchCompat;
+			global::SharedActivities.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::EduApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::SharedActivities.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::EduApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::SharedActivities.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::EduApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::SharedActivities.Droid.Resource.Styleable.SwitchCompat_showText = global::EduApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::SharedActivities.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::EduApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::SharedActivities.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::EduApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::SharedActivities.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::EduApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::SharedActivities.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::EduApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::SharedActivities.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::EduApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::SharedActivities.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::EduApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::SharedActivities.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::EduApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::SharedActivities.Droid.Resource.Styleable.SwitchCompat_track = global::EduApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::SharedActivities.Droid.Resource.Styleable.SwitchCompat_trackTint = global::EduApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::SharedActivities.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::EduApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::SharedActivities.Droid.Resource.Styleable.TextAppearance = global::EduApp.Droid.Resource.Styleable.TextAppearance;
+			global::SharedActivities.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::EduApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::SharedActivities.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::EduApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::SharedActivities.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::EduApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::SharedActivities.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::EduApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::SharedActivities.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::EduApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::SharedActivities.Droid.Resource.Styleable.TextAppearance_android_textColor = global::EduApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::SharedActivities.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::EduApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::SharedActivities.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::EduApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::SharedActivities.Droid.Resource.Styleable.TextAppearance_android_textFontWeight = global::EduApp.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::SharedActivities.Droid.Resource.Styleable.TextAppearance_android_textSize = global::EduApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::SharedActivities.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::EduApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::SharedActivities.Droid.Resource.Styleable.TextAppearance_android_typeface = global::EduApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::SharedActivities.Droid.Resource.Styleable.TextAppearance_fontFamily = global::EduApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::SharedActivities.Droid.Resource.Styleable.TextAppearance_fontVariationSettings = global::EduApp.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::SharedActivities.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::EduApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::SharedActivities.Droid.Resource.Styleable.TextAppearance_textLocale = global::EduApp.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar = global::EduApp.Droid.Resource.Styleable.Toolbar;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_android_gravity = global::EduApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_android_minHeight = global::EduApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_buttonGravity = global::EduApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::EduApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_collapseIcon = global::EduApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::EduApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::EduApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::EduApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::EduApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::EduApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::EduApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_logo = global::EduApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_logoDescription = global::EduApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::EduApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_menu = global::EduApp.Droid.Resource.Styleable.Toolbar_menu;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::EduApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_navigationIcon = global::EduApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_popupTheme = global::EduApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_subtitle = global::EduApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::EduApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::EduApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_title = global::EduApp.Droid.Resource.Styleable.Toolbar_title;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_titleMargin = global::EduApp.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::EduApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::EduApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_titleMargins = global::EduApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::EduApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::EduApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::EduApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::SharedActivities.Droid.Resource.Styleable.Toolbar_titleTextColor = global::EduApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::SharedActivities.Droid.Resource.Styleable.View = global::EduApp.Droid.Resource.Styleable.View;
+			global::SharedActivities.Droid.Resource.Styleable.ViewBackgroundHelper = global::EduApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::SharedActivities.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::EduApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::SharedActivities.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::EduApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::SharedActivities.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::EduApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::SharedActivities.Droid.Resource.Styleable.ViewStubCompat = global::EduApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::SharedActivities.Droid.Resource.Styleable.ViewStubCompat_android_id = global::EduApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::SharedActivities.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::EduApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::SharedActivities.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::EduApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::SharedActivities.Droid.Resource.Styleable.View_android_focusable = global::EduApp.Droid.Resource.Styleable.View_android_focusable;
+			global::SharedActivities.Droid.Resource.Styleable.View_android_theme = global::EduApp.Droid.Resource.Styleable.View_android_theme;
+			global::SharedActivities.Droid.Resource.Styleable.View_paddingEnd = global::EduApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::SharedActivities.Droid.Resource.Styleable.View_paddingStart = global::EduApp.Droid.Resource.Styleable.View_paddingStart;
+			global::SharedActivities.Droid.Resource.Styleable.View_theme = global::EduApp.Droid.Resource.Styleable.View_theme;
+			global::SharedActivities.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::EduApp.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::EduApp.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::EduApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::EduApp.Droid.Resource.Attribute.font;
@@ -5828,274 +7828,286 @@ namespace EduApp.Droid
 			public const int progress_horizontal = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int radio = 2131230886;
+			public const int questionIconLottieView = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int restart = 2131230887;
+			public const int radio = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int reverse = 2131230888;
+			public const int restart = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int right = 2131230889;
+			public const int reverse = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int right_icon = 2131230890;
+			public const int right = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int right_side = 2131230891;
+			public const int right_icon = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int save_non_transition_alpha = 2131230892;
+			public const int right_side = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int save_overlay_view = 2131230893;
+			public const int save_non_transition_alpha = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int screen = 2131230894;
+			public const int save_overlay_view = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int scroll = 2131230895;
-			
-			// aapt resource value: 0x7F0800B3
-			public const int scrollable = 2131230899;
+			public const int screen = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int scrollIndicatorDown = 2131230896;
-			
-			// aapt resource value: 0x7F0800B1
-			public const int scrollIndicatorUp = 2131230897;
-			
-			// aapt resource value: 0x7F0800B2
-			public const int scrollView = 2131230898;
+			public const int scroll = 2131230896;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int search_badge = 2131230900;
+			public const int scrollable = 2131230900;
+			
+			// aapt resource value: 0x7F0800B1
+			public const int scrollIndicatorDown = 2131230897;
+			
+			// aapt resource value: 0x7F0800B2
+			public const int scrollIndicatorUp = 2131230898;
+			
+			// aapt resource value: 0x7F0800B3
+			public const int scrollView = 2131230899;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int search_bar = 2131230901;
+			public const int search_badge = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int search_button = 2131230902;
+			public const int search_bar = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int search_close_btn = 2131230903;
+			public const int search_button = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int search_edit_frame = 2131230904;
+			public const int search_close_btn = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int search_go_btn = 2131230905;
+			public const int search_edit_frame = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int search_mag_icon = 2131230906;
+			public const int search_go_btn = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int search_plate = 2131230907;
+			public const int search_mag_icon = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int search_src_text = 2131230908;
+			public const int search_plate = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int search_voice_btn = 2131230909;
-			
-			// aapt resource value: 0x7F0800BF
-			public const int selected = 2131230911;
+			public const int search_src_text = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int select_dialog_listview = 2131230910;
+			public const int search_voice_btn = 2131230910;
+			
+			// aapt resource value: 0x7F0800C0
+			public const int selected = 2131230912;
+			
+			// aapt resource value: 0x7F0800BF
+			public const int select_dialog_listview = 2131230911;
 			
 			// aapt resource value: 0x7F080004
 			public const int SHIFT = 2131230724;
 			
-			// aapt resource value: 0x7F0800C0
-			public const int shortcut = 2131230912;
-			
 			// aapt resource value: 0x7F0800C1
-			public const int showCustom = 2131230913;
+			public const int shortcut = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int showHome = 2131230914;
+			public const int showCustom = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int showTitle = 2131230915;
+			public const int showHome = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int smallLabel = 2131230916;
+			public const int showTitle = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int snackbar_action = 2131230917;
+			public const int situationTextView = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int snackbar_text = 2131230918;
+			public const int smallLabel = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int snap = 2131230919;
+			public const int snackbar_action = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int snapMargins = 2131230920;
+			public const int snackbar_text = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int software = 2131230921;
+			public const int snap = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int spacer = 2131230922;
+			public const int snapMargins = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int split_action_bar = 2131230923;
+			public const int software = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int spread = 2131230924;
+			public const int spacer = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int spread_inside = 2131230925;
+			public const int split_action_bar = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int src_atop = 2131230926;
+			public const int spread = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int src_in = 2131230927;
+			public const int spread_inside = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int src_over = 2131230928;
+			public const int src_atop = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int standard = 2131230929;
+			public const int src_in = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int start = 2131230930;
+			public const int src_over = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int stretch = 2131230931;
+			public const int standard = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int submenuarrow = 2131230932;
+			public const int start = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int submit_area = 2131230933;
+			public const int stretch = 2131230933;
+			
+			// aapt resource value: 0x7F0800D7
+			public const int submenuarrow = 2131230935;
+			
+			// aapt resource value: 0x7F0800D8
+			public const int submit_area = 2131230936;
+			
+			// aapt resource value: 0x7F0800D6
+			public const int subTitleTextView = 2131230934;
 			
 			// aapt resource value: 0x7F080005
 			public const int SYM = 2131230725;
 			
-			// aapt resource value: 0x7F0800D6
-			public const int tabMode = 2131230934;
-			
-			// aapt resource value: 0x7F0800D7
-			public const int tag_accessibility_actions = 2131230935;
-			
-			// aapt resource value: 0x7F0800D8
-			public const int tag_accessibility_clickable_spans = 2131230936;
-			
 			// aapt resource value: 0x7F0800D9
-			public const int tag_accessibility_heading = 2131230937;
+			public const int tabMode = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int tag_accessibility_pane_title = 2131230938;
+			public const int tag_accessibility_actions = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int tag_screen_reader_focusable = 2131230939;
+			public const int tag_accessibility_clickable_spans = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int tag_transition_group = 2131230940;
+			public const int tag_accessibility_heading = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int tag_unhandled_key_event_manager = 2131230941;
+			public const int tag_accessibility_pane_title = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int tag_unhandled_key_listeners = 2131230942;
+			public const int tag_screen_reader_focusable = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int text = 2131230943;
+			public const int tag_transition_group = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int text2 = 2131230944;
-			
-			// aapt resource value: 0x7F0800E5
-			public const int textinput_counter = 2131230949;
-			
-			// aapt resource value: 0x7F0800E6
-			public const int textinput_error = 2131230950;
-			
-			// aapt resource value: 0x7F0800E7
-			public const int textinput_helper_text = 2131230951;
+			public const int tag_unhandled_key_event_manager = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int textSpacerNoButtons = 2131230945;
+			public const int tag_unhandled_key_listeners = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int textSpacerNoTitle = 2131230946;
+			public const int text = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int textStart = 2131230947;
-			
-			// aapt resource value: 0x7F0800E4
-			public const int text_input_password_toggle = 2131230948;
+			public const int text2 = 2131230947;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int time = 2131230952;
+			public const int textinput_counter = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int title = 2131230953;
+			public const int textinput_error = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int titleDividerNoCustom = 2131230954;
+			public const int textinput_helper_text = 2131230954;
+			
+			// aapt resource value: 0x7F0800E4
+			public const int textSpacerNoButtons = 2131230948;
+			
+			// aapt resource value: 0x7F0800E5
+			public const int textSpacerNoTitle = 2131230949;
+			
+			// aapt resource value: 0x7F0800E6
+			public const int textStart = 2131230950;
+			
+			// aapt resource value: 0x7F0800E7
+			public const int text_input_password_toggle = 2131230951;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int title_template = 2131230955;
+			public const int time = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int top = 2131230956;
+			public const int title = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int topPanel = 2131230957;
+			public const int titleDividerNoCustom = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int touch_outside = 2131230958;
+			public const int titleTextView = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int transition_current_scene = 2131230959;
+			public const int title_template = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int transition_layout_save = 2131230960;
+			public const int top = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int transition_position = 2131230961;
+			public const int topPanel = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int transition_scene_layoutid_cache = 2131230962;
+			public const int touch_outside = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int transition_transform = 2131230963;
+			public const int transition_current_scene = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int @unchecked = 2131230964;
+			public const int transition_layout_save = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int uniform = 2131230965;
+			public const int transition_position = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int unlabeled = 2131230966;
+			public const int transition_scene_layoutid_cache = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int up = 2131230967;
+			public const int transition_transform = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int useLogo = 2131230968;
+			public const int @unchecked = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int view_offset_helper = 2131230969;
+			public const int uniform = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int visible = 2131230970;
+			public const int unlabeled = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int withText = 2131230971;
+			public const int up = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int wrap = 2131230972;
+			public const int useLogo = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int wrap_content = 2131230973;
+			public const int view_offset_helper = 2131230973;
+			
+			// aapt resource value: 0x7F0800FE
+			public const int visible = 2131230974;
+			
+			// aapt resource value: 0x7F0800FF
+			public const int withText = 2131230975;
+			
+			// aapt resource value: 0x7F080100
+			public const int wrap = 2131230976;
+			
+			// aapt resource value: 0x7F080101
+			public const int wrap_content = 2131230977;
 			
 			static Id()
 			{
@@ -6302,100 +8314,103 @@ namespace EduApp.Droid
 			public const int activity_main = 2131427356;
 			
 			// aapt resource value: 0x7F0B001D
-			public const int browser_actions_context_menu_page = 2131427357;
+			public const int activity_title = 2131427357;
 			
 			// aapt resource value: 0x7F0B001E
-			public const int browser_actions_context_menu_row = 2131427358;
+			public const int browser_actions_context_menu_page = 2131427358;
 			
 			// aapt resource value: 0x7F0B001F
-			public const int content_main = 2131427359;
+			public const int browser_actions_context_menu_row = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
-			public const int custom_dialog = 2131427360;
+			public const int content_main = 2131427360;
 			
 			// aapt resource value: 0x7F0B0021
-			public const int default_activity_layout = 2131427361;
+			public const int custom_dialog = 2131427361;
 			
 			// aapt resource value: 0x7F0B0022
-			public const int design_bottom_navigation_item = 2131427362;
+			public const int default_activity_layout = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public const int design_bottom_sheet_dialog = 2131427363;
+			public const int design_bottom_navigation_item = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_layout_snackbar = 2131427364;
+			public const int design_bottom_sheet_dialog = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_layout_snackbar_include = 2131427365;
+			public const int design_layout_snackbar = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_layout_tab_icon = 2131427366;
+			public const int design_layout_snackbar_include = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_layout_tab_text = 2131427367;
+			public const int design_layout_tab_icon = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_menu_item_action_area = 2131427368;
+			public const int design_layout_tab_text = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int design_navigation_item = 2131427369;
+			public const int design_menu_item_action_area = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_item_header = 2131427370;
+			public const int design_navigation_item = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_item_separator = 2131427371;
+			public const int design_navigation_item_header = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int design_navigation_item_subheader = 2131427372;
+			public const int design_navigation_item_separator = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int design_navigation_menu = 2131427373;
+			public const int design_navigation_item_subheader = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int design_navigation_menu_item = 2131427374;
+			public const int design_navigation_menu = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int design_text_input_password_icon = 2131427375;
+			public const int design_navigation_menu_item = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int main_view = 2131427376;
+			public const int design_text_input_password_icon = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int mtrl_layout_snackbar = 2131427377;
+			public const int main_view = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int mtrl_layout_snackbar_include = 2131427378;
+			public const int mtrl_layout_snackbar = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int notification_action = 2131427379;
+			public const int mtrl_layout_snackbar_include = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int notification_action_tombstone = 2131427380;
+			public const int notification_action = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int notification_template_custom_big = 2131427381;
+			public const int notification_action_tombstone = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int notification_template_icon_group = 2131427382;
+			public const int notification_template_custom_big = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int notification_template_part_chronometer = 2131427383;
+			public const int notification_template_icon_group = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int notification_template_part_time = 2131427384;
+			public const int notification_template_part_chronometer = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int select_dialog_item_material = 2131427385;
+			public const int notification_template_part_time = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int select_dialog_multichoice_material = 2131427386;
+			public const int select_dialog_item_material = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int select_dialog_singlechoice_material = 2131427387;
+			public const int select_dialog_multichoice_material = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int support_simple_spinner_dropdown_item = 2131427388;
+			public const int select_dialog_singlechoice_material = 2131427388;
+			
+			// aapt resource value: 0x7F0B003D
+			public const int support_simple_spinner_dropdown_item = 2131427389;
 			
 			static Layout()
 			{

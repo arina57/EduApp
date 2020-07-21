@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Globalization;
+using System.IO;
+using System.Xml.Serialization;
 using CrossLibrary.Dependency;
 using SharedActivities.Core.CrossPlatformInterfaces;
 using SQLite;
@@ -9,8 +11,14 @@ namespace SharedActivities.Core {
 
         public static ISharedCrossFuctions SharedCrossFuctions = CrossViewDependencyService.Get<ISharedCrossFuctions>(CrossViewDependencyService.DependencyFetchTarget.GlobalInstance);
 
-        
 
+
+        public static T GetXmlRoot<T>(string xml) {
+            var serializer = new XmlSerializer(typeof(T));
+            using (TextReader reader = new StringReader(xml)) {
+                return (T)serializer.Deserialize(reader);
+            }
+        }
 
         public static void SetLanguage(CultureInfo language) {
             SharedCrossFuctions.SetLanguage(language);

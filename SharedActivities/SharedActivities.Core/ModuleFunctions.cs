@@ -17,8 +17,7 @@ namespace SharedActivities.Core {
 
 
         public string GetFilename(Role role) => (role.Gender == Gender.Male ? "male" : role.Gender == Gender.Female ? "female" : "other") + role.Appearance.ToString("D3");
-
-        public string GetImageJson(Role role) => ResourceLoader.GetEmbeddedResourceString(ImageResourceAssembly, @"Resources.Lottie.Faces." + GetFilename(role) + ".json");
+        public string GetImageJson(Role role) => Resx.Lottie.ResourceManager.GetString(GetFilename(role));
 
         public Dictionary<Role, string> GetRoleLottieJson(IEnumerable<Role> roles) {
             var roleImages = new Dictionary<Role, string>();

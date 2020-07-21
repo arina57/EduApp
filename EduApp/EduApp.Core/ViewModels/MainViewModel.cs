@@ -11,23 +11,24 @@ using SharedActivities.Core.Models;
 namespace EduApp.Core.ViewModels {
     public class MainViewModel : CrossViewModel {
         public MainViewModel() {
-            
+
+    
 
         }
 
 
         private static List<Role> GetRoles() {
-            return ResourceLoader.GetXmlRoot<Roles>(typeof(MainViewModel).Assembly, "Resources.Roles.xml").Items;
+            return SharedFunctions.GetXmlRoot<Roles>(Resources.Resources.Roles).Items;
         }
 
         private static List<Activity> GetActivities() {
-            return ResourceLoader.GetXmlRoot<Activities>(typeof(MainViewModel).Assembly, "Resources.ActivityNames.xml").Items;
+            return SharedFunctions.GetXmlRoot<Activities>(Resources.Resources.ActivityNames).Items;
         }
 
 
         private static List<IActivityDataModel> GetExerciseData() {
             List<IActivityDataModel> exerciseData = new List<IActivityDataModel>();
-            exerciseData.AddRange(ResourceLoader.GetXmlRoot<DialogueGapFillExercises>(typeof(MainViewModel).Assembly, "Resources.DialogueGapFill.xml").Items);
+            exerciseData.AddRange(SharedFunctions.GetXmlRoot<DialogueGapFillExercises>(Resources.Resources.DialogueGapFill).Items);
             return exerciseData;
         }
 
