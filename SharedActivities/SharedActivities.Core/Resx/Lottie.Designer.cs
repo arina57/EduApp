@@ -61,17 +61,76 @@ namespace SharedActivities.Core.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized string similar to {
+        ///  &quot;v&quot;: &quot;5.4.1&quot;,
+        ///  &quot;fr&quot;: 1,
+        ///  &quot;ip&quot;: 0,
+        ///  &quot;op&quot;: 1,
+        ///  &quot;w&quot;: 14,
+        ///  &quot;h&quot;: 14,
+        ///  &quot;nm&quot;: &quot;tick_green.ai&quot;,
+        ///  &quot;ddd&quot;: 0,
+        ///  &quot;assets&quot;: [],
+        ///  &quot;layers&quot;: [
+        ///    {
+        ///      &quot;ddd&quot;: 0,
+        ///      &quot;ind&quot;: 1,
+        ///      &quot;ty&quot;: 4,
+        ///      &quot;nm&quot;: &quot;tick_green Outlines&quot;,
+        ///      &quot;sr&quot;: 1,
+        ///      &quot;ks&quot;: {
+        ///        &quot;o&quot;: {
+        ///          &quot;a&quot;: 0,
+        ///          &quot;k&quot;: 100,
+        ///          &quot;ix&quot;: 11
+        ///        },
+        ///        &quot;r&quot;: {
+        ///          &quot;a&quot;: 0,
+        ///          &quot;k&quot;: 0,
+        ///          &quot;ix&quot;: 10
+        ///        },
+        ///        &quot;p&quot;: {
+        ///          &quot;a&quot;: 0,
+        ///          &quot;k&quot;: [ 7, 7, 0 ],        /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static byte[] ScoringBad {
+        public static string ScoringBad {
             get {
-                object obj = ResourceManager.GetObject("ScoringBad", resourceCulture);
-                return ((byte[])(obj));
+                return ResourceManager.GetString("ScoringBad", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;v&quot;:&quot;5.4.1&quot;,&quot;fr&quot;:1,&quot;ip&quot;:0,&quot;op&quot;:1,&quot;w&quot;:14,&quot;h&quot;:14,&quot;nm&quot;:&quot;tick_green.ai&quot;,&quot;ddd&quot;:0,&quot;assets&quot;:[],&quot;layers&quot;:[{&quot;ddd&quot;:0,&quot;ind&quot;:1,&quot;ty&quot;:4,&quot;nm&quot;:&quot;tick_green Outlines&quot;,&quot;sr&quot;:1,&quot;ks&quot;:{&quot;o&quot;:{&quot;a&quot;:0,&quot;k&quot;:100,&quot;ix&quot;:11},&quot;r&quot;:{&quot;a&quot;:0,&quot;k&quot;:0,&quot;ix&quot;:10},&quot;p&quot;:{&quot;a&quot;:0,&quot;k&quot;:[7,7,0],&quot;ix&quot;:2},&quot;a&quot;:{&quot;a&quot;:0,&quot;k&quot;:[7,7,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;a&quot;:0,&quot;k&quot;:[100,100,100],&quot;ix&quot;:6}},&quot;ao&quot;:0,&quot;shapes&quot;:[{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ix&quot;:1,&quot;ks&quot;:{&quot;a&quot;:0,&quot;k&quot;:{&quot;i&quot;:[[0,0],[0,0],[0.151,-0.004],[0.109,-0.107],[0,0],[0,0],[0.155,-0.001],[0.108,-0.109],[0,0],[-0.002,-0.1....
+        ///   Looks up a localized string similar to {
+        ///  &quot;v&quot;: &quot;5.4.1&quot;,
+        ///  &quot;fr&quot;: 1,
+        ///  &quot;ip&quot;: 0,
+        ///  &quot;op&quot;: 1,
+        ///  &quot;w&quot;: 14,
+        ///  &quot;h&quot;: 14,
+        ///  &quot;nm&quot;: &quot;tick_green.ai&quot;,
+        ///  &quot;ddd&quot;: 0,
+        ///  &quot;assets&quot;: [],
+        ///  &quot;layers&quot;: [
+        ///    {
+        ///      &quot;ddd&quot;: 0,
+        ///      &quot;ind&quot;: 1,
+        ///      &quot;ty&quot;: 4,
+        ///      &quot;nm&quot;: &quot;tick_green Outlines&quot;,
+        ///      &quot;sr&quot;: 1,
+        ///      &quot;ks&quot;: {
+        ///        &quot;o&quot;: {
+        ///          &quot;a&quot;: 0,
+        ///          &quot;k&quot;: 100,
+        ///          &quot;ix&quot;: 11
+        ///        },
+        ///        &quot;r&quot;: {
+        ///          &quot;a&quot;: 0,
+        ///          &quot;k&quot;: 0,
+        ///          &quot;ix&quot;: 10
+        ///        },
+        ///        &quot;p&quot;: {
+        ///          &quot;a&quot;: 0,
+        ///          &quot;k&quot;: [ 7, 7, 0 ],        /// [rest of string was truncated]&quot;;.
         /// </summary>
         public static string ScoringGood {
             get {
@@ -80,11 +139,41 @@ namespace SharedActivities.Core.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;v&quot;:&quot;5.4.1&quot;,&quot;fr&quot;:1,&quot;ip&quot;:0,&quot;op&quot;:1,&quot;w&quot;:14,&quot;h&quot;:14,&quot;nm&quot;:&quot;tick_green.ai&quot;,&quot;ddd&quot;:0,&quot;assets&quot;:[],&quot;layers&quot;:[{&quot;ddd&quot;:0,&quot;ind&quot;:1,&quot;ty&quot;:4,&quot;nm&quot;:&quot;tick_green Outlines&quot;,&quot;sr&quot;:1,&quot;ks&quot;:{&quot;o&quot;:{&quot;a&quot;:0,&quot;k&quot;:100,&quot;ix&quot;:11},&quot;r&quot;:{&quot;a&quot;:0,&quot;k&quot;:0,&quot;ix&quot;:10},&quot;p&quot;:{&quot;a&quot;:0,&quot;k&quot;:[7,7,0],&quot;ix&quot;:2},&quot;a&quot;:{&quot;a&quot;:0,&quot;k&quot;:[7,7,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;a&quot;:0,&quot;k&quot;:[100,100,100],&quot;ix&quot;:6}},&quot;ao&quot;:0,&quot;shapes&quot;:[{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ix&quot;:1,&quot;ks&quot;:{&quot;a&quot;:0,&quot;k&quot;:{&quot;i&quot;:[[0,0],[0,0],[0.151,-0.004],[0.109,-0.107],[0,0],[0,0],[0.155,-0.001],[0.108,-0.109],[0,0],[-0.002,-0.1....
+        ///   Looks up a localized string similar to {
+        ///  &quot;v&quot;: &quot;5.4.1&quot;,
+        ///  &quot;fr&quot;: 1,
+        ///  &quot;ip&quot;: 0,
+        ///  &quot;op&quot;: 1,
+        ///  &quot;w&quot;: 14,
+        ///  &quot;h&quot;: 14,
+        ///  &quot;nm&quot;: &quot;tick_green.ai&quot;,
+        ///  &quot;ddd&quot;: 0,
+        ///  &quot;assets&quot;: [],
+        ///  &quot;layers&quot;: [
+        ///    {
+        ///      &quot;ddd&quot;: 0,
+        ///      &quot;ind&quot;: 1,
+        ///      &quot;ty&quot;: 4,
+        ///      &quot;nm&quot;: &quot;tick_green Outlines&quot;,
+        ///      &quot;sr&quot;: 1,
+        ///      &quot;ks&quot;: {
+        ///        &quot;o&quot;: {
+        ///          &quot;a&quot;: 0,
+        ///          &quot;k&quot;: 100,
+        ///          &quot;ix&quot;: 11
+        ///        },
+        ///        &quot;r&quot;: {
+        ///          &quot;a&quot;: 0,
+        ///          &quot;k&quot;: 0,
+        ///          &quot;ix&quot;: 10
+        ///        },
+        ///        &quot;p&quot;: {
+        ///          &quot;a&quot;: 0,
+        ///          &quot;k&quot;: [ 7, 7, 0 ],        /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string ScoringGreat {
+        public static string ScoringPerfect {
             get {
-                return ResourceManager.GetString("ScoringGreat", resourceCulture);
+                return ResourceManager.GetString("ScoringPerfect", resourceCulture);
             }
         }
     }
