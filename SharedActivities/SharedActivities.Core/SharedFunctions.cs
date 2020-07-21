@@ -9,7 +9,7 @@ using SQLite;
 namespace SharedActivities.Core {
     public static class SharedFunctions {
 
-        public static ISharedCrossFuctions SharedCrossFuctions = CrossViewDependencyService.Get<ISharedCrossFuctions>(CrossViewDependencyService.DependencyFetchTarget.GlobalInstance);
+        public static ISharedCrossFuctions SharedCrossFuctions => CrossViewDependencyService.Get<ISharedCrossFuctions>(CrossViewDependencyService.DependencyFetchTarget.GlobalInstance);
 
 
 
