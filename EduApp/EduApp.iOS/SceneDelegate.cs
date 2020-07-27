@@ -8,9 +8,6 @@ using UIKit;
 namespace NewSingleViewTemplate {
     [Register("SceneDelegate")]
     public class SceneDelegate : CrossSceneDelegate {
-
-        
         protected override CrossApp CrossApp => new EduApp.Core.CrossApp();
-
     }
 }

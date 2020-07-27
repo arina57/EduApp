@@ -11,6 +11,11 @@ using SharedActivities.Core.Models;
 namespace EduApp.Core.ViewModels {
     public class MainViewModel : CrossViewModel {
         public MainViewModel() {
+           
+        }
+
+        public override void ViewCreated() {
+            base.ViewCreated();
             var a = GetRoles();
             var b = GetActivities();
             var c = GetExerciseData();

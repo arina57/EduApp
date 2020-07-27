@@ -16,23 +16,15 @@ namespace EduApp.Droid {
     [Activity(Label = "@string/app_name", Theme = "@style/splashScreenTheme", MainLauncher = true)]
     public class MainActivity : CrossLibrary.Droid.Views.CrossActivity {
 
-
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetTheme(Resource.Style.AppTheme_NoActionBar);
-            SetContentView(Resource.Layout.activity_main);
-
-              
+            SetContentView(CrossLibrary.Droid.Resource.Layout.default_activity_layout);
         }
-
-
-
-
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults) {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
     }

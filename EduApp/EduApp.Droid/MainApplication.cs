@@ -3,6 +3,8 @@ using Android.App;
 using Android.OS;
 using Android.Runtime;
 using CrossLibrary.Core;
+using CrossLibrary.Dependency;
+using CrossLibrary.Droid.CrossPlatformImplimentations;
 using EduApp.Core.ViewModels;
 
 namespace EduApp.Droid {
@@ -13,9 +15,7 @@ namespace EduApp.Droid {
 
         protected override CrossApp CrossApp => new Core.CrossApp();
 
-        public override void OnActivityCreated(Activity activity, Bundle savedInstanceState) {
-            base.OnActivityCreated(activity, savedInstanceState);
-        }
+
 
     }
 }
