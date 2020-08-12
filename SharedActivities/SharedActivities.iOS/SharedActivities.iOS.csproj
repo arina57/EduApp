@@ -40,10 +40,38 @@
     <Folder Include="Resources\" />
     <Folder Include="CrossPlatformImplimentations\" />
     <Folder Include="Views\" />
+    <Folder Include="Views\Exercises\" />
+    <Folder Include="Views\Exercises\Results\" />
+    <Folder Include="Views\Exercises\GapFill\" />
+    <Folder Include="CustomViews\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CrossPlatformImplimentations\SharedCrossFunctions.cs" />
+    <Compile Include="Views\UnitPracticeView.cs" />
+    <Compile Include="Views\UnitPracticeView.designer.cs">
+      <DependentUpon>UnitPracticeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Functions.cs" />
+    <Compile Include="Views\UnitPracticeCellView.cs" />
+    <Compile Include="Views\UnitPracticeCellView.designer.cs">
+      <DependentUpon>UnitPracticeCellView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Exercises\GapFill\GapFill.cs" />
+    <Compile Include="Views\Exercises\GapFill\GapFill.designer.cs">
+      <DependentUpon>GapFill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomViews\ContentSizedCollectionView.cs" />
+    <Compile Include="Views\Exercises\GapFill\GapFillCell.cs" />
+    <Compile Include="Views\Exercises\GapFill\GapFillCell.designer.cs">
+      <DependentUpon>GapFillCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomViews\ReplaceableTextUITextView.cs" />
+    <Compile Include="CustomViews\MyUITextInputStringTokenizer.cs" />
+    <Compile Include="Views\Exercises\GapFill\GapFillVocabCell.cs" />
+    <Compile Include="Views\Exercises\GapFill\GapFillVocabCell.designer.cs">
+      <DependentUpon>GapFillVocabCell.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Essentials">
@@ -61,6 +89,13 @@
       <Project>{5B9ABEB5-ADF3-4ED6-A590-D4EF861A143A}</Project>
       <Name>SharedActivities.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Views\UnitPracticeView.xib" />
+    <InterfaceDefinition Include="Views\UnitPracticeCellView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\GapFill\GapFill.xib" />
+    <InterfaceDefinition Include="Views\Exercises\GapFill\GapFillCell.xib" />
+    <InterfaceDefinition Include="Views\Exercises\GapFill\GapFillVocabCell.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

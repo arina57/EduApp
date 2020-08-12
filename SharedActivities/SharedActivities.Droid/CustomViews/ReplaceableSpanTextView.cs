@@ -16,7 +16,7 @@ using SharedActivities.Core;
 
 namespace SharedActivities.Droid.CustomViews {
     [Register("sharedlibrary.droid.customcontrols.ReplaceableSpanTextView")]
-    public class ReplaceableSpanTextView : TextView {
+    public class ReplaceableSpanTextView : TextView  {
 
         //public Func<string, string> LinkClickedAssign;
         public event EventHandler<ReplaceTextClickedEventArgs> LinkTouched;
