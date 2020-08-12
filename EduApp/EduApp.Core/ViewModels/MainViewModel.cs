@@ -1,15 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Runtime.Serialization;
 using System.Xml;
 using System.Xml.Serialization;
 using CrossLibrary;
 using SharedActivities.Core;
 using SharedActivities.Core.Models;
+using SharedActivities.Core.ViewModels.Exercises;
 
 namespace EduApp.Core.ViewModels {
     public class MainViewModel : CrossViewModel {
+        public string ButtonText => Resources.String.GapFillButton;
+        private ModuleFunctions moduleFunctions;
         public MainViewModel() {
            
         }
@@ -19,6 +23,7 @@ namespace EduApp.Core.ViewModels {
             var a = GetRoles();
             var b = GetActivities();
             var c = GetExerciseData();
+            moduleFunctions = new ModuleFunctions(c, a);
         }
 
 
@@ -37,5 +42,10 @@ namespace EduApp.Core.ViewModels {
             return exerciseData;
         }
 
+        public void Button_Clicked(object sender, EventArgs e) {
+            var gapfill = moduleFunctions.AllActivityDataModel.Where(activity => activity is IGapFillModel).First() as IGapFillModel;
+            var gapFillViewModel = new GapFillViewModel(gapfill, moduleFunctions);
+            gapFillViewModel.Show();
+        }
     }
 }

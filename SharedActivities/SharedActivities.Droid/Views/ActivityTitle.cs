@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using Android.OS;
 using Android.Views;
 using Android.Widget;
@@ -41,7 +42,10 @@ namespace SharedActivities.Droid.Views {
 
         public override void OnFirstOnResume() {
             base.OnFirstOnResume();
-            questionIconLottieView.SetAnimationFromJson(ViewModel.IconLottie, "IconLottie");
+            if(!string.IsNullOrEmpty(ViewModel.IconLottie)) {
+                questionIconLottieView.SetAnimationFromJson(ViewModel.IconLottie, "IconLottie");
+            }
+            
 
         }
 

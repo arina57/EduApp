@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SharedActivities.Core.Resx {
+namespace EduApp.Core.Resources {
     using System;
     using System.Reflection;
     
@@ -30,7 +30,7 @@ namespace SharedActivities.Core.Resx {
         public static System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.Equals(null, resourceMan)) {
-                    System.Resources.ResourceManager temp = new System.Resources.ResourceManager("SharedActivities.Core.Resx.String", typeof(String).Assembly);
+                    System.Resources.ResourceManager temp = new System.Resources.ResourceManager("EduApp.Core.Resources.String", typeof(String).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -47,51 +47,9 @@ namespace SharedActivities.Core.Resx {
             }
         }
         
-        public static string CheckAnswersButton {
+        public static string GapFillButton {
             get {
-                return ResourceManager.GetString("CheckAnswersButton", resourceCulture);
-            }
-        }
-        
-        public static string FeedbackPerfect {
-            get {
-                return ResourceManager.GetString("FeedbackPerfect", resourceCulture);
-            }
-        }
-        
-        public static string FeedbackGood {
-            get {
-                return ResourceManager.GetString("FeedbackGood", resourceCulture);
-            }
-        }
-        
-        public static string FeedbackNotGood {
-            get {
-                return ResourceManager.GetString("FeedbackNotGood", resourceCulture);
-            }
-        }
-        
-        public static string PlusPoints {
-            get {
-                return ResourceManager.GetString("PlusPoints", resourceCulture);
-            }
-        }
-        
-        public static string NthAttemptBonus {
-            get {
-                return ResourceManager.GetString("NthAttemptBonus", resourceCulture);
-            }
-        }
-        
-        public static string PerfectScoreBonus {
-            get {
-                return ResourceManager.GetString("PerfectScoreBonus", resourceCulture);
-            }
-        }
-        
-        public static string TryAgain {
-            get {
-                return ResourceManager.GetString("TryAgain", resourceCulture);
+                return ResourceManager.GetString("GapFillButton", resourceCulture);
             }
         }
     }

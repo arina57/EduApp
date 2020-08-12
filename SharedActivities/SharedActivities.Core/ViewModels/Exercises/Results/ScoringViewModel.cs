@@ -217,6 +217,7 @@ namespace SharedActivities.Core.ViewModels.Exercises.Results {
             Resx.String.FeedbackGood :
             Resx.String.FeedbackNotGood;
 
+        public string ThinkingImageJson => Resx.Lottie.Thinking;
 
         public string ResultImageJson => CompletedGood ? CompletedGreat ?
             Resx.Lottie.ScoringPerfect :

@@ -10,7 +10,8 @@ namespace SharedActivities.Core.Models.Database {
         [PrimaryKey]
         public int Id { get; set; } = 1;
 
-        public CultureInfo Language { get; set; }
+        [Ignore]
+        public CultureInfo Language { get => new CultureInfo(CurrentCultureCode); set => CurrentCultureCode = value.TwoLetterISOLanguageName; }
         public Guid InstallId { get; set; }
 
         public DateTime FirstRunDate { get; set; } = DateTime.Now;
@@ -25,7 +26,9 @@ namespace SharedActivities.Core.Models.Database {
         public TimeSpan TotalTimeInApp => SavedTimeInApp + TimeSinceAppear;
 
         private DateTime appearTime = DateTime.Now;
-        private CultureInfo currentCulture;
+
+
+        public string CurrentCultureCode;
 
         [Ignore]
         public TimeSpan TimeSinceAppear => appearTime > DateTime.MinValue ? DateTime.Now.Subtract(appearTime) : TimeSpan.Zero;
@@ -55,6 +58,7 @@ namespace SharedActivities.Core.Models.Database {
         public Settings() {
             //var settings = await GeneralDatabase.LocalDatabase.GetSettings();
             //Language = settings.Language;
+            Language = CommonFunctions.GetDefaultCulture();
         }
 
         public Settings(CultureInfo currentCulture) {

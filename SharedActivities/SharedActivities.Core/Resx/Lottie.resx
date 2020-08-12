@@ -127,4 +127,14 @@
   <data name="ScoringPerfect" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lottie\ScoringPerfect.json;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
+    
+      <data name="done_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lottie\done_icon.json;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+      <data name="donePerfect_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lottie\donePerfect_icon.json;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+      <data name="Thinking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lottie\Thinking.json;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
 </root>

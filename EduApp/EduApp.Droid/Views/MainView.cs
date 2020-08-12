@@ -26,6 +26,10 @@ namespace EduApp.Droid.Views {
             // Use this to return your custom view for this Fragment
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
             var view = inflater.Inflate(Resource.Layout.main_view, container, false);
+            var button = view.FindViewById<Button>(Resource.Id.button);
+            BindText(button, vm => vm.ButtonText);
+            BindClick(button, vm => vm.Button_Clicked);
+
             return view;
         }
 

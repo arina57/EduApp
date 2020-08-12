@@ -23,6 +23,11 @@ namespace EduApp.Droid {
             SetContentView(CrossLibrary.Droid.Resource.Layout.default_activity_layout);
         }
 
+        protected override void OnResume() {
+            base.OnResume();
+            SetTheme(Resource.Style.AppTheme_NoActionBar);
+        }
+
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults) {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);

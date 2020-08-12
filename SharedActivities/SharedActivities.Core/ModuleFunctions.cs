@@ -8,7 +8,6 @@ using SharedActivities.Core.ViewModels.Exercises;
 
 namespace SharedActivities.Core {
     public class ModuleFunctions {
-        public Assembly ImageResourceAssembly { get; }
         private List<IActivityDataModel> allActivityDataModel;
         public IReadOnlyList<IActivityDataModel> AllActivityDataModel => allActivityDataModel.AsReadOnly();
         private List<Role> allRoles;
@@ -27,8 +26,7 @@ namespace SharedActivities.Core {
             return roleImages;
         }
 
-        public ModuleFunctions(List<IActivityDataModel> allActivityDataModel, List<Role> allRoles, Assembly imageResourceAssembly) {
-            ImageResourceAssembly = imageResourceAssembly;
+        public ModuleFunctions(List<IActivityDataModel> allActivityDataModel, List<Role> allRoles) {
             this.allActivityDataModel = allActivityDataModel;
             this.allRoles = allRoles;
 

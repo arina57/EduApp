@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Resx\Lottie\" />
     <Folder Include="ViewModels\" />
     <Folder Include="ViewModels\Exercises\" />
     <Folder Include="ViewModels\Exercises\Results\" />
