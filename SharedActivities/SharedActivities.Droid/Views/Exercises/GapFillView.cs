@@ -12,7 +12,7 @@ using SharedActivities.Droid.CustomViews;
 using Com.Airbnb.Lottie;
 
 namespace SharedActivities.Droid.Views.Exercises {
-    public class GapFill : CrossFragment<GapFillViewModel> {
+    public class GapFillView : CrossFragment<GapFillViewModel> {
         private TextView invisibleTextView;
         //private LottieAnimationView doneIcon;
         private RecyclerView gapfillRecyclerView;
@@ -22,7 +22,7 @@ namespace SharedActivities.Droid.Views.Exercises {
         private int draggedItemId;
         //private Task<LottieDrawable> doneIconImage = Functions.LottieDrawableFromJsonStringAsync(Resx.Lottie.round_check_box_solidcheck, "Resx.Lottie.round_check_box_solidcheck", (GlobalColorPalette.Light, "Background"));
         public IExerciseLogic ExerciseLogic => ViewModel;
-        public GapFill() {
+        public GapFillView() {
         }
 
         public override void OnCreate(Bundle savedInstanceState) {
@@ -155,9 +155,9 @@ namespace SharedActivities.Droid.Views.Exercises {
         }
 
         private class VocabRecyclerAdapter : RecyclerView.Adapter {
-            private GapFill dialogueGapFill;
+            private GapFillView dialogueGapFill;
 
-            public VocabRecyclerAdapter(GapFill unorderedGapFill) {
+            public VocabRecyclerAdapter(GapFillView unorderedGapFill) {
                 this.dialogueGapFill = unorderedGapFill;
             }
 
@@ -188,9 +188,9 @@ namespace SharedActivities.Droid.Views.Exercises {
         }
 
         private class GapfillRecyclerAdapter : RecyclerView.Adapter {
-            private GapFill dialogueGapFill;
+            private GapFillView dialogueGapFill;
 
-            public GapfillRecyclerAdapter(GapFill dialogueGapFill) {
+            public GapfillRecyclerAdapter(GapFillView dialogueGapFill) {
                 this.dialogueGapFill = dialogueGapFill;
             }
 

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <crosslibrary.droid.views.CrossContainerView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:containerId="title"
+    />
+
+    <crosslibrary.droid.views.CrossContainerView
+            android:id="@+id/exerciseContainer"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title"
+            app:layout_constraintBottom_toTopOf="@+id/doneButton"
+            app:containerId="exerciseContainer" />
+
+    <TextView
+        android:layout_margin="5dp"
+        android:paddingStart="2dp"
+		android:paddingEnd="2dp"
+        android:background="#AABBCC"
+        android:textColor="@android:color/white"
+        android:textSize="22dp"
+        android:id="@+id/doneButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Try Again"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:stateListAnimator="@animator/shrink_and_lower_pressed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/activitySelectorRecyclerView"
+        />
+
+    <!--<ImageView-->
+    <!--app:srcCompat="@mipmap/UnitSelect_characterarmL"-->
+    <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/activitySelectorLeft"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:layout_marginRight="1dp"
+            app:layout_constrainedHeight="false"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintDimensionRatio="1"
+            android:scaleType="fitEnd"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/activitySelectorRecyclerView"
+            app:layout_constraintBottom_toBottomOf="@+id/activitySelectorRecyclerView"
+            app:layout_constraintTop_toTopOf="@+id/activitySelectorRecyclerView"
+            app:layout_constraintHorizontal_chainStyle="packed"
+    />
+
+
+    <!--<ImageView-->
+    <!--app:srcCompat="@mipmap/UnitSelect_characterarmR"-->
+    <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/activitySelectorRight"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="1dp"
+            android:adjustViewBounds="true"
+            app:layout_constrainedHeight="true"
+            app:layout_constrainedWidth="false"
+            app:layout_constraintDimensionRatio="1"
+            android:scaleType="fitStart"
+            app:layout_constraintStart_toEndOf="@+id/activitySelectorRecyclerView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/activitySelectorRecyclerView"
+            app:layout_constraintTop_toTopOf="@+id/activitySelectorRecyclerView"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/unit_practice_activity_select_cell"
+            tools:itemCount="8"
+            android:id="@+id/activitySelectorRecyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_gravity="center"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintWidth_max="wrap"
+            app:layout_constraintWidth_percent="0.4"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintStart_toEndOf="@+id/activitySelectorLeft"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toStartOf="@+id/activitySelectorRight"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+    />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

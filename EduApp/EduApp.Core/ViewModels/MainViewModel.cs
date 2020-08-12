@@ -8,6 +8,7 @@ using System.Xml.Serialization;
 using CrossLibrary;
 using SharedActivities.Core;
 using SharedActivities.Core.Models;
+using SharedActivities.Core.ViewModels;
 using SharedActivities.Core.ViewModels.Exercises;
 
 namespace EduApp.Core.ViewModels {
@@ -43,9 +44,8 @@ namespace EduApp.Core.ViewModels {
         }
 
         public void Button_Clicked(object sender, EventArgs e) {
-            var gapfill = moduleFunctions.AllActivityDataModel.Where(activity => activity is IGapFillModel).First() as IGapFillModel;
-            var gapFillViewModel = new GapFillViewModel(gapfill, moduleFunctions);
-            gapFillViewModel.Show();
+            var unitPractice = new UnitPracticeViewModel(5, 1, moduleFunctions);
+            unitPractice.Show();
         }
     }
 }

@@ -13,6 +13,6 @@ namespace SharedActivities.Core.ViewModels {
         public string SituationText => viewModel.SituationText;
         public string TitleText => viewModel.TitleText;
 
-        public string IconLottie { get; set; }
+        public string IconLottie => Resx.Lottie.dialogue;
     }
 }

@@ -9,7 +9,7 @@ using SharedActivities.Core;
 using SharedActivities.Core.ViewModels;
 
 namespace SharedActivities.Droid.Views {
-    public class ActivityTitle : CrossFragment<ActivityTitleViewModel> {
+    public class ActivityTitleView : CrossFragment<ActivityTitleViewModel> {
 
         private TextView titleTextView;
         private LottieAnimationView questionIconLottieView;
@@ -18,7 +18,7 @@ namespace SharedActivities.Droid.Views {
 
 
 
-        public ActivityTitle() {
+        public ActivityTitleView() {
         }
 
         public override void OnCreate(Bundle savedInstanceState) {

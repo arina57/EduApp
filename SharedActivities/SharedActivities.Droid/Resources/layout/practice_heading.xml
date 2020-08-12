@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/activityTitleTextView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="Title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="true"
+        android:background="#AABBCC"
+        android:gravity="left|center_vertical"
+        app:autoSizeMaxTextSize="20sp"
+        app:autoSizeMinTextSize="1sp"
+        app:autoSizeTextType="uniform"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/chapterNumberTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/chapterNumberTextView"
+        android:layout_width="40dp"
+        android:layout_height="0dp"
+        android:text="1"
+        android:textSize="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:autoSizeMaxTextSize="40sp"
+        app:autoSizeMinTextSize="1sp"
+        app:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:background="@drawable/squarebox3dp"
+        app:layout_constraintBottom_toBottomOf="@id/activityTitleTextView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/completedImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="#00BBCC00"
+        app:layout_constraintBottom_toTopOf="@+id/perfectImageView"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintEnd_toEndOf="@+id/activityTitleTextView"
+
+        app:layout_constraintTop_toTopOf="@+id/activityTitleTextView" />
+
+    <sharedactivities.droid.customcontrols.FontTextView
+        android:id="@+id/timesCompletedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="2dp"
+        android:background="#00FFCC00"
+        app:outlineSize="2"
+        android:textColor="#FFFFFF"
+        app:outlineColor="#000000"
+        android:shadowRadius="2"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowColor="#000000"
+        android:text="9"
+        android:textSize="10sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/completedImageView"
+        app:layout_constraintEnd_toStartOf="@+id/completedImageView"
+        app:layout_constraintTop_toTopOf="@+id/completedImageView"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/perfectImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="#0000BBCC"
+        app:autoSizeMaxTextSize="16sp"
+        app:autoSizeMinTextSize="1sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintTop_toBottomOf="@+id/completedImageView"
+        app:layout_constraintBottom_toBottomOf="@+id/activityTitleTextView"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintEnd_toEndOf="@+id/activityTitleTextView"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true" />
+
+    <sharedactivities.droid.customcontrols.FontTextView
+        android:id="@+id/timesPerfectTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="2dp"
+        android:background="#00BBCCFF"
+        app:outlineSize="2"
+        android:textColor="#FFFFFF"
+        app:outlineColor="#000000"
+        android:shadowRadius="2"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowColor="#000000"
+        android:text="9"
+        android:textSize="10sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/perfectImageView"
+        app:layout_constraintEnd_toStartOf="@+id/perfectImageView"
+        app:layout_constraintTop_toTopOf="@+id/perfectImageView"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/pointsImageView"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#00BBCC00"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintTop_toBottomOf="@+id/activityTitleTextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/activityTitleTextView"
+
+        />
+
+    <TextView
+        android:id="@+id/pointsText"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="999999"
+        android:textColor="#000000"
+        android:background="#00AABBCC"
+        app:layout_constraintTop_toBottomOf="@+id/activityTitleTextView"
+        app:layout_constraintStart_toEndOf="@+id/pointsImageView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:lines="1"
+        app:autoSizeMaxTextSize="20sp"
+        app:autoSizeMinTextSize="5sp"
+        app:autoSizeTextType="uniform"
+        android:gravity="center|start"/>
+
+    <TextView
+        android:id="@+id/subtitleTextView"
+        android:text="ChapterTitle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textColor="#231F20"
+        app:autoSizeMaxTextSize="40sp"
+        app:autoSizeMinTextSize="1sp"
+        app:autoSizeTextType="uniform"
+        android:gravity="center_vertical|end"
+        app:layout_constraintTop_toBottomOf="@+id/activityTitleTextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pointsText"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="textEnd"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

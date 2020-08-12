@@ -50,6 +50,10 @@ namespace SharedActivities.Core.ViewModels {
         public string SubtitleText => activityData.UnitName;
         public string ChapterNumber => activityData.UnitId.ToString();
 
+        public string CompletedImageJson => Resx.Lottie.done_icon;
+        public string PerfectImageJson => Resx.Lottie.donePerfect_icon;
+
+        public string PointsImageJson => Resx.Lottie.pointsIcon;
 
         public void PointsRefreshed() {
             PreviousPoints = Points;

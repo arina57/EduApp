@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+
+  <declare-styleable name="FontTextView">
+    <attr name="fontName" format="string" />
+    <attr name="outlineSize" format="float"/>
+    <attr name="outlineColor" format="color|reference"/>
+    <attr name="android:shadowRadius"/>
+    <attr name="android:shadowDx"/>
+    <attr name="android:shadowDy"/>
+    <attr name="android:shadowColor"/>
+  </declare-styleable>
+
+</resources>

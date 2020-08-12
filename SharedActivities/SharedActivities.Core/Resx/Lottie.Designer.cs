@@ -82,5 +82,17 @@ namespace SharedActivities.Core.Resx {
                 return ResourceManager.GetString("Thinking", resourceCulture);
             }
         }
+        
+        public static string pointsIcon {
+            get {
+                return ResourceManager.GetString("pointsIcon", resourceCulture);
+            }
+        }
+        
+        public static string dialogue {
+            get {
+                return ResourceManager.GetString("dialogue", resourceCulture);
+            }
+        }
     }
 }
