@@ -56,6 +56,8 @@
     <Compile Include="Views\UnitPracticeView.cs" />
     <Compile Include="Views\PracticeHeadingView.cs" />
     <Compile Include="CustomViews\FontTextView.cs" />
+    <Compile Include="Views\Exercises\Results\GapFillResultsView.cs" />
+    <Compile Include="Views\Exercises\Results\ScoringView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -128,6 +130,22 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\score_page_with_explanation.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\scoring.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\circular_progress_bar.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\circle_shape.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
@@ -138,6 +156,7 @@
     <Folder Include="CustomViews\" />
     <Folder Include="Resources\animator\" />
     <Folder Include="Resources\anim\" />
+    <Folder Include="Views\Exercises\Results\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SharedActivities.Core\SharedActivities.Core.csproj">

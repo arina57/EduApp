@@ -36,4 +36,7 @@
     <data name="TryAgain" xml:space="preserve">
     <value>Try Again</value>
   </data>
+        <data name="PlusPoints" xml:space="preserve">
+    <value>+{0} points</value>
+  </data>
 </root>
