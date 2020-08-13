@@ -139,9 +139,6 @@
     <PackageReference Include="Plugin.CurrentActivity">
       <Version>2.1.0.4</Version>
     </PackageReference>
-    <PackageReference Include="com.arina57.crosslibrary">
-      <Version>1.0.7.4</Version>
-    </PackageReference>
 </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EduApp.Core\EduApp.Core.csproj">

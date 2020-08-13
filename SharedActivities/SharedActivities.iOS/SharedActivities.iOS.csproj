@@ -77,9 +77,6 @@
     <PackageReference Include="Xamarin.Essentials">
       <Version>1.5.3.2</Version>
     </PackageReference>
-    <PackageReference Include="com.arina57.crosslibrary">
-      <Version>1.0.7.4</Version>
-    </PackageReference>
     <PackageReference Include="Com.Airbnb.iOS.Lottie">
       <Version>2.5.11</Version>
     </PackageReference>
@@ -88,6 +85,14 @@
     <ProjectReference Include="..\SharedActivities.Core\SharedActivities.Core.csproj">
       <Project>{5B9ABEB5-ADF3-4ED6-A590-D4EF861A143A}</Project>
       <Name>SharedActivities.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CrossLibrary\CrossLibrary.Core\CrossLibrary.Core.csproj">
+      <Project>{A402BD25-EC6E-4470-B77D-273E5E1D72EA}</Project>
+      <Name>CrossLibrary.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CrossLibrary\CrossLibrary.iOS\CrossLibrary.iOS.csproj">
+      <Project>{2A078BB1-81ED-4FA3-B48F-E2107E67270C}</Project>
+      <Name>CrossLibrary.iOS</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
