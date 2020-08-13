@@ -52,18 +52,9 @@ namespace SharedActivities.iOS.Views {
 
             DoneButton.TouchUpInside += ResetButton_TouchUpInside;
             DoneButton.BackgroundColor = GlobalColorPalette.Medium.ToPlatformColor();
-            DoneButton.Font = UIFont.FromName("ChaletComprime-CologneSeventy", DoneButton.Font.PointSize);
             DoneButton.SetTitleColor(GlobalColorPalette.White.ToPlatformColor(), UIControlState.Normal);
             DoneButton.AddShadow();
 
-            //leftImage = Functions.LottieFromString(Resx.Lottie.UnitPractice_navbarrobotL, GlobalColorPalette.VeryDark);
-            //rightImage = Functions.LottieFromString(Resx.Lottie.UnitPractice_navbarrobotR, GlobalColorPalette.VeryDark);
-            //PageSelectorLeft.Subviews.ReleaseChildren();
-            //PageSelectorLeft.Subviews.ReleaseChildren();
-            //PageSelectorLeft.AddSubview(leftImage);
-            //PageSelectorRight.AddSubview(rightImage);
-            //leftImage.FillParentContraints();
-            //rightImage.FillParentContraints();
 
 
         }
