@@ -1,12 +1,15 @@
 ﻿using System;
 using Airbnb.Lottie;
+using CrossLibrary.Dependency;
 using CrossLibrary.iOS.Views;
 using Foundation;
 using SharedActivities.Core;
 using SharedActivities.Core.ViewModels;
+using SharedActivities.iOS.Views;
 using UIKit;
 using Xamarin.Essentials;
 
+[assembly: CrossDependency(typeof(UnitPracticeView))]
 namespace SharedActivities.iOS.Views {
     public partial class UnitPracticeView : CrossUIViewController<UnitPracticeViewModel> {
         private UICollectionViewFlowLayout collectionViewFlowControl;

@@ -200,7 +200,6 @@ namespace CrossLibrary.Dependency {
                 // Don't use LINQ for performance reasons
                 // Naive implementation can easily take over a second to run
                 foreach (Assembly assembly in assemblies) {
-
                     object[] attributes;
                     try {
 #if NETSTANDARD2_0

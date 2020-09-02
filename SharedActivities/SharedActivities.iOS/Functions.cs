@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Drawing;
+using System.Threading.Tasks;
 using Airbnb.Lottie;
 using CoreAnimation;
+using CrossLibrary;
 using CrossLibrary.iOS;
 using UIKit;
 using Xamarin.Essentials;
@@ -95,6 +97,21 @@ namespace SharedActivities.iOS {
             PlatformFunctions.FillParentContraints(childView);
             childView.ContentMode = UIViewContentMode.ScaleAspectFit;
         }
+
+        /// <summary>
+        /// Updates the text in intervals.
+        /// If less than 20ms have passed since last update, then it won't update, to avoid excessive ui updates
+        /// </summary>
+        /// <param name="label"></param>
+        /// <param name="durationMilis"></param>
+        /// <param name="from"></param>
+        /// <param name="to"></param>
+        /// <param name="formattedString"></param>
+        /// <returns></returns>
+        public static async Task AnimateTextNumberAsync(this UILabel label, int durationMilis, int from, int to, string formattedString = "{0}") {
+            await CommonFunctions.AnimateTextNumberAsync((value) => label.Text = value, durationMilis, from, to, formattedString);
+        }
+
 
     }
 }
