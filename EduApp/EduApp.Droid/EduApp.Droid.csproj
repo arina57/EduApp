@@ -153,6 +153,14 @@
       <Project>{610F5BA4-E1FB-492A-A3B6-1A536907AA7C}</Project>
       <Name>SharedActivities.Droid</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\CrossLibrary\CrossLibrary.Droid\CrossLibrary.Droid.csproj">
+      <Project>{CC33E7DB-5126-40E6-AE8E-11307EE36A24}</Project>
+      <Name>CrossLibrary.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CrossLibrary\CrossLibrary.Core\CrossLibrary.Core.csproj">
+      <Project>{A402BD25-EC6E-4470-B77D-273E5E1D72EA}</Project>
+      <Name>CrossLibrary.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
