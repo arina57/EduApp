@@ -6,7 +6,7 @@ using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
     public partial class PhraseMatchInnerCell : UITableViewCell, IDraggableItem {
-        public static readonly NSString Key = new NSString("PhraseMatchingPoolCellInnerCell");
+        public static readonly NSString Key = new NSString(nameof(PhraseMatchInnerCell));
         public static readonly UINib Nib = UINib.FromName(Key, NSBundle.MainBundle);
         private PhraseMatchViewModel viewModel;
         private int mainPhraseId;

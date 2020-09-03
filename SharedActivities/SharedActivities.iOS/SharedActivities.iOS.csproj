@@ -160,6 +160,10 @@
     <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchInnerCell.designer.cs">
       <DependentUpon>PhraseMatchInnerCell.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchResults.cs" />
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchResults.designer.cs">
+      <DependentUpon>PhraseMatchResults.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Essentials">
@@ -208,6 +212,7 @@
     <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchMainCell.xib" />
     <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchDragView.xib" />
     <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchInnerCell.xib" />
+    <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchResults.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

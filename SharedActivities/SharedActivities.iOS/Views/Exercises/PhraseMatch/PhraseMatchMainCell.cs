@@ -7,16 +7,14 @@ using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
     public partial class PhraseMatchMainCell : UITableViewCell {
-        public static readonly NSString Key = new NSString("PhraseMatchingPoolMainPhraseCell");
-        public static readonly UINib Nib;
+        public static readonly string Key = nameof(PhraseMatchMainCell);
+        public static readonly UINib Nib = UINib.FromName(Key, NSBundle.MainBundle);
         private Action<UIPanGestureRecognizer> dragActionHandler;
-        private PhraseMatchViewModel logic;
+        private PhraseMatchViewModel viewModel;
         int position;
         public int MainPhraseId { get; private set; }
 
-        static PhraseMatchMainCell() {
-            Nib = UINib.FromName("PhraseMatchingPoolMainPhraseCell", NSBundle.MainBundle);
-        }
+   
 
         public override void AwakeFromNib() {
             base.AwakeFromNib();
@@ -31,7 +29,7 @@ namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
 
         public void Setup(PhraseMatchViewModel logic, int position, Action<UIPanGestureRecognizer> dragActionHandler = null) {
             this.dragActionHandler = dragActionHandler;
-            this.logic = logic;
+            this.viewModel = logic;
             this.position = position;
             MainPhraseLabel.Text = logic.GetMainPhrase(position);
             MainPhraseId = logic.GetMainPhraseId(position);
@@ -49,7 +47,7 @@ namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
 
         private class MatchesSource : UITableViewSource {
             private PhraseMatchMainCell phraseMatchingPoolMainPhraseCell;
-            PhraseMatchViewModel Logic => phraseMatchingPoolMainPhraseCell.logic;
+            PhraseMatchViewModel Logic => phraseMatchingPoolMainPhraseCell.viewModel;
             public MatchesSource(PhraseMatchMainCell phraseMatchingPoolMainPhraseCell) {
 
                 this.phraseMatchingPoolMainPhraseCell = phraseMatchingPoolMainPhraseCell;

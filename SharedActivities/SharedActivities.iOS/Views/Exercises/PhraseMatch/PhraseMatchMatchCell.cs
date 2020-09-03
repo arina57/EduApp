@@ -5,13 +5,11 @@ using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
     public partial class PhraseMatchMatchCell : UICollectionViewCell, IDraggableItem {
-        public static readonly NSString Key = new NSString("PhraseMatchingPoolMatchCell");
-        public static readonly UINib Nib;
+        public static readonly NSString Key = new NSString(nameof(PhraseMatchMatchCell));
+        public static readonly UINib Nib = UINib.FromName(Key, NSBundle.MainBundle);
 
 
-        static PhraseMatchMatchCell() {
-            Nib = UINib.FromName("PhraseMatchingPoolMatchCell", NSBundle.MainBundle);
-        }
+  
 
         protected PhraseMatchMatchCell(IntPtr handle) : base(handle) {
             // Note: this .ctor should not contain any initialization logic.
