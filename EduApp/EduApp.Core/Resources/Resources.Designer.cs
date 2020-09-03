@@ -70,5 +70,17 @@ namespace EduApp.Core.Resources {
                 return ResourceManager.GetString("DialogueGapFill", resourceCulture);
             }
         }
+        
+        internal static string DialogueOptionQuiz {
+            get {
+                return ResourceManager.GetString("DialogueOptionQuiz", resourceCulture);
+            }
+        }
+        
+        internal static string OptionQuiz {
+            get {
+                return ResourceManager.GetString("OptionQuiz", resourceCulture);
+            }
+        }
     }
 }

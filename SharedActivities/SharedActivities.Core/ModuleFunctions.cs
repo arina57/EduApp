@@ -5,6 +5,8 @@ using System.Linq;
 using CrossLibrary;
 using SharedActivities.Core.Models;
 using SharedActivities.Core.ViewModels.Exercises;
+using SharedActivities.Core.Models.OptionQuizModel;
+using SharedActivities.Core.Models.DialogueGapFillExercises;
 
 namespace SharedActivities.Core {
     public class ModuleFunctions {
@@ -38,7 +40,17 @@ namespace SharedActivities.Core {
             switch (activityDataModel) {
                 case IGapFillModel gapFillExercise:
                     return new GapFillViewModel(gapFillExercise, this);
-             
+                case Models.DialogueOptionQuizModel.DialogueOptionQuiz dialogueOptionQuiz:
+                    return new DialogueOptionQuizViewModel(dialogueOptionQuiz, this);
+                case OptionQuizData optionQuizData:
+                    if (optionQuizData.ActivityData.ActivityId == 8) {
+                        var gapFill = allActivityDataModel.OfType<DialogueGapFillExercise>()
+                            .Where(exercise => exercise.ActivityData.Matches(optionQuizData.ActivityData.CourseId, optionQuizData.ActivityData.UnitId))
+                            .First();
+                        return new ReadingOptionQuizViewModel(optionQuizData, gapFill, this);
+                    } else {
+                        return new BasicOptionQuizViewModel(optionQuizData);
+                    }
                 default:
                     throw new Exception("Could not match type");
             }

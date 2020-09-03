@@ -8,6 +8,9 @@ using System.Xml.Serialization;
 using CrossLibrary;
 using SharedActivities.Core;
 using SharedActivities.Core.Models;
+using SharedActivities.Core.Models.DialogueGapFillExercises;
+using SharedActivities.Core.Models.DialogueOptionQuizModel;
+using SharedActivities.Core.Models.OptionQuizModel;
 using SharedActivities.Core.ViewModels;
 using SharedActivities.Core.ViewModels.Exercises;
 
@@ -40,6 +43,9 @@ namespace EduApp.Core.ViewModels {
         private static List<IActivityDataModel> GetExerciseData() {
             List<IActivityDataModel> exerciseData = new List<IActivityDataModel>();
             exerciseData.AddRange(SharedFunctions.GetXmlRoot<DialogueGapFillExercises>(Resources.Resources.DialogueGapFill).Items);
+            exerciseData.AddRange(SharedFunctions.GetXmlRoot<DialogueOptionQuizes>(Resources.Resources.DialogueOptionQuiz).Items);
+            //exerciseData.AddRange(SharedFunctions.GetXmlRoot<OptionQuizes>(Resources.Resources.OptionQuiz).Items);
+
             return exerciseData;
         }
 
