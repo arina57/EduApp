@@ -82,5 +82,11 @@ namespace EduApp.Core.Resources {
                 return ResourceManager.GetString("OptionQuiz", resourceCulture);
             }
         }
+        
+        internal static string PhraseMatchingPool {
+            get {
+                return ResourceManager.GetString("PhraseMatchingPool", resourceCulture);
+            }
+        }
     }
 }
