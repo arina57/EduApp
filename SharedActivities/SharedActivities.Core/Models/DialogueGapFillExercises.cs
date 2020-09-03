@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Xml.Serialization;
 
-namespace SharedActivities.Core.Models {
+namespace SharedActivities.Core.Models.DialogueGapFillExercises {
     [Serializable]
     [XmlRoot("DialogueGapFillExercises")]
     public class DialogueGapFillExercises {

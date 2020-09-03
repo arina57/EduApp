@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using SharedActivities.Core.ViewModels.Exercises.Results;
 using CrossLibrary;
+using SharedActivities.Core.Models.DialogueGapFillExercises;
 
 namespace SharedActivities.Core.ViewModels.Exercises {
     public class GapFillViewModel : ExerciseViewModel {

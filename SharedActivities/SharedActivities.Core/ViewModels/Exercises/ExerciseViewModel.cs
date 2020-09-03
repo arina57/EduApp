@@ -37,7 +37,7 @@ namespace SharedActivities.Core.ViewModels.Exercises {
         public abstract int TotalNumberOfQuestions { get; }
 
         public virtual ScoringViewModel ScoringViewModel { get; protected set; }
-        public virtual CrossViewModel ResultsViewModel { get; protected set; }
+        public virtual CrossViewModelExtra ResultsViewModel { get; protected set; }
         public virtual bool HasResultsView => ScoringViewModel?.TotalNumberOfQuestions > 0;
 
         public virtual bool Finished { get; protected set; }
