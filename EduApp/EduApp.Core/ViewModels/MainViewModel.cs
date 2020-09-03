@@ -44,7 +44,7 @@ namespace EduApp.Core.ViewModels {
             List<IActivityDataModel> exerciseData = new List<IActivityDataModel>();
             exerciseData.AddRange(SharedFunctions.GetXmlRoot<DialogueGapFillExercises>(Resources.Resources.DialogueGapFill).Items);
             exerciseData.AddRange(SharedFunctions.GetXmlRoot<DialogueOptionQuizes>(Resources.Resources.DialogueOptionQuiz).Items);
-            //exerciseData.AddRange(SharedFunctions.GetXmlRoot<OptionQuizes>(Resources.Resources.OptionQuiz).Items);
+            exerciseData.AddRange(SharedFunctions.GetXmlRoot<OptionQuizes>(Resources.Resources.OptionQuiz).Items);
 
             return exerciseData;
         }

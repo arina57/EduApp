@@ -4,7 +4,7 @@ VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EduApp", "EduApp", "{C9D46D6B-8D98-4EE6-923B-3319ACD8287D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduApp.Core", "EduApp\EduApp.Core\EduApp.Core.csproj", "{0E5D50DC-03DD-4DC8-99EE-09E82C3C6C26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduApp.Core", "EduApp\EduApp.Core\EduApp.Core.csproj", "{0E5D50DC-03DD-4DC8-99EE-09E82C3C6C26}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduApp.iOS", "EduApp\EduApp.iOS\EduApp.iOS.csproj", "{D1B04E34-25ED-4DA6-B27B-44B7B0890B40}"
 EndProject
@@ -12,7 +12,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduApp.Droid", "EduApp\EduA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedActivities", "SharedActivities", "{254C9637-344C-41C6-9CDC-46F41313845B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedActivities.Core", "SharedActivities\SharedActivities.Core\SharedActivities.Core.csproj", "{5B9ABEB5-ADF3-4ED6-A590-D4EF861A143A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedActivities.Core", "SharedActivities\SharedActivities.Core\SharedActivities.Core.csproj", "{5B9ABEB5-ADF3-4ED6-A590-D4EF861A143A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedActivities.iOS", "SharedActivities\SharedActivities.iOS\SharedActivities.iOS.csproj", "{51419C38-C176-4149-A69F-17246595E1EF}"
 EndProject
