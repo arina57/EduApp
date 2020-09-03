@@ -55,7 +55,7 @@ namespace SharedActivities.Core.ViewModels.Exercises {
 
         public override void ViewCreated() {
             base.ViewCreated();
-            ActivityTitle?.ShowView(ActivityTitleViewModel);
+            //ActivityTitle?.ShowView(ActivityTitleViewModel);
         }
         protected virtual void OnTextChanged() {
             TextChanged?.Invoke(this, EventArgs.Empty);

@@ -133,8 +133,12 @@ namespace CrossLibrary.iOS {
         }
 
         public static void ShowIn(this UIViewController viewController, UIView containerView) {
+            //Get the view controller for the container view
             var newParentViewController = containerView.FindViewController();
-            if(viewController.ParentViewController != newParentViewController && !containerView.Subviews.Contains(viewController.View)) {
+            //If it's the new parent isn't the old parent and the container doesnt contain the viewcontrollers view
+            if(viewController.ParentViewController != newParentViewController &&
+                    (containerView.Subviews == null
+                    || !containerView.Subviews.Contains(viewController.View))) {
                 newParentViewController.AddChildViewController(viewController);
                 containerView.TranslatesAutoresizingMaskIntoConstraints = false;
                 containerView.AddSubview(viewController.View);

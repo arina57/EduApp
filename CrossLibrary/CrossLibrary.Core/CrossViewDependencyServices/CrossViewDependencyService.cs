@@ -39,7 +39,7 @@ namespace CrossLibrary.Dependency {
                 try {
                     dependencyImplementation = GetDependencyImplementation(targetType, id);
                 } catch (InvalidOperationException ex) {
-                    var message = $"Could not find single matching dependency implementation for view model: {viewModelType.Name}. ";
+                    var message = $"Could not find single matching dependency implementation for view model: '{viewModelType.Name}'. ";
                     message += string.IsNullOrEmpty(id) ? string.Empty : $"with ID: {id}. ";
                     message += ex.Message;
                     throw new Exception(message, ex);
@@ -80,10 +80,6 @@ namespace CrossLibrary.Dependency {
             DependencyData dependencyImplementation;
             lock (dependencyLock) {
                 Type targetType = typeof(T);
-                //if (!dependencyImplementations.TryGetValue(targetType, out dependencyImplementation)) {
-                //    Type implementor = FindImplementor(targetType);
-                //    dependencyImplementations[targetType] = (dependencyImplementation = implementor != null ? new DependencyData { ImplementorType = implementor } : null);
-                //}
                 dependencyImplementation = GetDependencyImplementation(targetType);
             }
 
@@ -157,7 +153,7 @@ namespace CrossLibrary.Dependency {
         private static List<Assembly> explicitlyIncludeAssembly = new List<Assembly>();
 
         /// <summary>
-        /// Get's all the registed classes and classes of type crossview
+        /// Gets all the registed classes and classes of type crossview
         /// </summary>
         static void Initialize() {
             if (initialized) {
@@ -168,17 +164,10 @@ namespace CrossLibrary.Dependency {
                 if (initialized) {
                     return;
                 }
-
-                //Assembly[] deviceAssemblies = Device.GetAssemblies();
+                //Get all the assemblies for the app
                 Assembly[] deviceAssemblies = AppDomain.CurrentDomain.GetAssemblies();
-
-
+                //This shouldn't be necessory, but sometimes the linker removes the assembly
                 var allAsseblies = deviceAssemblies.Union(explicitlyIncludeAssembly);
-                //if (Registrar.ExtraAssemblies != null) {
-                //    allAsseblies = allAsseblies.Union(Registrar.ExtraAssemblies);
-                //}
-
-
                 Initialize(allAsseblies.ToArray());
             }
         }
@@ -199,6 +188,7 @@ namespace CrossLibrary.Dependency {
 
                 // Don't use LINQ for performance reasons
                 // Naive implementation can easily take over a second to run
+                //Search all the assmblies
                 foreach (Assembly assembly in assemblies) {
                     object[] attributes;
                     try {

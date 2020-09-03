@@ -216,8 +216,6 @@ namespace CrossLibrary {
             } else {
                 throw new Exception("ViewModel must be of the same type as TViewModel");
             }
-
-
         }
 
         
@@ -289,6 +287,7 @@ namespace CrossLibrary {
             
         }
 
+        //Rerun the actions for the bindings
         public void RefreshBindings() {
             foreach (var item in actions) {
                 var value = (item.Item3 as dynamic).Invoke();

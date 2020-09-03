@@ -1,13 +1,12 @@
 ﻿using System;
-using UIKit;
-using SharedLibrary.iOS;
-using Airbnb.Lottie;
 using System.Threading.Tasks;
+using Airbnb.Lottie;
 using CrossLibrary.iOS;
 using CrossLibrary.iOS.Views;
-using Xamarin.Essentials;
-using SharedActivities.Core.ViewModels;
 using SharedActivities.Core;
+using SharedActivities.Core.ViewModels;
+using UIKit;
+using Xamarin.Essentials;
 
 namespace SharedActivities.iOS.Views {
     public partial class PracticeHeading : CrossUIViewController<PracticeHeadingViewModel> {
@@ -62,9 +61,6 @@ namespace SharedActivities.iOS.Views {
             PerfectView.ContentMode = UIViewContentMode.ScaleAspectFit;
 
 
-            TitleText.Font = UIFont.FromName("Champion-HTF-Welterweight", TitleText.Font.PointSize);
-            SubtitleText.Font = UIFont.FromName("ChaletComprime-CologneSixty", TitleText.Font.PointSize);
-            ChapterNumberText.Font = UIFont.FromName("Delicious-Heavy", TitleText.Font.PointSize);
 
             TitleBackgroundView.BackgroundColor = GlobalColorPalette.VeryDark.ToPlatformColor();
             ChapterNumberText.TextColor = GlobalColorPalette.VeryDark.ToPlatformColor();
@@ -83,17 +79,6 @@ namespace SharedActivities.iOS.Views {
 
 
         public override void RefreshUILocale() {
-            //PointsText.Text = ViewModel.Points.ToString();
-            //ChapterNumberText.Text = ViewModel.ChapterNumber.ToString();
-
-            //TitleText.Text = ViewModel.ActivityName;
-            //SubtitleText.Text = ViewModel.SubtitleText;
-
-            //PerfectView.Hidden = !ViewModel.ShowPerfectImage;
-            //CompletedView.Hidden = !ViewModel.ShowCompletedImage;
-            //TimesPerfectText.Text = ViewModel.TimesPerfectText;
-            //TimesCompletedText.Text = ViewModel.TimesCompletedText;
-
             if (ViewModel.PointsChanged) {
                 RefreshScoreAsync();
             }

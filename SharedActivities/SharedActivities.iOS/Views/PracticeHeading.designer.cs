@@ -1,6 +1,6 @@
 ﻿// WARNING
 //
-// This file has been generated automatically by Xamarin Studio from the outlets and
+// This file has been generated automatically by Visual Studio from the outlets and
 // actions declared in your storyboard file.
 // Manual changes to this file will not be maintained.
 //
@@ -9,97 +9,100 @@ using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace SharedActivities.iOS.Views {
-    [Register("PracticeHeading")]
-    partial class PracticeHeading {
+namespace SharedActivities.iOS.Views
+{
+    [Register ("PracticeHeading")]
+    partial class PracticeHeading
+    {
         [Outlet]
-        [GeneratedCode("iOS Designer", "1.0")]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel ChapterNumberText { get; set; }
 
         [Outlet]
-        [GeneratedCode("iOS Designer", "1.0")]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIView CompletedView { get; set; }
 
         [Outlet]
-        [GeneratedCode("iOS Designer", "1.0")]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIView PerfectView { get; set; }
 
         [Outlet]
-        [GeneratedCode("iOS Designer", "1.0")]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIView PointsImageFrame { get; set; }
 
         [Outlet]
-        [GeneratedCode("iOS Designer", "1.0")]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel PointsText { get; set; }
 
         [Outlet]
-        [GeneratedCode("iOS Designer", "1.0")]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel SubtitleText { get; set; }
 
         [Outlet]
-        [GeneratedCode("iOS Designer", "1.0")]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel TimesCompletedText { get; set; }
 
         [Outlet]
-        [GeneratedCode("iOS Designer", "1.0")]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel TimesPerfectText { get; set; }
 
         [Outlet]
-        [GeneratedCode("iOS Designer", "1.0")]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIView TitleBackgroundView { get; set; }
 
         [Outlet]
-        [GeneratedCode("iOS Designer", "1.0")]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel TitleText { get; set; }
 
-        void ReleaseDesignerOutlets() {
+        void ReleaseDesignerOutlets ()
+        {
             if (ChapterNumberText != null) {
-                ChapterNumberText.Dispose();
+                ChapterNumberText.Dispose ();
                 ChapterNumberText = null;
             }
 
             if (CompletedView != null) {
-                CompletedView.Dispose();
+                CompletedView.Dispose ();
                 CompletedView = null;
             }
 
             if (PerfectView != null) {
-                PerfectView.Dispose();
+                PerfectView.Dispose ();
                 PerfectView = null;
             }
 
             if (PointsImageFrame != null) {
-                PointsImageFrame.Dispose();
+                PointsImageFrame.Dispose ();
                 PointsImageFrame = null;
             }
 
             if (PointsText != null) {
-                PointsText.Dispose();
+                PointsText.Dispose ();
                 PointsText = null;
             }
 
             if (SubtitleText != null) {
-                SubtitleText.Dispose();
+                SubtitleText.Dispose ();
                 SubtitleText = null;
             }
 
             if (TimesCompletedText != null) {
-                TimesCompletedText.Dispose();
+                TimesCompletedText.Dispose ();
                 TimesCompletedText = null;
             }
 
             if (TimesPerfectText != null) {
-                TimesPerfectText.Dispose();
+                TimesPerfectText.Dispose ();
                 TimesPerfectText = null;
             }
 
             if (TitleBackgroundView != null) {
-                TitleBackgroundView.Dispose();
+                TitleBackgroundView.Dispose ();
                 TitleBackgroundView = null;
             }
 
             if (TitleText != null) {
-                TitleText.Dispose();
+                TitleText.Dispose ();
                 TitleText = null;
             }
         }

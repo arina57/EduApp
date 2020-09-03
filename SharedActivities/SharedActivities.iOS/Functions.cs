@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.IO;
 using System.Threading.Tasks;
 using Airbnb.Lottie;
 using CoreAnimation;
@@ -71,6 +72,16 @@ namespace SharedActivities.iOS {
             var lottieView = LottieFromString(lottieJson);
             lottieView.ColorAll(color);
             return lottieView;
+        }
+
+
+        public static LOTAnimationView LottieFromString(string lottieJson) {
+            var path = Path.GetTempPath() + Guid.NewGuid().ToString();
+            File.WriteAllText(path, lottieJson);
+            var animation = LOTAnimationView.AnimationWithFilePath(path);
+            animation.ContentMode = UIViewContentMode.ScaleAspectFit;
+            File.Delete(path);
+            return animation;
         }
 
         public static void ColorAll(this LOTAnimationView lottieView, Color color) {
