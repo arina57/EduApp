@@ -7,6 +7,7 @@ using SharedActivities.Core.Models;
 using SharedActivities.Core.ViewModels.Exercises;
 using SharedActivities.Core.Models.OptionQuizModel;
 using SharedActivities.Core.Models.DialogueGapFillExercises;
+using SharedActivities.Core.Models.PhraseMatchingPoolModel;
 
 namespace SharedActivities.Core {
     public class ModuleFunctions {
@@ -51,6 +52,9 @@ namespace SharedActivities.Core {
                     } else {
                         return new BasicOptionQuizViewModel(optionQuizData);
                     }
+                case PhraseMatchingPoolExercise phraseMatchingPoolExercise:
+                    return new BasicOptionQuizViewModel(new MatchingPoolOptionQuizData(phraseMatchingPoolExercise, 4));
+                    
                 default:
                     throw new Exception("Could not match type");
             }
