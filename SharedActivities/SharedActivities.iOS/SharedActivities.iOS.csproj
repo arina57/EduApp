@@ -47,6 +47,7 @@
     <Folder Include="Views\Exercises\OptionQuiz\" />
     <Folder Include="Views\Exercises\OptionQuiz\OptionQuizResults\" />
     <Folder Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\" />
+    <Folder Include="Views\Exercises\OptionQuiz\ReadingQuiz\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -122,6 +123,14 @@
     <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResult.designer.cs">
       <DependentUpon>OptionQuizResult.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuiz.cs" />
+    <Compile Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuiz.designer.cs">
+      <DependentUpon>ReadingQuiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuizCell.cs" />
+    <Compile Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuizCell.designer.cs">
+      <DependentUpon>ReadingQuizCell.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Essentials">
@@ -162,6 +171,8 @@
     <InterfaceDefinition Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\DialogueOptionQuiz.xib" />
     <InterfaceDefinition Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\DialogueOptionQuizCell.xib" />
     <InterfaceDefinition Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResult.xib" />
+    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuiz.xib" />
+    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuizCell.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
