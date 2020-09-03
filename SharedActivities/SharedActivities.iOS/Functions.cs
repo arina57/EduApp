@@ -7,6 +7,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Airbnb.Lottie;
 using CoreAnimation;
+using CoreGraphics;
 using CrossLibrary;
 using CrossLibrary.iOS;
 using Foundation;
@@ -191,5 +192,76 @@ namespace SharedActivities.iOS {
             return border;
 
         }
+
+        public static nfloat GetHeigthWithText(string text, UIFont font, nfloat width) {
+            CGSize size = ((NSString)text).StringSize(
+                font: font,
+                constrainedToSize: new CGSize(width, float.MaxValue),
+                lineBreakMode: UILineBreakMode.WordWrap);
+
+            if (size.Height <= 0) {
+                return 0;
+            } else {
+                return size.Height;
+            }
+        }
+
+        /// <summary>
+        /// Loads xib with same name as the class
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <returns></returns>
+        public static T LoadViewFromXib<T>() where T : UIView {
+            var xibName = typeof(T).Name;
+            var arr = NSBundle.MainBundle.LoadNib(xibName, null, null);
+            var v = arr.GetItem<T>(0);
+            return v;
+        }
+
+
+        /// <summary>
+        /// Get's a font of correct size to fit size, with fixed or non fixed number of lines.
+        /// Currently just brute forces from max size, reducing the size by one per interation.
+        /// May not be performant in a large loop
+        /// </summary>
+        /// <param name="text"></param>
+        /// <param name="size"></param>
+        /// <param name="font"></param>
+        /// <param name="minFontSize"></param>
+        /// <param name="maxFontSize"></param>
+        /// <param name="lines"></param>
+        /// <returns></returns>
+        public static UIFont ResizeFontToFitRect(string text, CGSize size, UIFont font, float minFontSize, float maxFontSize, int lines = 0) {
+            float fontSize = maxFontSize; //<= 0 ? (float)font.PointSize : maxFontSize;
+            //int fontSize = 50; // (float)font.PointSize;
+            var descriptor = font.FontDescriptor;
+            UIFont resizedFont = UIFont.FromDescriptor(descriptor, fontSize);
+
+            //CGSize size = text.StringSize(resizedFont, rect.Size, UILineBreakMode.WordWrap);
+            var actualHeight = text.StringSize(resizedFont, new CGSize(size.Width, double.MaxValue), UILineBreakMode.WordWrap).Height;
+            var longestWord = text.GetLongestWord();
+            var longestWordWidth = longestWord.StringSize(resizedFont).Width;
+
+            bool useLongestWord = !longestWord.ContainsJapaneseChars();
+            while ((actualHeight > size.Height
+                    || (useLongestWord && longestWordWidth > size.Width)
+                    || (lines > 0 && actualHeight > lines * resizedFont.LineHeight))
+                    && !(fontSize < minFontSize)) {
+                fontSize -= 1;
+                resizedFont = UIFont.FromDescriptor(descriptor, fontSize);
+                //size = text.StringSize(resizedFont, rect.Size, UILineBreakMode.WordWrap);
+                actualHeight = text.StringSize(resizedFont, new CGSize(size.Width, double.MaxValue), UILineBreakMode.WordWrap).Height;
+                longestWordWidth = longestWord.StringSize(resizedFont).Width;
+            }
+
+            return resizedFont;
+        }
+
+
+        public static void ResizeFont(this UILabel label, float minFontSize, float maxFontSize) {
+            label.Font = ResizeFontToFitRect(label.Text, label.Frame.Size, label.Font, minFontSize, maxFontSize);
+        }
+
+
     }
 }

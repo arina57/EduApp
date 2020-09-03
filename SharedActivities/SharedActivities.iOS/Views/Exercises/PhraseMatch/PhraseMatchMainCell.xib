@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="216" id="cxk-wN-pdQ" customClass="PhraseMatchMainCell">
+            <rect key="frame" x="0.0" y="0.0" width="417" height="216"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cxk-wN-pdQ" id="YTl-1W-gDM">
+                <rect key="frame" x="0.0" y="0.0" width="417" height="216"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="e5v-6g-KGA">
+                        <rect key="frame" x="45" y="10" width="186" height="196"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="Msb-Ly-Owz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="sZX-rA-2iI">
+                        <rect key="frame" x="5" y="88" width="40" height="40"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" priority="999" id="LOV-YZ-RnS"/>
+                            <constraint firstAttribute="height" constant="40" id="YQs-4i-gqQ"/>
+                            <constraint firstAttribute="width" constant="40" id="fev-Ac-LQR"/>
+                        </constraints>
+                    </view>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hoS-wI-wae" customClass="ContentSizedTableView">
+                        <rect key="frame" x="231" y="0.0" width="186" height="216"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="216" placeholder="YES" id="SPq-1F-9nd"/>
+                        </constraints>
+                    </tableView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="hoS-wI-wae" firstAttribute="centerY" secondItem="YTl-1W-gDM" secondAttribute="centerY" id="3IT-0Y-KqH"/>
+                    <constraint firstItem="hoS-wI-wae" firstAttribute="top" relation="greaterThanOrEqual" secondItem="YTl-1W-gDM" secondAttribute="top" id="65i-ap-e8T"/>
+                    <constraint firstItem="e5v-6g-KGA" firstAttribute="leading" secondItem="sZX-rA-2iI" secondAttribute="trailing" id="QsX-yz-4Nc"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="hoS-wI-wae" secondAttribute="bottom" id="Sk5-Xd-2Lj"/>
+                    <constraint firstAttribute="trailing" secondItem="hoS-wI-wae" secondAttribute="trailing" id="Szu-iR-ew2"/>
+                    <constraint firstItem="sZX-rA-2iI" firstAttribute="centerY" secondItem="YTl-1W-gDM" secondAttribute="centerY" id="VTN-L9-yF2"/>
+                    <constraint firstAttribute="bottom" secondItem="e5v-6g-KGA" secondAttribute="bottom" constant="10" id="YOp-0r-ZE8"/>
+                    <constraint firstItem="e5v-6g-KGA" firstAttribute="width" secondItem="hoS-wI-wae" secondAttribute="width" id="Yi1-xJ-h7J"/>
+                    <constraint firstItem="hoS-wI-wae" firstAttribute="leading" secondItem="e5v-6g-KGA" secondAttribute="trailing" id="dVX-8V-Z4w"/>
+                    <constraint firstItem="sZX-rA-2iI" firstAttribute="leading" secondItem="YTl-1W-gDM" secondAttribute="leading" constant="5" id="t8w-Ya-ctf"/>
+                    <constraint firstItem="e5v-6g-KGA" firstAttribute="top" secondItem="YTl-1W-gDM" secondAttribute="top" constant="10" id="xjx-A3-23B"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="CorrectImageContainer" destination="sZX-rA-2iI" id="GJo-gA-PDN"/>
+                <outlet property="CorrectImageWidthConstraint" destination="fev-Ac-LQR" id="zw1-ul-y63"/>
+                <outlet property="MainPhraseLabel" destination="e5v-6g-KGA" id="name-outlet-e5v-6g-KGA"/>
+                <outlet property="SelectedMatches" destination="hoS-wI-wae" id="name-outlet-hoS-wI-wae"/>
+            </connections>
+            <point key="canvasLocation" x="333.60000000000002" y="26.086956521739133"/>
+        </tableViewCell>
+    </objects>
+</document>

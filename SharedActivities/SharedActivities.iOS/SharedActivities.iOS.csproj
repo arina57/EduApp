@@ -49,6 +49,7 @@
     <Folder Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\" />
     <Folder Include="Views\Exercises\OptionQuiz\ReadingQuiz\" />
     <Folder Include="Views\Exercises\OptionQuiz\BasicOptionQuiz\" />
+    <Folder Include="Views\Exercises\PhraseMatch\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -136,6 +137,29 @@
     <Compile Include="Views\Exercises\OptionQuiz\BasicOptionQuiz\BasicOptionQuiz.designer.cs">
       <DependentUpon>BasicOptionQuiz.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatch.cs" />
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatch.designer.cs">
+      <DependentUpon>PhraseMatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomViews\DashedBorderView.cs" />
+    <Compile Include="CustomViews\StaggeredCollectionViewLayout.cs" />
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchMatchCell.cs" />
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchMatchCell.designer.cs">
+      <DependentUpon>PhraseMatchMatchCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchMainCell.cs" />
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchMainCell.designer.cs">
+      <DependentUpon>PhraseMatchMainCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchDragView.cs" />
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchDragView.designer.cs">
+      <DependentUpon>PhraseMatchDragView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Exercises\PhraseMatch\IDraggableItem.cs" />
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchInnerCell.cs" />
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchInnerCell.designer.cs">
+      <DependentUpon>PhraseMatchInnerCell.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Essentials">
@@ -179,6 +203,11 @@
     <InterfaceDefinition Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuiz.xib" />
     <InterfaceDefinition Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuizCell.xib" />
     <InterfaceDefinition Include="Views\Exercises\OptionQuiz\BasicOptionQuiz\BasicOptionQuiz.xib" />
+    <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatch.xib" />
+    <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchMatchCell.xib" />
+    <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchMainCell.xib" />
+    <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchDragView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchInnerCell.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
