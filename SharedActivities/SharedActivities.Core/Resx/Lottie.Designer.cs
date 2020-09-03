@@ -94,5 +94,35 @@ namespace SharedActivities.Core.Resx {
                 return ResourceManager.GetString("dialogue", resourceCulture);
             }
         }
+        
+        public static string marubatsu {
+            get {
+                return ResourceManager.GetString("marubatsu", resourceCulture);
+            }
+        }
+        
+        public static string maru {
+            get {
+                return ResourceManager.GetString("maru", resourceCulture);
+            }
+        }
+        
+        public static string batsu {
+            get {
+                return ResourceManager.GetString("batsu", resourceCulture);
+            }
+        }
+        
+        public static string expand_less {
+            get {
+                return ResourceManager.GetString("expand_less", resourceCulture);
+            }
+        }
+        
+        public static string expand_more {
+            get {
+                return ResourceManager.GetString("expand_more", resourceCulture);
+            }
+        }
     }
 }

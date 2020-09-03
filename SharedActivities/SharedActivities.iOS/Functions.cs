@@ -1,11 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
+using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Airbnb.Lottie;
 using CoreAnimation;
 using CrossLibrary;
 using CrossLibrary.iOS;
+using Foundation;
+using SharedActivities.Core;
 using UIKit;
 using Xamarin.Essentials;
 
@@ -123,6 +128,68 @@ namespace SharedActivities.iOS {
             await CommonFunctions.AnimateTextNumberAsync((value) => label.Text = value, durationMilis, from, to, formattedString);
         }
 
+        public static NSAttributedString GetAttributedStringFromBracketedPlainText(string text, nfloat size) {
+            return AttributedStringFromMatch(text, new Regex(@"\{(.*?)\}"), new UIStringAttributes() { Font = UIFont.BoldSystemFontOfSize(size) });
+        }
 
+        public static NSAttributedString GetAttributedStringFromBracketedPlainText(string text, UIColor matchColor) {
+            return AttributedStringFromMatch(text, new Regex(@"\{(.*?)\}"), new UIStringAttributes() { ForegroundColor = matchColor });
+        }
+
+        public static void SetBracketedText(this UITextView textView, string text, UIColor matchColor) {
+            textView.AttributedText = Functions.GetAttributedStringFromBracketedPlainText(text, matchColor);
+
+        }
+
+        public static NSAttributedString AttributedStringFromMatch(string text, Regex match, UIStringAttributes matchAttributes) {
+            var attributes = new UIStringAttributes();
+            var tagFinder = new TagFinder(text, match); //make text locations from regex for everything in curly brackets
+            var attributedString = new NSMutableAttributedString(tagFinder.Text, attributes);
+            attributedString.BeginEditing();
+            foreach (var location in tagFinder.TextLocations) {
+                var range = new NSRange(location.Start, location.Length);
+                if (location.IsAMatch) {
+                    attributedString.AddAttributes(matchAttributes, range);
+                } else {
+
+                }
+            }
+            attributedString.EndEditing();
+            return attributedString;
+        }
+
+
+        public static void ReleaseChildren(this IEnumerable<UIView> views) {
+            foreach (var view in views) {
+                view.Subviews.ReleaseChildren();
+                view.RemoveFromSuperview();
+                view.Dispose();
+            }
+        }
+
+
+        public static CAShapeLayer AddDashedBorder(this UIView view, UIColor color, float dashWidth = 4) {
+            const string layerName = "Dash Border Layer";
+
+            //
+            if (view.Layer != null & view.Layer.Sublayers != null) {
+                var layersToremove = view.Layer.Sublayers.Where(layer => layer.Name == layerName);
+                foreach (var layer in layersToremove) {
+                    layer.RemoveFromSuperLayer();
+                    layer.Dispose();
+                }
+            }
+
+            var border = new CAShapeLayer();
+            border.Name = layerName;
+            border.StrokeColor = color.CGColor;
+            border.LineDashPattern = new NSNumber[] { dashWidth, dashWidth };
+            border.Frame = view.Bounds;
+            border.FillColor = null;
+            border.Path = UIBezierPath.FromRect(view.Bounds).CGPath;
+            view.Layer.AddSublayer(border);
+            return border;
+
+        }
     }
 }

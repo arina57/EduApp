@@ -44,6 +44,8 @@
     <Folder Include="Views\Exercises\Results\" />
     <Folder Include="Views\Exercises\GapFill\" />
     <Folder Include="CustomViews\" />
+    <Folder Include="Views\Exercises\OptionQuiz\" />
+    <Folder Include="Views\Exercises\OptionQuiz\OptionQuizResults\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -80,6 +82,32 @@
     <Compile Include="Views\PracticeHeading.designer.cs">
       <DependentUpon>PracticeHeading.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Exercises\GapFill\GapFillResults.cs" />
+    <Compile Include="Views\Exercises\GapFill\GapFillResults.designer.cs">
+      <DependentUpon>GapFillResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomViews\ContentSizedTableView.cs" />
+    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizView.cs" />
+    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizView.designer.cs">
+      <DependentUpon>OptionQuizView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizCellView.cs" />
+    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizCellView.designer.cs">
+      <DependentUpon>OptionQuizCellView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultCell.cs" />
+    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultCell.designer.cs">
+      <DependentUpon>OptionQuizResultCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultAnswerOptionCell.cs" />
+    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultAnswerOptionCell.designer.cs">
+      <DependentUpon>OptionQuizResultAnswerOptionCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Exercises\ScoringView.cs" />
+    <Compile Include="Views\Exercises\ScoringView.designer.cs">
+      <DependentUpon>ScoringView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomViews\CircularProgressBar.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Essentials">
@@ -111,6 +139,12 @@
     <InterfaceDefinition Include="Views\Exercises\GapFill\GapFillVocabCell.xib" />
     <InterfaceDefinition Include="Views\ActivityTitle.xib" />
     <InterfaceDefinition Include="Views\PracticeHeading.xib" />
+    <InterfaceDefinition Include="Views\Exercises\GapFill\GapFillResults.xib" />
+    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\OptionQuizView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\OptionQuizCellView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultCell.xib" />
+    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultAnswerOptionCell.xib" />
+    <InterfaceDefinition Include="Views\Exercises\ScoringView.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

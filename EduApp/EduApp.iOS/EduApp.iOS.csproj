@@ -130,13 +130,13 @@
     <None Include="Entitlements.plist" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="SceneDelegate.cs" />
     <Compile Include="Views\MainView.cs" />
     <Compile Include="Views\MainView.designer.cs">
       <DependentUpon>MainView.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Main.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EduApp.Core\EduApp.Core.csproj">
