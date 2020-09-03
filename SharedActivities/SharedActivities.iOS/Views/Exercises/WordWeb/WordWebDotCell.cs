@@ -7,7 +7,7 @@ using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.WordWeb {
     public partial class WordWebDotCell : UITableViewCell {
-        public static readonly NSString Key = new NSString();
+        public static readonly NSString Key = new NSString(nameof(WordWebDotCell));
         public static readonly UINib Nib = UINib.FromName(Key, NSBundle.MainBundle);
         private Color color = Color.Gray;
 
