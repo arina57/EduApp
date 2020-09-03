@@ -17,7 +17,7 @@ namespace SharedActivities.Core.ViewModels.Exercises {
 
         public int LineCount => dialogueGapFillExercise.Lines.Count;
         public override string SubtitleText => ActivityData.ActivityDescription;
-        public string Situation => dialogueGapFillExercise.Situation.GetString();
+        public override string SituationText => dialogueGapFillExercise.Situation.GetString();
 
         public int RoleCount => usedRoles.Count;
         public IReadOnlyList<Role> Roles => usedRoles.AsReadOnly();
