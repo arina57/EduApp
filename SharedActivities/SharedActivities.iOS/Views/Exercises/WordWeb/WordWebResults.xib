@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WordWebResults">
+            <connections>
+                <outlet property="LeftTable" destination="zr5-bO-uU5" id="name-outlet-zr5-bO-uU5"/>
+                <outlet property="LineDrawingView" destination="8fi-tP-RCO" id="name-outlet-8fi-tP-RCO"/>
+                <outlet property="RightTable" destination="hFt-wv-vcL" id="name-outlet-hFt-wv-vcL"/>
+                <outlet property="ScoreViewContainer" destination="Z6m-ua-vxX" id="name-outlet-Z6m-ua-vxX"/>
+                <outlet property="TitleLabel" destination="sja-34-V31" id="name-outlet-sja-34-V31"/>
+                <outlet property="view" destination="1" id="RRd-Eg-VrN"/>
+                <outlet property="TableHeight" destination="fzV-2c-7hp" id="name-outlet-fzV-2c-7hp"/>
+                <outlet property="ScrollView" destination="knu-TC-8Ei" id="name-outlet-knu-TC-8Ei"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="knu-TC-8Ei">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z6m-ua-vxX" customClass="CrossContainerView">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="467"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <accessibility key="accessibilityConfiguration" identifier="genericScoringContainer">
+                                <bool key="isElement" value="YES"/>
+                            </accessibility>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sja-34-V31">
+                            <rect key="frame" x="0.0" y="467" width="375" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zr5-bO-uU5">
+                            <rect key="frame" x="0.0" y="488" width="170" height="1000"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1000" id="fzV-2c-7hp"/>
+                            </constraints>
+                        </tableView>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hFt-wv-vcL">
+                            <rect key="frame" x="170" y="488" width="205" height="1000"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        </tableView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8fi-tP-RCO" customClass="LineDrawingView">
+                            <rect key="frame" x="0.0" y="488" width="375" height="1000"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="hFt-wv-vcL" firstAttribute="trailing" secondItem="8fi-tP-RCO" secondAttribute="trailing" id="43T-Ai-fch"/>
+                        <constraint firstItem="zr5-bO-uU5" firstAttribute="top" secondItem="sja-34-V31" secondAttribute="bottom" id="5QX-cC-CIx"/>
+                        <constraint firstAttribute="trailing" secondItem="sja-34-V31" secondAttribute="trailing" id="5zf-i8-kOQ"/>
+                        <constraint firstItem="Z6m-ua-vxX" firstAttribute="top" secondItem="knu-TC-8Ei" secondAttribute="top" id="6G5-lU-Wc9"/>
+                        <constraint firstItem="sja-34-V31" firstAttribute="top" secondItem="Z6m-ua-vxX" secondAttribute="bottom" id="Alk-vh-n2A"/>
+                        <constraint firstItem="hFt-wv-vcL" firstAttribute="top" secondItem="zr5-bO-uU5" secondAttribute="top" id="QrS-t5-edO"/>
+                        <constraint firstItem="zr5-bO-uU5" firstAttribute="leading" secondItem="knu-TC-8Ei" secondAttribute="leading" id="ThM-Eo-BkV"/>
+                        <constraint firstItem="hFt-wv-vcL" firstAttribute="width" secondItem="zr5-bO-uU5" secondAttribute="width" multiplier="1.20325" id="VAP-ju-f4V"/>
+                        <constraint firstItem="8fi-tP-RCO" firstAttribute="leading" secondItem="zr5-bO-uU5" secondAttribute="leading" id="bhh-0y-fh3"/>
+                        <constraint firstItem="hFt-wv-vcL" firstAttribute="leading" secondItem="zr5-bO-uU5" secondAttribute="trailing" id="f4t-e9-RCf"/>
+                        <constraint firstAttribute="trailing" secondItem="hFt-wv-vcL" secondAttribute="trailing" id="myC-n1-y1k"/>
+                        <constraint firstAttribute="bottomMargin" secondItem="zr5-bO-uU5" secondAttribute="bottom" constant="15" id="oXi-sN-Yzo"/>
+                        <constraint firstItem="sja-34-V31" firstAttribute="leading" secondItem="knu-TC-8Ei" secondAttribute="leading" id="oyx-3c-fSj"/>
+                        <constraint firstItem="zr5-bO-uU5" firstAttribute="bottom" secondItem="hFt-wv-vcL" secondAttribute="bottom" id="pC4-wP-q2M"/>
+                        <constraint firstItem="8fi-tP-RCO" firstAttribute="top" secondItem="sja-34-V31" secondAttribute="bottom" id="pk9-Bd-el3"/>
+                        <constraint firstItem="zr5-bO-uU5" firstAttribute="bottom" secondItem="8fi-tP-RCO" secondAttribute="bottom" id="tlf-Y0-Nxy"/>
+                        <constraint firstItem="Z6m-ua-vxX" firstAttribute="leading" secondItem="knu-TC-8Ei" secondAttribute="leading" id="yYd-GK-RPD"/>
+                        <constraint firstAttribute="trailing" secondItem="Z6m-ua-vxX" secondAttribute="trailing" id="z7A-XW-KHg"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="knu-TC-8Ei" secondAttribute="bottom" id="36Y-S7-agW"/>
+                <constraint firstAttribute="trailing" secondItem="knu-TC-8Ei" secondAttribute="trailing" id="8mk-6b-GMX"/>
+                <constraint firstItem="Z6m-ua-vxX" firstAttribute="width" secondItem="1" secondAttribute="width" id="IOC-bq-CbI"/>
+                <constraint firstItem="knu-TC-8Ei" firstAttribute="height" secondItem="1" secondAttribute="height" id="Npw-hg-IEl"/>
+                <constraint firstItem="Z6m-ua-vxX" firstAttribute="height" secondItem="1" secondAttribute="height" multiplier="0.7" id="S3A-GR-1Hq"/>
+                <constraint firstItem="knu-TC-8Ei" firstAttribute="top" secondItem="1" secondAttribute="top" id="XJz-qg-ZZi"/>
+                <constraint firstItem="knu-TC-8Ei" firstAttribute="width" secondItem="1" secondAttribute="width" id="aFa-X4-YJh"/>
+                <constraint firstItem="knu-TC-8Ei" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="aeU-jp-xh9"/>
+            </constraints>
+            <point key="canvasLocation" x="138.40000000000001" y="154.27286356821591"/>
+        </view>
+    </objects>
+</document>

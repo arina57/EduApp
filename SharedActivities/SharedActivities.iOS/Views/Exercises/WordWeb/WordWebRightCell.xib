@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1" customClass="WordWebRightCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="169"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tke-5T-Wtc">
+                    <rect key="frame" x="35" y="5" width="285" height="159"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Bq-ZI-ctz">
+                    <rect key="frame" x="10" y="0.0" width="20" height="169"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="e1F-IR-laJ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Tke-5T-Wtc" secondAttribute="trailing" id="0tF-Ji-rhG"/>
+                <constraint firstItem="Tke-5T-Wtc" firstAttribute="leading" secondItem="2Bq-ZI-ctz" secondAttribute="trailing" constant="5" id="46w-hF-QiS"/>
+                <constraint firstItem="2Bq-ZI-ctz" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="10" id="4pK-Kv-rhE"/>
+                <constraint firstItem="Tke-5T-Wtc" firstAttribute="centerY" secondItem="1" secondAttribute="centerY" id="QeO-8P-Taw"/>
+                <constraint firstItem="2Bq-ZI-ctz" firstAttribute="top" secondItem="1" secondAttribute="top" id="YMs-9n-aXz"/>
+                <constraint firstAttribute="bottom" secondItem="Tke-5T-Wtc" secondAttribute="bottom" constant="5" id="ae0-ne-T8s"/>
+                <constraint firstItem="Tke-5T-Wtc" firstAttribute="top" secondItem="1" secondAttribute="top" constant="5" id="f7u-st-4Za"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="2Bq-ZI-ctz" secondAttribute="bottom" id="wmZ-ZO-wYX"/>
+                <constraint firstItem="2Bq-ZI-ctz" firstAttribute="centerY" secondItem="1" secondAttribute="centerY" id="zT1-H4-70Z"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="DotView" destination="2Bq-ZI-ctz" id="name-outlet-2Bq-ZI-ctz"/>
+                <outlet property="PhraseLabel" destination="Tke-5T-Wtc" id="name-outlet-Tke-5T-Wtc"/>
+            </connections>
+            <point key="canvasLocation" x="101.25" y="-140.625"/>
+        </view>
+    </objects>
+</document>

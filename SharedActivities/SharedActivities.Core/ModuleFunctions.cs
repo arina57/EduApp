@@ -55,6 +55,7 @@ namespace SharedActivities.Core {
                 case PhraseMatchExercise phraseMatchingPoolExercise:
                     return phraseMatchingPoolExercise.ActivityData.ActivityId switch
                     {
+                        3 => new WordWebViewModel(phraseMatchingPoolExercise),
                         6 => new BasicOptionQuizViewModel(new MatchQuizData(phraseMatchingPoolExercise, 4)),
                         5 => new PhraseMatchViewModel(phraseMatchingPoolExercise),
                         _ => GetRandomPhraseMatchingPoolExercise(phraseMatchingPoolExercise)
@@ -70,7 +71,7 @@ namespace SharedActivities.Core {
             var number = CommonFunctions.StaticRandom.Next(3);
             return number switch
             {
-                0 => new PhraseMatchViewModel(phraseMatchingPoolExercise),
+                0 => new WordWebViewModel(phraseMatchingPoolExercise),
                 1 => new BasicOptionQuizViewModel(new MatchQuizData(phraseMatchingPoolExercise, 4)),
                 _ => new PhraseMatchViewModel(phraseMatchingPoolExercise),
             };

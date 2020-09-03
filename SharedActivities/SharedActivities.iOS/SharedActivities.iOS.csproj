@@ -50,6 +50,7 @@
     <Folder Include="Views\Exercises\OptionQuiz\ReadingQuiz\" />
     <Folder Include="Views\Exercises\OptionQuiz\BasicOptionQuiz\" />
     <Folder Include="Views\Exercises\PhraseMatch\" />
+    <Folder Include="Views\Exercises\WordWeb\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -164,6 +165,28 @@
     <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchResults.designer.cs">
       <DependentUpon>PhraseMatchResults.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Exercises\WordWeb\WordWeb.cs" />
+    <Compile Include="Views\Exercises\WordWeb\WordWeb.designer.cs">
+      <DependentUpon>WordWeb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IOSGeometry.cs" />
+    <Compile Include="Views\Exercises\WordWeb\WordWebLeftCell.cs" />
+    <Compile Include="Views\Exercises\WordWeb\WordWebLeftCell.designer.cs">
+      <DependentUpon>WordWebLeftCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Exercises\WordWeb\WordWebRightCell.cs" />
+    <Compile Include="Views\Exercises\WordWeb\WordWebRightCell.designer.cs">
+      <DependentUpon>WordWebRightCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Exercises\WordWeb\WordWebDotCell.cs" />
+    <Compile Include="Views\Exercises\WordWeb\WordWebDotCell.designer.cs">
+      <DependentUpon>WordWebDotCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Exercises\WordWeb\WordWebResults.cs" />
+    <Compile Include="Views\Exercises\WordWeb\WordWebResults.designer.cs">
+      <DependentUpon>WordWebResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomViews\LineDrawingView.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Essentials">
@@ -213,6 +236,11 @@
     <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchDragView.xib" />
     <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchInnerCell.xib" />
     <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchResults.xib" />
+    <InterfaceDefinition Include="Views\Exercises\WordWeb\WordWeb.xib" />
+    <InterfaceDefinition Include="Views\Exercises\WordWeb\WordWebLeftCell.xib" />
+    <InterfaceDefinition Include="Views\Exercises\WordWeb\WordWebRightCell.xib" />
+    <InterfaceDefinition Include="Views\Exercises\WordWeb\WordWebDotCell.xib" />
+    <InterfaceDefinition Include="Views\Exercises\WordWeb\WordWebResults.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
