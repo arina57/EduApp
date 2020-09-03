@@ -1,18 +1,64 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703" />
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OptionQuizView">
             <connections>
-                <outlet property="view" destination="2" id="RRd-Eg-VrN" />
+                <outlet property="ImageFrame" destination="JLG-Ft-Dkz" id="name-outlet-JLG-Ft-Dkz"/>
+                <outlet property="OptionCollection" destination="uxG-2R-yeS" id="name-outlet-uxG-2R-yeS"/>
+                <outlet property="QuestionLabel" destination="B37-iG-zrI" id="name-outlet-B37-iG-zrI"/>
+                <outlet property="view" destination="1" id="RRd-Eg-VrN"/>
             </connections>
         </placeholder>
-        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder" />
-        <view contentMode="scaleToFill" id="2">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="600" />
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite" />
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="392"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="uxG-2R-yeS" customClass="ContentSizedCollectionView">
+                    <rect key="frame" x="0.0" y="65" width="375" height="327"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="bFB-gi-TDg">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B37-iG-zrI">
+                    <rect key="frame" x="0.0" y="5" width="375" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="60" id="6yz-Nx-Od3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JLG-Ft-Dkz">
+                    <rect key="frame" x="0.0" y="65" width="375" height="327"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="JLG-Ft-Dkz" secondAttribute="bottom" id="DYf-Jk-XAZ"/>
+                <constraint firstAttribute="bottom" secondItem="uxG-2R-yeS" secondAttribute="bottom" id="GFE-2E-pnp"/>
+                <constraint firstItem="JLG-Ft-Dkz" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="RQ1-ri-p3u"/>
+                <constraint firstItem="JLG-Ft-Dkz" firstAttribute="top" secondItem="B37-iG-zrI" secondAttribute="bottom" id="UQL-ED-UBz"/>
+                <constraint firstAttribute="trailing" secondItem="B37-iG-zrI" secondAttribute="trailing" id="bhT-9F-rvl"/>
+                <constraint firstItem="B37-iG-zrI" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="d9U-Ht-rcf"/>
+                <constraint firstItem="uxG-2R-yeS" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="htw-lq-r3S"/>
+                <constraint firstAttribute="trailing" secondItem="JLG-Ft-Dkz" secondAttribute="trailing" id="iXl-dx-nb6"/>
+                <constraint firstItem="uxG-2R-yeS" firstAttribute="top" secondItem="B37-iG-zrI" secondAttribute="bottom" id="sYe-kq-J6R"/>
+                <constraint firstAttribute="trailing" secondItem="uxG-2R-yeS" secondAttribute="trailing" id="x9E-mj-pf5"/>
+                <constraint firstItem="B37-iG-zrI" firstAttribute="top" secondItem="1" secondAttribute="top" constant="5" id="xUz-Mn-AbP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="132" y="30.584707646176913"/>
         </view>
     </objects>
 </document>

@@ -117,6 +117,7 @@
     <Compile Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\DialogueOptionQuizCell.designer.cs">
       <DependentUpon>DialogueOptionQuizCell.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomViews\DiscreteProgressView.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Essentials">

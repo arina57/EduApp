@@ -1,18 +1,86 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703" />
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DialogueOptionQuiz">
             <connections>
-                <outlet property="view" destination="2" id="RRd-Eg-VrN" />
+                <outlet property="ActivityTitleContainer" destination="OZZ-dZ-ujP" id="NXz-yQ-hIM"/>
+                <outlet property="CharacterView" destination="sSM-cG-Lc1" id="4hV-Fv-wzh"/>
+                <outlet property="ProgressView" destination="wI5-aC-DuH" id="QUd-gt-M80"/>
+                <outlet property="QuestionContainer" destination="Mhz-Qo-QaW" id="ylo-Md-An1"/>
+                <outlet property="view" destination="2" id="RRd-Eg-VrN"/>
             </connections>
         </placeholder>
-        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder" />
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="2">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="600" />
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite" />
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="OZZ-dZ-ujP" customClass="CrossContainerView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <accessibility key="accessibilityConfiguration" identifier="activityTitle">
+                        <bool key="isElement" value="YES"/>
+                    </accessibility>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="998" constant="150" id="akX-su-2q8"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mhz-Qo-QaW" customClass="CrossContainerView">
+                    <rect key="frame" x="0.0" y="150" width="375" height="234.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <accessibility key="accessibilityConfiguration" identifier="questionsView">
+                        <bool key="isElement" value="YES"/>
+                    </accessibility>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="sSM-cG-Lc1">
+                    <rect key="frame" x="0.0" y="384.5" width="375" height="234.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="c60-FC-FYe">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="wI5-aC-DuH" customClass="DiscreteProgressView">
+                    <rect key="frame" x="0.0" y="619" width="375" height="48"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="mqy-07-vao"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="FMN-qz-uvg">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Mhz-Qo-QaW" firstAttribute="top" secondItem="OZZ-dZ-ujP" secondAttribute="bottom" id="GyE-bT-khT"/>
+                <constraint firstItem="wI5-aC-DuH" firstAttribute="top" secondItem="sSM-cG-Lc1" secondAttribute="bottom" id="IQg-Gm-NZ8"/>
+                <constraint firstItem="Mhz-Qo-QaW" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="OXW-dM-Dee"/>
+                <constraint firstItem="sSM-cG-Lc1" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="RqI-eP-gdV"/>
+                <constraint firstItem="wI5-aC-DuH" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="TBo-KZ-5Wt"/>
+                <constraint firstAttribute="trailing" secondItem="sSM-cG-Lc1" secondAttribute="trailing" id="TGx-36-Ww5"/>
+                <constraint firstAttribute="trailing" secondItem="Mhz-Qo-QaW" secondAttribute="trailing" id="f1V-Lj-ml5"/>
+                <constraint firstAttribute="trailing" secondItem="wI5-aC-DuH" secondAttribute="trailing" id="fJC-2e-7Md"/>
+                <constraint firstItem="OZZ-dZ-ujP" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="faM-x1-1Gs"/>
+                <constraint firstItem="sSM-cG-Lc1" firstAttribute="height" secondItem="Mhz-Qo-QaW" secondAttribute="height" id="fnx-Gd-kNu"/>
+                <constraint firstAttribute="trailing" secondItem="OZZ-dZ-ujP" secondAttribute="trailing" id="kd9-og-Zlg"/>
+                <constraint firstAttribute="bottom" secondItem="wI5-aC-DuH" secondAttribute="bottom" id="sIz-Bl-HEy"/>
+                <constraint firstItem="OZZ-dZ-ujP" firstAttribute="top" secondItem="2" secondAttribute="top" id="sdX-uV-hw2"/>
+                <constraint firstItem="sSM-cG-Lc1" firstAttribute="top" secondItem="Mhz-Qo-QaW" secondAttribute="bottom" id="srq-Zb-UyS"/>
+                <constraint firstItem="sSM-cG-Lc1" firstAttribute="top" secondItem="Mhz-Qo-QaW" secondAttribute="bottom" id="uw1-0q-SBv"/>
+            </constraints>
+            <point key="canvasLocation" x="32.799999999999997" y="53.523238380809602"/>
         </view>
     </objects>
 </document>

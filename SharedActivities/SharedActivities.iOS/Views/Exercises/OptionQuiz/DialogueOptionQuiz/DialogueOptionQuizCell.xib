@@ -1,19 +1,48 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1" />
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" />
-        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder" />
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" customClass="DialogueOptionQuizCell" id="cZE-iV-UFb">
-            <rect key="frame" x="0.0" y="0.0" width="50" height="50" />
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" />
-            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="50" height="50" />
-                <autoresizingMask key="autoresizingMask" />
-                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite" />
-            </view>
-        </collectionViewCell>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="271" id="cxk-wN-pdQ" customClass="DialogueOptionQuizCell">
+            <rect key="frame" x="0.0" y="0.0" width="281" height="271"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cxk-wN-pdQ" id="YTl-1W-gDM">
+                <rect key="frame" x="0.0" y="0.0" width="281" height="270"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PeI-0p-5qs">
+                        <rect key="frame" x="0.0" y="0.0" width="281" height="249.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1S-lB-B3h">
+                        <rect key="frame" x="0.0" y="249.5" width="281" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="g1S-lB-B3h" firstAttribute="top" secondItem="PeI-0p-5qs" secondAttribute="bottom" id="8fE-xK-n5I"/>
+                    <constraint firstItem="PeI-0p-5qs" firstAttribute="top" secondItem="YTl-1W-gDM" secondAttribute="top" id="99H-de-vbn"/>
+                    <constraint firstItem="g1S-lB-B3h" firstAttribute="leading" secondItem="YTl-1W-gDM" secondAttribute="leading" id="9P6-be-rVR"/>
+                    <constraint firstItem="PeI-0p-5qs" firstAttribute="leading" secondItem="YTl-1W-gDM" secondAttribute="leading" id="dyb-1b-I3j"/>
+                    <constraint firstAttribute="trailing" secondItem="g1S-lB-B3h" secondAttribute="trailing" id="gHO-F9-Yhz"/>
+                    <constraint firstAttribute="trailing" secondItem="PeI-0p-5qs" secondAttribute="trailing" id="juq-7H-Qfi"/>
+                    <constraint firstAttribute="bottom" secondItem="g1S-lB-B3h" secondAttribute="bottom" id="sFZ-BQ-dYd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="378.39999999999998" y="96.7016491754123"/>
+            <connections>
+                <outlet property="CharacterNameLabel" destination="g1S-lB-B3h" id="name-outlet-g1S-lB-B3h"/>
+                <outlet property="CharacterImageView" destination="PeI-0p-5qs" id="name-outlet-PeI-0p-5qs"/>
+            </connections>
+        </tableViewCell>
     </objects>
 </document>
