@@ -6,19 +6,19 @@ using System.Xml.Serialization;
 namespace SharedActivities.Core.Models.PhraseMatchingPoolModel {
 
     [Serializable]
-    [XmlRoot("PhraseMatchingPoolExercises")]
-    public class PhraseMatchingPoolExercises {
+    [XmlRoot("PhraseMatchExercises")]
+    public class PhraseMatchExercises {
 
-        [XmlElement("PhraseMatchingPoolExercise")]
-        public List<PhraseMatchingPoolExercise> Items { get; set; }
+        [XmlElement("PhraseMatchExercise")]
+        public List<PhraseMatchExercise> Items { get; set; }
 
-        public PhraseMatchingPoolExercise this[int index] => Items[index];
+        public PhraseMatchExercise this[int index] => Items[index];
         public int Count => Items.Count;
     }
 
 
     [Serializable]
-    public class PhraseMatchingPoolExercise : IActivityDataModel {
+    public class PhraseMatchExercise : IActivityDataModel {
 
         [XmlElement("ActivityData")]
         public IdentityModel ActivityData { get; set; }

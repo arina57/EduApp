@@ -124,5 +124,11 @@ namespace SharedActivities.Core.Resx {
                 return ResourceManager.GetString("expand_more", resourceCulture);
             }
         }
+        
+        public static string circle_animation {
+            get {
+                return ResourceManager.GetString("circle_animation", resourceCulture);
+            }
+        }
     }
 }

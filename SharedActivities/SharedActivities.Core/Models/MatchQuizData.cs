@@ -5,7 +5,7 @@ using SharedActivities.Core.Models.PhraseMatchingPoolModel;
 using SharedActivities.Core.ViewModels.Exercises.Interfaces;
 
 namespace SharedActivities.Core.Models {
-    public class MatchingPoolOptionQuizData : IOptionQuizExercise {
+    public class MatchQuizData : IOptionQuizExercise {
         public TranslatedText Situation { get; } = new TranslatedText() { English = string.Empty };
 
         public int QuestionAnswerSetCount => matchingPoolQuestionAnswerSets.Count;
@@ -20,7 +20,7 @@ namespace SharedActivities.Core.Models {
 
         List<MatchingPoolQuestionAnswerSet> matchingPoolQuestionAnswerSets = new List<MatchingPoolQuestionAnswerSet>();
 
-        public MatchingPoolOptionQuizData(PhraseMatchingPoolExercise phraseMatchingPoolExercise, int answersPerQuestion) {
+        public MatchQuizData(PhraseMatchExercise phraseMatchingPoolExercise, int answersPerQuestion) {
             ActivityData = phraseMatchingPoolExercise.ActivityData;
             var allAnswers = phraseMatchingPoolExercise.PhraseSets.SelectMany(phraseSet => phraseSet.MatchingPhrases).ToList();
             Random rando = new Random();

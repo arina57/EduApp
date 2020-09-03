@@ -52,10 +52,10 @@ namespace SharedActivities.Core {
                     } else {
                         return new BasicOptionQuizViewModel(optionQuizData);
                     }
-                case PhraseMatchingPoolExercise phraseMatchingPoolExercise:
+                case PhraseMatchExercise phraseMatchingPoolExercise:
                     return phraseMatchingPoolExercise.ActivityData.ActivityId switch
                     {
-                        6 => new BasicOptionQuizViewModel(new MatchingPoolOptionQuizData(phraseMatchingPoolExercise, 4)),
+                        6 => new BasicOptionQuizViewModel(new MatchQuizData(phraseMatchingPoolExercise, 4)),
                         5 => new PhraseMatchViewModel(phraseMatchingPoolExercise),
                         _ => GetRandomPhraseMatchingPoolExercise(phraseMatchingPoolExercise)
                     };
@@ -65,13 +65,13 @@ namespace SharedActivities.Core {
         }
 
 
-        private ExerciseViewModel GetRandomPhraseMatchingPoolExercise(PhraseMatchingPoolExercise phraseMatchingPoolExercise) {
+        private ExerciseViewModel GetRandomPhraseMatchingPoolExercise(PhraseMatchExercise phraseMatchingPoolExercise) {
 
             var number = CommonFunctions.StaticRandom.Next(3);
             return number switch
             {
                 0 => new PhraseMatchViewModel(phraseMatchingPoolExercise),
-                1 => new BasicOptionQuizViewModel(new MatchingPoolOptionQuizData(phraseMatchingPoolExercise, 4)),
+                1 => new BasicOptionQuizViewModel(new MatchQuizData(phraseMatchingPoolExercise, 4)),
                 _ => new PhraseMatchViewModel(phraseMatchingPoolExercise),
             };
         }

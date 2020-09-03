@@ -158,4 +158,7 @@
     <data name="expand_more" type="System.Resources.ResXFileRef, System.Windows.Forms">
         <value>..\Resources\Lottie\expand_more.json;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
     </data>
+    <data name="circle_animation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+        <value>..\Resources\Lottie\circle_animation.json;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+    </data>
 </root>

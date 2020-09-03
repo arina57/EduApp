@@ -8,8 +8,8 @@ using SharedActivities.Core.ViewModels.Exercises.Results;
 namespace SharedActivities.Core.ViewModels.Exercises {
     public class PhraseMatchViewModel : ExerciseViewModel {
 
-        PhraseMatchingPoolExercise phraseMatchingPoolExercise;
-        public PhraseMatchViewModel(PhraseMatchingPoolExercise phraseMatchingPoolExercise) : base(phraseMatchingPoolExercise) {
+        PhraseMatchExercise phraseMatchingPoolExercise;
+        public PhraseMatchViewModel(PhraseMatchExercise phraseMatchingPoolExercise) : base(phraseMatchingPoolExercise) {
             this.phraseMatchingPoolExercise = phraseMatchingPoolExercise;
             matchPhraseIndexes = GetMatchPhraseIndexes();
             matchPhraseStrings = phraseMatchingPoolExercise.AllMatchingPhrases.ToList();

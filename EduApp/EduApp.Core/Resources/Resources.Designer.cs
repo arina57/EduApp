@@ -83,9 +83,9 @@ namespace EduApp.Core.Resources {
             }
         }
         
-        internal static string PhraseMatchingPool {
+        internal static string PhraseMatch {
             get {
-                return ResourceManager.GetString("PhraseMatchingPool", resourceCulture);
+                return ResourceManager.GetString("PhraseMatch", resourceCulture);
             }
         }
     }
