@@ -118,6 +118,10 @@
       <DependentUpon>DialogueOptionQuizCell.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomViews\DiscreteProgressView.cs" />
+    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResult.cs" />
+    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResult.designer.cs">
+      <DependentUpon>OptionQuizResult.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Essentials">
@@ -157,6 +161,7 @@
     <InterfaceDefinition Include="Views\Exercises\ScoringView.xib" />
     <InterfaceDefinition Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\DialogueOptionQuiz.xib" />
     <InterfaceDefinition Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\DialogueOptionQuizCell.xib" />
+    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResult.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
