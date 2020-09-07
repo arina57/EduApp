@@ -85,13 +85,17 @@ namespace SharedActivities.Droid.Views.Exercises {
 
             public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position) {
                 var viewHolder = (ViewHolder)holder;
-                viewHolder.RoleImageView.SetAnimationFromJson(chooseBestSentenceLogic.GetRoleImageJson(position), chooseBestSentenceLogic.GetRoleImageJson(position));
-                //viewHolder.RoleImageView.SetColor(position == 0 ? Color.Rgb(0, 0, 50) : Color.Rgb(50, 0, 0));
                 viewHolder.View.LayoutParameters.Width = (int)(chooseBestSentence.roleRecyclerView.Width / (float)ItemCount);
-                viewHolder.RoleImageView.Progress = 0;
-                viewHolder.RoleImageView.RepeatCount = ValueAnimator.Infinite;
-                viewHolder.RoleImageView.RepeatMode = 1;
-                viewHolder.RoleImageView.PlayAnimation();
+
+
+                if (!string.IsNullOrWhiteSpace(chooseBestSentenceLogic.GetRoleImageJson(position))) {
+                    viewHolder.RoleImageView.SetAnimationFromJson(chooseBestSentenceLogic.GetRoleImageJson(position), "roleImage" + position);
+                    viewHolder.RoleImageView.Progress = 0;
+                    viewHolder.RoleImageView.RepeatCount = ValueAnimator.Infinite;
+                    viewHolder.RoleImageView.RepeatMode = 1;
+                    viewHolder.RoleImageView.PlayAnimation();
+                }
+                
                 viewHolder.RoleTextView.Text = chooseBestSentenceLogic.GetRoleName(position);
                 if (chooseBestSentenceLogic.IsCurrentRole(position)) {
                     viewHolder.Select();

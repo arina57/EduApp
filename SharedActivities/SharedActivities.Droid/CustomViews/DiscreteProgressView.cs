@@ -161,7 +161,8 @@ namespace SharedActivities.Droid.CustomViews {
             }
 
             public override ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType) {
-                var view = new LottieAnimationView(parent.Context);
+                var view = LayoutInflater.From(parent.Context).Inflate(Resource.Layout.discrete_progress_view_cell, parent, false);
+
                 if (discreteProgressView.LayoutParameters.Width == ViewGroup.LayoutParams.WrapContent) {
                     view.LayoutParameters.Width = ViewGroup.LayoutParams.WrapContent;
                 } else {
@@ -174,8 +175,9 @@ namespace SharedActivities.Droid.CustomViews {
             private class ImageViewHolder : ViewHolder {
                 public View View { get; private set; }
                 public LottieAnimationView ImageView { get; private set; }
-                public ImageViewHolder(LottieAnimationView view) : base(view) {
-                    ImageView = view;
+                public ImageViewHolder(View view) : base(view) {
+                    this.View = view;
+                    ImageView = view.FindViewById<LottieAnimationView>(Resource.Id.imageView);
                 }
             }
         }
