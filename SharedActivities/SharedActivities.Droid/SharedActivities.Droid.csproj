@@ -58,6 +58,7 @@
     <Compile Include="CustomViews\FontTextView.cs" />
     <Compile Include="Views\Exercises\Results\GapFillResultsView.cs" />
     <Compile Include="Views\Exercises\Results\ScoringView.cs" />
+    <Compile Include="CustomViews\DiscreteProgressView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
