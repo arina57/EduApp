@@ -59,6 +59,8 @@
     <Compile Include="Views\Exercises\Results\GapFillResultsView.cs" />
     <Compile Include="Views\Exercises\Results\ScoringView.cs" />
     <Compile Include="CustomViews\DiscreteProgressView.cs" />
+    <Compile Include="Views\Exercises\OptionQuiz.cs" />
+    <Compile Include="Helpers\FontTextViewResizingSyncer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -144,6 +146,18 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\option_quiz.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\option_quiz_answer_cell.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\option_quiz_one_in_four_cell.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
@@ -155,6 +169,7 @@
     <Folder Include="Resources\animator\" />
     <Folder Include="Resources\anim\" />
     <Folder Include="Views\Exercises\Results\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SharedActivities.Core\SharedActivities.Core.csproj">
