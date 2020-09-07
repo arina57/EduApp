@@ -61,6 +61,7 @@
     <Compile Include="CustomViews\DiscreteProgressView.cs" />
     <Compile Include="Views\Exercises\OptionQuiz.cs" />
     <Compile Include="Helpers\FontTextViewResizingSyncer.cs" />
+    <Compile Include="Views\Exercises\DialogueOptionQuiz.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -159,6 +160,22 @@
       <Generator></Generator>
     </AndroidResource>
     <AndroidResource Include="Resources\drawable\dashedboxclear.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\anim\ScaleFadeInAndPulse.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\anim\ScaleFadeOut.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\dialogue_option_quiz.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\dialogue_option_quiz_role_cell.xml">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
