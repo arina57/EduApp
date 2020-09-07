@@ -1,9 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -22,11 +21,11 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LlZ-mZ-s3A">
-                    <rect key="frame" x="0.0" y="70" width="154.5" height="597"/>
+                    <rect key="frame" x="0.0" y="70" width="182.5" height="597"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </tableView>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sbe-gy-ARs">
-                    <rect key="frame" x="154.5" y="70" width="220.5" height="597"/>
+                    <rect key="frame" x="192.5" y="70" width="182.5" height="597"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </tableView>
                 <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dfv-L7-5N6" customClass="LineDrawingView">
@@ -50,7 +49,7 @@
                 <constraint firstAttribute="trailing" secondItem="Dfv-L7-5N6" secondAttribute="trailing" id="2av-Ku-SSK"/>
                 <constraint firstItem="Dfv-L7-5N6" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="3LE-24-cJc"/>
                 <constraint firstItem="boc-Ky-81o" firstAttribute="top" secondItem="1" secondAttribute="top" id="3Lt-Os-8tk"/>
-                <constraint firstItem="sbe-gy-ARs" firstAttribute="leading" secondItem="LlZ-mZ-s3A" secondAttribute="trailing" id="6z1-PO-mdv"/>
+                <constraint firstItem="sbe-gy-ARs" firstAttribute="leading" secondItem="LlZ-mZ-s3A" secondAttribute="trailing" constant="10" id="6z1-PO-mdv"/>
                 <constraint firstAttribute="bottom" secondItem="LlZ-mZ-s3A" secondAttribute="bottom" id="82I-fe-9Qs"/>
                 <constraint firstItem="sbe-gy-ARs" firstAttribute="top" secondItem="boc-Ky-81o" secondAttribute="bottom" id="BBf-h7-lwT"/>
                 <constraint firstAttribute="bottom" secondItem="sbe-gy-ARs" secondAttribute="bottom" id="D3i-Gf-TWn"/>
@@ -60,7 +59,7 @@
                 <constraint firstAttribute="bottom" secondItem="Dfv-L7-5N6" secondAttribute="bottom" id="aRl-4d-QRi"/>
                 <constraint firstItem="LlZ-mZ-s3A" firstAttribute="top" secondItem="boc-Ky-81o" secondAttribute="bottom" id="cSZ-97-qGs"/>
                 <constraint firstItem="Dfv-L7-5N6" firstAttribute="top" secondItem="boc-Ky-81o" secondAttribute="bottom" id="emo-56-Afv"/>
-                <constraint firstItem="LlZ-mZ-s3A" firstAttribute="width" secondItem="sbe-gy-ARs" secondAttribute="width" multiplier="0.7" id="wpj-xR-3ax"/>
+                <constraint firstItem="LlZ-mZ-s3A" firstAttribute="width" secondItem="sbe-gy-ARs" secondAttribute="width" id="wpj-xR-3ax"/>
             </constraints>
             <point key="canvasLocation" x="74.400000000000006" y="154.27286356821591"/>
         </view>

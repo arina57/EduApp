@@ -17,13 +17,13 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </tableView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nEP-yz-wI6">
-                    <rect key="frame" x="0.0" y="5" width="397" height="278"/>
+                    <rect key="frame" x="5" y="5" width="392" height="278"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tXT-b8-ea5">
-                    <rect key="frame" x="69.5" y="15" width="258" height="258"/>
+                    <rect key="frame" x="72" y="15" width="258" height="258"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="tXT-b8-ea5" secondAttribute="height" id="ars-zt-Ri3"/>
@@ -43,7 +43,7 @@
                 <constraint firstItem="tXT-b8-ea5" firstAttribute="centerX" secondItem="nEP-yz-wI6" secondAttribute="centerX" id="buk-SD-7pJ"/>
                 <constraint firstItem="nEP-yz-wI6" firstAttribute="top" secondItem="1" secondAttribute="top" constant="5" id="nYy-Ii-YD9"/>
                 <constraint firstAttribute="bottom" secondItem="nEP-yz-wI6" secondAttribute="bottom" constant="5" id="qYu-ue-92K"/>
-                <constraint firstItem="nEP-yz-wI6" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="v4i-SI-bEx"/>
+                <constraint firstItem="nEP-yz-wI6" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="5" id="v4i-SI-bEx"/>
                 <constraint firstItem="xKu-ql-gOD" firstAttribute="top" secondItem="1" secondAttribute="top" id="x9Q-cf-Yii"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

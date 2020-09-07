@@ -31,13 +31,19 @@ namespace SharedActivities.iOS.Views.Exercises.WordWeb {
                           int row,
                           Action<UILongPressGestureRecognizer, WordWebLeftCell, WordWebDotCell> dragAction,
                           HashSet<WordWebDotCell> mainPhraseDotCell,
-                          LineDrawingView lineDrawingView) {
+                          LineDrawingView lineDrawingView, bool userBorder = false) {
             this.viewModel = viewModel;
             this.mainPhraseDotCell = mainPhraseDotCell;
             this.dragAction = dragAction;
             this.lineDrawingView = lineDrawingView;
-            this.Layer.BorderWidth = 1f;
-            this.Layer.BorderColor = UIColor.DarkGray.CGColor;
+            if(userBorder) {
+                this.Layer.BorderWidth = 1f;
+                this.Layer.BorderColor = UIColor.DarkGray.CGColor;
+            } else {
+                this.Layer.BorderWidth = 0f;
+                this.Layer.BorderColor = UIColor.Clear.CGColor;
+            }
+            
             Position = row;
 
             PhraseLabel.Text = viewModel.GetMainPhrase(row);
