@@ -62,6 +62,7 @@
     <Compile Include="Views\Exercises\OptionQuiz.cs" />
     <Compile Include="Helpers\FontTextViewResizingSyncer.cs" />
     <Compile Include="Views\Exercises\DialogueOptionQuiz.cs" />
+    <Compile Include="Views\Exercises\Results\OptionQuizResult.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -180,6 +181,14 @@
       <Generator></Generator>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\discrete_progress_view_cell.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\result_explanation_answer_cell.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\result_explanation_cell.xml">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>

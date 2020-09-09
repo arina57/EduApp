@@ -94,5 +94,11 @@ namespace SharedActivities.Core.Resx {
                 return ResourceManager.GetString("TryAgain", resourceCulture);
             }
         }
+        
+        public static string ExplainationTitle {
+            get {
+                return ResourceManager.GetString("ExplainationTitle", resourceCulture);
+            }
+        }
     }
 }
