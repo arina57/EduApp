@@ -8,7 +8,6 @@ using static UIKit.NSLayoutRelation;
 using Foundation;
 using CrossLibrary.iOS.CustomControls;
 using UIKit;
-using CrossLibrary.Interfaces;
 
 namespace CrossLibrary.iOS {
     public static class PlatformFunctions {

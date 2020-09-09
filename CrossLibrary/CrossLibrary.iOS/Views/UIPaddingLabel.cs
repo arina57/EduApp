@@ -1,7 +1,7 @@
 ﻿using UIKit;
 using CoreGraphics;
 
-namespace SharedActivities.iOS.CustomControls {
+namespace CrossLibrary.iOS.CustomControls {
     class UIPaddingLabel :UILabel {
         private float _padding = 0f;
 
