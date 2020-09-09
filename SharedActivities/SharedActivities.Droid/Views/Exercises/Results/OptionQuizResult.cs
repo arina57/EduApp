@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using Android.Graphics;
 using Android.OS;
 using Android.Views;
@@ -78,15 +79,10 @@ namespace SharedActivities.Droid.Views.Exercises.Results {
                     viewHolder.QuestionTextView.Text = questionText;
                 }
 
-                if (correct) {
-                    viewHolder.AnswerCheckImageView.SetAnimationFromJson(Core.Resx.Lottie.maru, "maru");
-                } else {
-                    viewHolder.AnswerCheckImageView.SetAnimationFromJson(Core.Resx.Lottie.batsu, "batsu");
-                }
-                viewHolder.AnswerCheckImageView.SetColorFilter(correct ? Color.DarkGreen : Color.Red);
+                _ = viewHolder.SetCorrect(correct);
+                //viewHolder.AnswerCheckImageView.SetColorFilter(correct ? Color.DarkGreen : Color.Red);
                 viewHolder.AnswerTextView.SetBracketedText(viewModel.GetEnteredAnswerText(position));
                 viewHolder.AnswerTextView.SetTextColor(Color.Black);
-                //viewHolder.Line = chooseBestSentenceLogic.DialogueOptionQuizData.Lines[position];
                 viewHolder.ExplainationTextView.SetBracketedText(viewModel.GetExplainationFor(position));
 
             }
@@ -122,6 +118,8 @@ namespace SharedActivities.Droid.Views.Exercises.Results {
 
                 private View DividerView3 { get; }
                 private bool expanded;
+                private Task imageLoadTask;
+
                 public bool Expanded {
                     get => expanded;
                     set {
@@ -144,6 +142,14 @@ namespace SharedActivities.Droid.Views.Exercises.Results {
                     }
                 }
 
+
+                public async Task SetCorrect(bool correct) {
+                    await imageLoadTask;
+                    var correctFrameNumber = Convert.ToInt32(AnswerCheckImageView.Composition.StartFrame);
+                    var incorrectFrameNumber = Convert.ToInt32(AnswerCheckImageView.Composition.EndFrame);
+                    AnswerCheckImageView.Frame = correct ? correctFrameNumber : incorrectFrameNumber;
+                }
+
                 public ResultsCellViewHolder(View view, IExplanationLogic logic) : base(view) {
                     this.View = view;
                     AnswerCheckImageView = view.FindViewById<LottieAnimationView>(Resource.Id.answerCheckImageView);
@@ -160,6 +166,8 @@ namespace SharedActivities.Droid.Views.Exercises.Results {
                     possibleAnswersAdapter = new PossibleAnswersAdapter(this, logic);
                     PossibleAnswersRecyclerView.SetAdapter(possibleAnswersAdapter);
                     ExplainationTitleTextView.Text = Core.Resx.String.ExplainationTitle;
+
+                    imageLoadTask = AnswerCheckImageView.SetAnimationFromJsonAsync(Core.Resx.Lottie.marubatsu, "Resx.Lottie.marubatsu");
                     Expanded = false;
                 }
 
@@ -177,34 +185,37 @@ namespace SharedActivities.Droid.Views.Exercises.Results {
                         var viewHolder = (AnswerCellViewHolder)holder;
                         viewHolder.AnswerOptionTextView.SetBracketedText(chooseBestSentenceLogic.GetAnswerOptionText(resultsCellViewHolder.LayoutPosition, position));
                         var correct = chooseBestSentenceLogic.GetAnswerOptionCorrect(resultsCellViewHolder.LayoutPosition, position);
-                        if(correct) {
-                            viewHolder.CorrectAnswerCheckImageView.SetAnimationFromJson(Core.Resx.Lottie.maru, "maru");
-                        } else {
-                            viewHolder.CorrectAnswerCheckImageView.SetAnimationFromJson(Core.Resx.Lottie.batsu, "batsu");
-                        }
-                        
-                        viewHolder.CorrectAnswerCheckImageView.SetColorFilter(correct ? Color.DarkGreen : Color.Red);
+                        _ = viewHolder.SetCorrect(correct);
+                        //viewHolder.CorrectAnswerCheckImageView.SetColorFilter(correct ? Color.DarkGreen : Color.Red);
                         viewHolder.AnswerOptionTextView.SetTextColor(correct ? Color.DarkGreen : Color.Red);
 
                     }
 
                     public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType) {
                         var view = LayoutInflater.From(parent.Context).Inflate(Resource.Layout.result_explanation_answer_cell, parent, false);
+                        
                         var viewHolder = new AnswerCellViewHolder(view);
 
                         return viewHolder;
                     }
 
                     private class AnswerCellViewHolder : RecyclerView.ViewHolder {
-                        private View view;
-
                         public LottieAnimationView CorrectAnswerCheckImageView { get; }
                         public TextView AnswerOptionTextView { get; }
 
+                        private Task imageLoadTask;
+
+                        public async Task SetCorrect(bool correct) {
+                                await imageLoadTask;
+                            var correctFrameNumber = Convert.ToInt32(CorrectAnswerCheckImageView.Composition.StartFrame);
+                            var incorrectFrameNumber = Convert.ToInt32(CorrectAnswerCheckImageView.Composition.EndFrame);
+                            CorrectAnswerCheckImageView.Frame = correct ? correctFrameNumber : incorrectFrameNumber;
+                        }
+
                         public AnswerCellViewHolder(View view) : base(view) {
-                            this.view = view;
                             CorrectAnswerCheckImageView = view.FindViewById<LottieAnimationView>(Resource.Id.correctAnswerCheckImageView);
                             AnswerOptionTextView = view.FindViewById<TextView>(Resource.Id.answerOptionTextView);
+                            imageLoadTask = CorrectAnswerCheckImageView.SetAnimationFromJsonAsync(Core.Resx.Lottie.marubatsu, "Resx.Lottie.marubatsu");
                         }
                     }
                 }

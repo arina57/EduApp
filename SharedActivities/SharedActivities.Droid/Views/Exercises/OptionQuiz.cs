@@ -93,7 +93,7 @@ namespace SharedActivities.Droid.Views.Exercises {
 
         public async Task ShowResultAnimation(bool correct) {
             if (resultImageView.Composition == null) {
-                await resultImageView.SetAnimationFromJsonAsync(Core.Resx.Lottie.marubatsu, ".Resx.Lottie.marubatsu");
+                await resultImageView.SetAnimationFromJsonAsync(Core.Resx.Lottie.marubatsu, "Resx.Lottie.marubatsu");
                 correctFrameNumber = Convert.ToInt32(resultImageView.Composition.StartFrame);
                 incorrectFrameNumber = Convert.ToInt32(resultImageView.Composition.EndFrame);
             }
