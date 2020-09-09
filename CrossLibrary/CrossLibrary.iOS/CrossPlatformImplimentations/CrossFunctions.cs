@@ -6,11 +6,11 @@ using CrossLibrary.Dependency;
 using CrossLibrary.Interfaces;
 using CrossLibrary.iOS;
 using Foundation;
-using SharedLibrary.iOS.InterfaceImplimentations;
+using CrossLibrary.iOS.InterfaceImplimentations;
 using UIKit;
 
 [assembly: CrossDependency(typeof(CrossFunctions))]
-namespace SharedLibrary.iOS.InterfaceImplimentations {
+namespace CrossLibrary.iOS.InterfaceImplimentations {
 
     /// <summary>
     /// iOS Implimentation of ICrossFunctions

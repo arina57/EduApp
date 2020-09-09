@@ -1,8 +1,6 @@
 ﻿using Foundation;
-using SharedLibrary.iOS;
 using System;
 using UIKit;
-using CrossLibrary.iOS;
 using CrossLibrary.iOS.Views;
 using SharedActivities.Core.ViewModels.Exercises.Results;
 using SharedActivities.Core.ViewModels.Exercises;

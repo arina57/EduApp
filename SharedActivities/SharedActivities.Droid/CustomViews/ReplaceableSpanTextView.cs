@@ -15,7 +15,7 @@ using Xamarin.Essentials;
 using SharedActivities.Core;
 
 namespace SharedActivities.Droid.CustomViews {
-    [Register("sharedlibrary.droid.customcontrols.ReplaceableSpanTextView")]
+    [Register("sharedactivities.droid.customcontrols.ReplaceableSpanTextView")]
     public class ReplaceableSpanTextView : TextView  {
 
         //public Func<string, string> LinkClickedAssign;

@@ -6,7 +6,7 @@ using System.Text;
 using static UIKit.NSLayoutAttribute;
 using static UIKit.NSLayoutRelation;
 using Foundation;
-using SharedLibrary.iOS.CustomControls;
+using CrossLibrary.iOS.CustomControls;
 using UIKit;
 using CrossLibrary.Interfaces;
 

@@ -3,7 +3,6 @@ using System.Threading.Tasks;
 using Airbnb.Lottie;
 using CoreGraphics;
 using Foundation;
-using SharedLibrary.iOS;
 using UIKit;
 using CrossLibrary.iOS;
 using CrossLibrary.iOS.Views;
