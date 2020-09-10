@@ -63,6 +63,9 @@
     <Compile Include="Helpers\FontTextViewResizingSyncer.cs" />
     <Compile Include="Views\Exercises\DialogueOptionQuiz.cs" />
     <Compile Include="Views\Exercises\Results\OptionQuizResult.cs" />
+    <Compile Include="Views\Exercises\WordWeb.cs" />
+    <Compile Include="CustomViews\LineDrawingView.cs" />
+    <Compile Include="Views\Exercises\Results\WordWebResults.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -189,6 +192,34 @@
       <Generator></Generator>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\result_explanation_cell.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\wordweb.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\wordweb_cell.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\wordweb_left_cell_connector.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\wordweb_left_cell.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\wordweb_results.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\wordweb_right_cell.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\squarebox.xml">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
