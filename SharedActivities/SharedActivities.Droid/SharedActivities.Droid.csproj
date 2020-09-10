@@ -66,6 +66,9 @@
     <Compile Include="Views\Exercises\WordWeb.cs" />
     <Compile Include="CustomViews\LineDrawingView.cs" />
     <Compile Include="Views\Exercises\Results\WordWebResults.cs" />
+    <Compile Include="Views\Exercises\PhraseMatch.cs" />
+    <Compile Include="Helpers\RecyclerViewDragScrollHelper.cs" />
+    <Compile Include="Views\Exercises\Results\PhraseMatchResults.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -220,6 +223,18 @@
       <Generator></Generator>
     </AndroidResource>
     <AndroidResource Include="Resources\drawable\squarebox.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\dashedboxsolid.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\phrase_match.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\phrase_match_cell.xml">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
