@@ -3319,118 +3319,121 @@ namespace SharedActivities.Droid
 			public static int activity_title = 2131427356;
 			
 			// aapt resource value: 0x7F0B001D
-			public static int browser_actions_context_menu_page = 2131427357;
+			public static int basic_option_quiz = 2131427357;
 			
 			// aapt resource value: 0x7F0B001E
-			public static int browser_actions_context_menu_row = 2131427358;
+			public static int browser_actions_context_menu_page = 2131427358;
 			
 			// aapt resource value: 0x7F0B001F
-			public static int custom_dialog = 2131427359;
+			public static int browser_actions_context_menu_row = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
-			public static int default_activity_layout = 2131427360;
+			public static int custom_dialog = 2131427360;
 			
 			// aapt resource value: 0x7F0B0021
-			public static int dialogue_option_quiz = 2131427361;
+			public static int default_activity_layout = 2131427361;
 			
 			// aapt resource value: 0x7F0B0022
-			public static int dialogue_option_quiz_role_cell = 2131427362;
+			public static int dialogue_option_quiz = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public static int discrete_progress_view_cell = 2131427363;
+			public static int dialogue_option_quiz_role_cell = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public static int gap_fill = 2131427364;
+			public static int discrete_progress_view_cell = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public static int gap_fill_cell = 2131427365;
+			public static int gap_fill = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public static int gap_fill_vocab_cell = 2131427366;
+			public static int gap_fill_cell = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public static int notification_action = 2131427367;
+			public static int gap_fill_vocab_cell = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public static int notification_action_tombstone = 2131427368;
+			public static int notification_action = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public static int notification_template_custom_big = 2131427369;
+			public static int notification_action_tombstone = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public static int notification_template_icon_group = 2131427370;
+			public static int notification_template_custom_big = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public static int notification_template_part_chronometer = 2131427371;
+			public static int notification_template_icon_group = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public static int notification_template_part_time = 2131427372;
+			public static int notification_template_part_chronometer = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public static int option_quiz = 2131427373;
+			public static int notification_template_part_time = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public static int option_quiz_answer_cell = 2131427374;
+			public static int option_quiz = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public static int option_quiz_one_in_four_cell = 2131427375;
+			public static int option_quiz_answer_cell = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public static int phrase_match = 2131427376;
+			public static int option_quiz_one_in_four_cell = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public static int phrase_match_cell = 2131427377;
+			public static int phrase_match = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public static int practice_heading = 2131427378;
+			public static int phrase_match_cell = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public static int result_explanation_answer_cell = 2131427379;
+			public static int practice_heading = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public static int result_explanation_cell = 2131427380;
+			public static int result_explanation_answer_cell = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public static int score_page_with_explanation = 2131427381;
+			public static int result_explanation_cell = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public static int scoring = 2131427382;
+			public static int score_page_with_explanation = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public static int select_dialog_item_material = 2131427383;
+			public static int scoring = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public static int select_dialog_multichoice_material = 2131427384;
+			public static int select_dialog_item_material = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public static int select_dialog_singlechoice_material = 2131427385;
+			public static int select_dialog_multichoice_material = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public static int support_simple_spinner_dropdown_item = 2131427386;
+			public static int select_dialog_singlechoice_material = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public static int unit_practice = 2131427387;
+			public static int support_simple_spinner_dropdown_item = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public static int unit_practice_activity_select_cell = 2131427388;
+			public static int unit_practice = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public static int wordweb = 2131427389;
+			public static int unit_practice_activity_select_cell = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public static int wordweb_cell = 2131427390;
+			public static int wordweb = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public static int wordweb_left_cell = 2131427391;
+			public static int wordweb_cell = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public static int wordweb_left_cell_connector = 2131427392;
+			public static int wordweb_left_cell = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public static int wordweb_results = 2131427393;
+			public static int wordweb_left_cell_connector = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public static int wordweb_right_cell = 2131427394;
+			public static int wordweb_results = 2131427394;
+			
+			// aapt resource value: 0x7F0B0043
+			public static int wordweb_right_cell = 2131427395;
 			
 			static Layout()
 			{

@@ -69,6 +69,7 @@
     <Compile Include="Views\Exercises\PhraseMatch.cs" />
     <Compile Include="Helpers\RecyclerViewDragScrollHelper.cs" />
     <Compile Include="Views\Exercises\Results\PhraseMatchResults.cs" />
+    <Compile Include="Views\Exercises\BasicOptionQuiz.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -235,6 +236,10 @@
       <Generator></Generator>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\phrase_match_cell.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\basic_option_quiz.xml">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
