@@ -12,7 +12,7 @@ using SharedActivities.Core.ViewModels.Exercises.Interfaces;
 using SharedActivities.Core.ViewModels.Exercises.Results;
 
 namespace SharedActivities.Droid.Views.Exercises.Results {
-    public class OptionQuizResult : CrossFragment<OptionQuizResultViewModel> {
+    public class OptionQuizResultView : CrossFragment<OptionQuizResultViewModel> {
         private View view;
         private CrossContainerView genericScoringContainer;
         private TextView titleTextView;

@@ -16,7 +16,7 @@ using SharedActivities.Core.ViewModels.Exercises;
 using SharedActivities.Droid.CustomViews;
 
 namespace SharedActivities.Droid.Views.Exercises {
-    public class ReadingQuiz : CrossFragment<ReadingOptionQuizViewModel> {
+    public class ReadingQuizView : CrossFragment<ReadingOptionQuizViewModel> {
         private RecyclerView readingRecyclerView;
         private DiscreteProgressView progressView;
         private ReadingRecyclerAdapter adapter;
@@ -59,9 +59,9 @@ namespace SharedActivities.Droid.Views.Exercises {
 
         private class ReadingRecyclerAdapter : RecyclerView.Adapter {
             ReadingOptionQuizViewModel readingQuizLogic;
-            ReadingQuiz readingQuiz;
+            ReadingQuizView readingQuiz;
             string cache = string.Empty;
-            public ReadingRecyclerAdapter(ReadingQuiz readingQuiz) {
+            public ReadingRecyclerAdapter(ReadingQuizView readingQuiz) {
                 this.readingQuiz = readingQuiz;
                 this.readingQuizLogic = readingQuiz.ViewModel;
 

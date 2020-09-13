@@ -12,7 +12,7 @@ using SharedActivities.Droid.Helpers;
 using Xamarin.Essentials;
 
 namespace SharedActivities.Droid.Views.Exercises {
-    public class PhraseMatch : CrossFragment<PhraseMatchViewModel> {
+    public class PhraseMatchView : CrossFragment<PhraseMatchViewModel> {
         private RecyclerView matchPhraseOptions;
         private RecyclerView mainPhraseOptions;
         private MatchPhraseOptionsAdapter matchPhraseOptionsAdapter;
@@ -124,9 +124,9 @@ namespace SharedActivities.Droid.Views.Exercises {
         }
 
         private class MatchPhraseOptionsAdapter : RecyclerView.Adapter {
-            private PhraseMatch fragment;
+            private PhraseMatchView fragment;
 
-            public MatchPhraseOptionsAdapter(PhraseMatch fragment) {
+            public MatchPhraseOptionsAdapter(PhraseMatchView fragment) {
                 this.fragment = fragment;
             }
 
@@ -167,10 +167,10 @@ namespace SharedActivities.Droid.Views.Exercises {
         }
 
         private class MainPhraseOptionsAdapter : RecyclerView.Adapter {
-            private PhraseMatch fragment;
+            private PhraseMatchView fragment;
             private RecyclerView.RecycledViewPool subRecyclerViewViewPool;
 
-            public MainPhraseOptionsAdapter(PhraseMatch fragment) {
+            public MainPhraseOptionsAdapter(PhraseMatchView fragment) {
                 this.fragment = fragment;
                 subRecyclerViewViewPool = new RecyclerView.RecycledViewPool();
             }
@@ -205,7 +205,7 @@ namespace SharedActivities.Droid.Views.Exercises {
             public View View;
             public RecyclerView MatchingMatchesRecyclerView;
             public AnswersMatchesAdapter AnswerAdapter;
-            public MainPhraseOptionsViewHolder(View view, PhraseMatch fragment) : base(view) {
+            public MainPhraseOptionsViewHolder(View view, PhraseMatchView fragment) : base(view) {
                 View = view;
                 this.TextView = view.FindViewById<TextView>(Resource.Id.textView);
                 MatchingMatchesRecyclerView = view.FindViewById<RecyclerView>(Resource.Id.matchingMatchesRecyclerView);
@@ -215,10 +215,10 @@ namespace SharedActivities.Droid.Views.Exercises {
             }
 
             public class AnswersMatchesAdapter : RecyclerView.Adapter {
-                private PhraseMatch fragment;
+                private PhraseMatchView fragment;
                 MainPhraseOptionsViewHolder mainPhraseOptionsViewHolder;
 
-                public AnswersMatchesAdapter(MainPhraseOptionsViewHolder mainPhraseOptionsViewHolder, PhraseMatch fragment) {
+                public AnswersMatchesAdapter(MainPhraseOptionsViewHolder mainPhraseOptionsViewHolder, PhraseMatchView fragment) {
                     this.fragment = fragment;
                     this.mainPhraseOptionsViewHolder = mainPhraseOptionsViewHolder;
                 }

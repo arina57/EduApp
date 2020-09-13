@@ -59,18 +59,18 @@
     <Compile Include="Views\Exercises\Results\GapFillResultsView.cs" />
     <Compile Include="Views\Exercises\Results\ScoringView.cs" />
     <Compile Include="CustomViews\DiscreteProgressView.cs" />
-    <Compile Include="Views\Exercises\OptionQuiz.cs" />
+    <Compile Include="Views\Exercises\OptionQuizView.cs" />
     <Compile Include="Helpers\FontTextViewResizingSyncer.cs" />
-    <Compile Include="Views\Exercises\DialogueOptionQuiz.cs" />
-    <Compile Include="Views\Exercises\Results\OptionQuizResult.cs" />
-    <Compile Include="Views\Exercises\WordWeb.cs" />
+    <Compile Include="Views\Exercises\DialogueOptionQuizView.cs" />
+    <Compile Include="Views\Exercises\Results\OptionQuizResultView.cs" />
+    <Compile Include="Views\Exercises\WordWebView.cs" />
     <Compile Include="CustomViews\LineDrawingView.cs" />
-    <Compile Include="Views\Exercises\Results\WordWebResults.cs" />
-    <Compile Include="Views\Exercises\PhraseMatch.cs" />
+    <Compile Include="Views\Exercises\Results\WordWebResultsView.cs" />
+    <Compile Include="Views\Exercises\PhraseMatchView.cs" />
     <Compile Include="Helpers\RecyclerViewDragScrollHelper.cs" />
-    <Compile Include="Views\Exercises\Results\PhraseMatchResults.cs" />
-    <Compile Include="Views\Exercises\BasicOptionQuiz.cs" />
-    <Compile Include="Views\Exercises\ReadingQuiz.cs" />
+    <Compile Include="Views\Exercises\Results\PhraseMatchResultsView.cs" />
+    <Compile Include="Views\Exercises\BasicOptionQuizView.cs" />
+    <Compile Include="Views\Exercises\ReadingQuizView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

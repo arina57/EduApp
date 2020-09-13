@@ -11,11 +11,11 @@ using SharedActivities.Core.ViewModels.Exercises;
 using SharedActivities.Droid.CustomViews;
 
 namespace SharedActivities.Droid.Views.Exercises {
-    public class DialogueOptionQuiz : CrossFragment<DialogueOptionQuizViewModel> {
+    public class DialogueOptionQuizView : CrossFragment<DialogueOptionQuizViewModel> {
         RecyclerView roleRecyclerView;
         private DiscreteProgressView progressView;
         private RoleListAdapter roleListAdapter;
-        public DialogueOptionQuiz() {
+        public DialogueOptionQuizView() {
 
         }
 
@@ -74,9 +74,9 @@ namespace SharedActivities.Droid.Views.Exercises {
 
 
         private class RoleListAdapter : RecyclerView.Adapter {
-            private DialogueOptionQuiz chooseBestSentence;
+            private DialogueOptionQuizView chooseBestSentence;
             DialogueOptionQuizViewModel chooseBestSentenceLogic;
-            public RoleListAdapter(DialogueOptionQuiz chooseBestSentence) {
+            public RoleListAdapter(DialogueOptionQuizView chooseBestSentence) {
                 this.chooseBestSentence = chooseBestSentence;
                 chooseBestSentenceLogic = chooseBestSentence.ViewModel;
             }

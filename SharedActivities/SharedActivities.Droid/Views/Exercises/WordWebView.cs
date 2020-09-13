@@ -15,7 +15,7 @@ using Xamarin.Essentials;
 using static CrossLibrary.MathAndGeometry;
 
 namespace SharedActivities.Droid.Views.Exercises {
-    public class WordWeb : CrossFragment<WordWebViewModel>, ViewTreeObserver.IOnGlobalLayoutListener {
+    public class WordWebView : CrossFragment<WordWebViewModel>, ViewTreeObserver.IOnGlobalLayoutListener {
         private View dragHackView;
         private RecyclerView matchPhraseOptions;
         private RecyclerView mainPhraseOptions;
@@ -34,7 +34,7 @@ namespace SharedActivities.Droid.Views.Exercises {
         PoolLineMatchCellViewHolder touchedPoolLineMatchCellViewHolder;
         public IExerciseLogic ExerciseLogic => ViewModel;
         Dictionary<int, MainPhraseCellViewHolder> mainPhraseCellViewHolder = new Dictionary<int, MainPhraseCellViewHolder>();
-        public WordWeb() {
+        public WordWebView() {
 
         }
 
@@ -161,9 +161,9 @@ namespace SharedActivities.Droid.Views.Exercises {
 
         private class MainPhraseOptionsAdapter : RecyclerView.Adapter {
             private WordWebViewModel logic;
-            WordWeb fragment;
+            WordWebView fragment;
             private RecyclerView.RecycledViewPool viewPool = new RecyclerView.RecycledViewPool();
-            public MainPhraseOptionsAdapter(WordWeb fragment) {
+            public MainPhraseOptionsAdapter(WordWebView fragment) {
                 this.logic = fragment.ViewModel;
                 this.fragment = fragment;
             }
@@ -204,7 +204,7 @@ namespace SharedActivities.Droid.Views.Exercises {
             public LottieAnimationView CorrectView { get; private set; }
             public RecyclerView LineConnectorRecyclerView { get; private set; }
 
-            public MainPhraseCellViewHolder(View view, WordWeb fragment) : base(view) {
+            public MainPhraseCellViewHolder(View view, WordWebView fragment) : base(view) {
                 this.TextView = view.FindViewById<TextView>(Resource.Id.textView);
                 this.LineConnectorRecyclerView = view.FindViewById<RecyclerView>(Resource.Id.lineConnectorRecyclerView);
                 CorrectView = view.FindViewById<LottieAnimationView>(Resource.Id.correctView);
@@ -219,9 +219,9 @@ namespace SharedActivities.Droid.Views.Exercises {
             private int MainPhrase => mainPhraseCellViewHolder.AdapterPosition;
             private WordWebViewModel ViewModel => fragment.ViewModel;
             LineDrawingView LineDrawingView => fragment.lineDrawingView;
-            WordWeb fragment;
+            WordWebView fragment;
             Color Color => ViewModel.MainPhraseColor(MainPhrase);
-            public LineConnectorAdapter(MainPhraseCellViewHolder mainPhraseCellViewHolder, WordWeb fragment) {
+            public LineConnectorAdapter(MainPhraseCellViewHolder mainPhraseCellViewHolder, WordWebView fragment) {
                 this.mainPhraseCellViewHolder = mainPhraseCellViewHolder;
                 this.fragment = fragment;
             }
@@ -328,10 +328,10 @@ namespace SharedActivities.Droid.Views.Exercises {
 
 
         private class MatchPhraseOptionsAdapter : RecyclerView.Adapter {
-            private WordWeb fragment;
+            private WordWebView fragment;
             private WordWebViewModel ViewModel => fragment.ViewModel;
             private LineDrawingView LineDrawingView => fragment.lineDrawingView;
-            public MatchPhraseOptionsAdapter(WordWeb fragment) {
+            public MatchPhraseOptionsAdapter(WordWebView fragment) {
                 this.fragment = fragment;
             }
 

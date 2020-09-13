@@ -16,7 +16,7 @@ using SharedActivities.Droid.Helpers;
 
 namespace SharedActivities.Droid.Views.Exercises {
 
-    public class OptionQuiz : CrossFragment<OptionQuizViewModel>, ViewTreeObserver.IOnGlobalLayoutListener {
+    public class OptionQuizView : CrossFragment<OptionQuizViewModel>, ViewTreeObserver.IOnGlobalLayoutListener {
         private View rootView;
         private TextView titleText;
         private TextView questionTextView;
@@ -32,11 +32,11 @@ namespace SharedActivities.Droid.Views.Exercises {
 
         public IExerciseLogic ExerciseLogic => ViewModel;
 
-        public OptionQuiz(bool fillParent = false) {
+        public OptionQuizView(bool fillParent = false) {
             FillParent = fillParent;
         }
 
-        public OptionQuiz() {
+        public OptionQuizView() {
             FillParent = false;
         }
 
@@ -123,9 +123,9 @@ namespace SharedActivities.Droid.Views.Exercises {
         }
 
         private class AnswerListAdapter : RecyclerView.Adapter {
-            private OptionQuiz orderedOptionQuiz;
+            private OptionQuizView orderedOptionQuiz;
             FontTextViewResizingSyncer fontTextViewResizingSyncer = new FontTextViewResizingSyncer();
-            public AnswerListAdapter(OptionQuiz orderedOptionQuiz) {
+            public AnswerListAdapter(OptionQuizView orderedOptionQuiz) {
                 this.orderedOptionQuiz = orderedOptionQuiz;
             }
 

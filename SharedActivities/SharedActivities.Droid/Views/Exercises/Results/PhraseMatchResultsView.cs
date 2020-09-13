@@ -10,7 +10,7 @@ using SharedActivities.Core.ViewModels.Exercises;
 using SharedActivities.Core.ViewModels.Exercises.Results;
 
 namespace SharedActivities.Droid.Views.Exercises.Results {
-    public class PhraseMatchResults : CrossFragment<PhraseMatchResultsViewModel> {
+    public class PhraseMatchResultsView : CrossFragment<PhraseMatchResultsViewModel> {
         private TextView titleTextView;
         private RecyclerView resultsList;
         //private ResultsListAdapter resultsListAdapter;
@@ -18,7 +18,7 @@ namespace SharedActivities.Droid.Views.Exercises.Results {
         private View view;
         private CrossContainerView genericScoringContainer;
 
-        public PhraseMatchResults() {
+        public PhraseMatchResultsView() {
         }
 
         public override void OnCreate(Bundle savedInstanceState) {

@@ -13,7 +13,7 @@ using Xamarin.Essentials;
 
 
 namespace SharedActivities.Droid.Views.Exercises.Results {
-    public class WordWebResults : CrossFragment<WordWebResultsViewModel> {
+    public class WordWebResultsView : CrossFragment<WordWebResultsViewModel> {
         private View view;
         private FrameLayout topFrame;
         private TextView resultsTitleTextView;
@@ -22,7 +22,7 @@ namespace SharedActivities.Droid.Views.Exercises.Results {
         private MatchPhraseOptionsAdapter matchPhraseOptionsAdapter;
         private MainPhraseOptionsAdapter mainPhraseOptionsAdapter;
         private LineDrawingView lineDrawingView;
-        public WordWebResults() {
+        public WordWebResultsView() {
         }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

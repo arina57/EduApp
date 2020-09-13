@@ -6,7 +6,7 @@ using SharedActivities.Core.ViewModels.Exercises;
 using SharedActivities.Droid.CustomViews;
 
 namespace SharedActivities.Droid.Views.Exercises {
-    public class BasicOptionQuiz : CrossFragment<BasicOptionQuizViewModel> {
+    public class BasicOptionQuizView : CrossFragment<BasicOptionQuizViewModel> {
         private DiscreteProgressView progressView;
         public override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
@@ -14,7 +14,7 @@ namespace SharedActivities.Droid.Views.Exercises {
             // Create your fragment here
         }
 
-        public BasicOptionQuiz() {
+        public BasicOptionQuizView() {
 
         }
 
