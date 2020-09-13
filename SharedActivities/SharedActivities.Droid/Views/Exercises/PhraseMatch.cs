@@ -9,6 +9,7 @@ using AndroidX.RecyclerView.Widget;
 using CrossLibrary.Droid.Views;
 using SharedActivities.Core.ViewModels.Exercises;
 using SharedActivities.Droid.Helpers;
+using Xamarin.Essentials;
 
 namespace SharedActivities.Droid.Views.Exercises {
     public class PhraseMatch : CrossFragment<PhraseMatchViewModel> {
@@ -63,7 +64,7 @@ namespace SharedActivities.Droid.Views.Exercises {
                 case DragAction.Started:
                     break;
                 case DragAction.Entered:
-                    view?.Background?.SetColorFilter(Color.ParseColor("#99D6D0"), PorterDuff.Mode.Darken);
+                    view?.Background?.SetColorFilter(Core.GlobalColorPalette.Light.ToPlatformColor(), PorterDuff.Mode.Darken);
                     view?.Invalidate();
 
                     break;
