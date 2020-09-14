@@ -6,12 +6,12 @@ using SharedActivities.Core.ViewModels.Exercises;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.ReadingQuiz {
-    public partial class ReadingQuiz : CrossUIViewController<ReadingOptionQuizViewModel> {
+    public partial class ReadingQuizView : CrossUIViewController<ReadingOptionQuizViewModel> {
 
-        public ReadingQuiz(IntPtr handle) : base(handle) {
+        public ReadingQuizView(IntPtr handle) : base(handle) {
         }
 
-        public ReadingQuiz() {
+        public ReadingQuizView() {
 
         }
 
@@ -20,7 +20,7 @@ namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.ReadingQuiz {
 
         public override void ViewDidLoad() {
             base.ViewDidLoad();
-            ReadingTable.RegisterNibForCellReuse(ReadingQuizCell.Nib, "ReadingQuizResuseCell");
+            ReadingTable.RegisterNibForCellReuse(ReadingQuizCellView.Nib, "ReadingQuizResuseCell");
             ReadingTable.Source = new ReadingQuizSource(this);
             ProgressView.ProgressTracker = ViewModel;
 
@@ -34,15 +34,15 @@ namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.ReadingQuiz {
         }
 
         private class ReadingQuizSource : UITableViewSource {
-            private ReadingQuiz readingQuiz;
+            private ReadingQuizView readingQuiz;
             private ReadingOptionQuizViewModel Logic => readingQuiz.ViewModel;
 
-            public ReadingQuizSource(ReadingQuiz readingQuiz) {
+            public ReadingQuizSource(ReadingQuizView readingQuiz) {
                 this.readingQuiz = readingQuiz;
             }
 
             public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath) {
-                var cell = tableView.DequeueReusableCell("ReadingQuizResuseCell") as ReadingQuizCell;
+                var cell = tableView.DequeueReusableCell("ReadingQuizResuseCell") as ReadingQuizCellView;
                 cell.Setup(Logic, indexPath.Row);
 
                 return cell;

@@ -11,8 +11,8 @@ using System.CodeDom.Compiler;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.BasicOptionQuiz {
-    [Register("BasicOptionQuiz")]
-    partial class BasicOptionQuiz {
+    [Register("BasicOptionQuizView")]
+    partial class BasicOptionQuizView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         DiscreteProgressView ProgressView { get; set; }

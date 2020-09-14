@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BasicOptionQuiz">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BasicOptionQuizView">
             <connections>
                 <outlet property="ProgressView" destination="16k-Wq-0YA" id="jZ9-Ab-zjr"/>
                 <outlet property="view" destination="2" id="RRd-Eg-VrN"/>

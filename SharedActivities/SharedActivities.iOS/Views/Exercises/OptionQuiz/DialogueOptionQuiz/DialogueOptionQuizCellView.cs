@@ -5,15 +5,14 @@ using SharedActivities.Core.ViewModels.Exercises;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.DialogueOptionQuiz {
-    public partial class DialogueOptionQuizCell : UICollectionViewCell {
-        public static readonly NSString Key = new NSString("DialogueOptionQuizCell");
-        public static readonly UINib Nib;
+    public partial class DialogueOptionQuizCellView : UICollectionViewCell {
+        public static readonly NSString Key = new NSString(nameof(DialogueOptionQuizCellView));
+        public static readonly UINib Nib = UINib.FromName(Key, NSBundle.MainBundle);
 
-        static DialogueOptionQuizCell() {
-            Nib = UINib.FromName("DialogueOptionQuizCell", NSBundle.MainBundle);
+        static DialogueOptionQuizCellView() {
         }
 
-        protected DialogueOptionQuizCell(IntPtr handle) : base(handle) {
+        protected DialogueOptionQuizCellView(IntPtr handle) : base(handle) {
             // Note: this .ctor should not contain any initialization logic.
         }
 

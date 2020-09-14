@@ -5,8 +5,8 @@ using SharedActivities.Core.ViewModels.Exercises;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.DialogueOptionQuiz {
-    public partial class DialogueOptionQuiz : CrossUIViewController<DialogueOptionQuizViewModel> {
-        public DialogueOptionQuiz() {
+    public partial class DialogueOptionQuizView : CrossUIViewController<DialogueOptionQuizViewModel> {
+        public DialogueOptionQuizView() {
         }
         private UICollectionViewFlowLayout collectionViewFlowControl;
 
@@ -21,7 +21,7 @@ namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.DialogueOptionQuiz {
             collectionViewFlowControl.MinimumInteritemSpacing = 0;
             collectionViewFlowControl.MinimumLineSpacing = 0;
             CharacterView.CollectionViewLayout = collectionViewFlowControl;
-            CharacterView.RegisterNibForCell(UINib.FromName(DialogueOptionQuizCell.Key, null), "CharacterResuseCell");
+            CharacterView.RegisterNibForCell(UINib.FromName(DialogueOptionQuizCellView.Key, null), "CharacterResuseCell");
             CharacterView.Source = new CharacterSource(this);
             ViewModel.ProgressChanged += ViewModel_ProgressChanged;
         }
@@ -42,10 +42,10 @@ namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.DialogueOptionQuiz {
         }
 
         private class CharacterSource : UICollectionViewSource {
-            private DialogueOptionQuiz dialogueOptionQuiz;
+            private DialogueOptionQuizView dialogueOptionQuiz;
             DialogueOptionQuizViewModel Logic => dialogueOptionQuiz.ViewModel;
 
-            public CharacterSource(DialogueOptionQuiz dialogueOptionQuiz) {
+            public CharacterSource(DialogueOptionQuizView dialogueOptionQuiz) {
                 this.dialogueOptionQuiz = dialogueOptionQuiz;
             }
 
@@ -54,7 +54,7 @@ namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.DialogueOptionQuiz {
             public override nint GetItemsCount(UICollectionView collectionView, nint section) => Logic.RoleCount;
 
             public override UICollectionViewCell GetCell(UICollectionView collectionView, NSIndexPath indexPath) {
-                var cell = collectionView.DequeueReusableCell("CharacterResuseCell", indexPath) as DialogueOptionQuizCell;
+                var cell = collectionView.DequeueReusableCell("CharacterResuseCell", indexPath) as DialogueOptionQuizCellView;
                 dialogueOptionQuiz.collectionViewFlowControl.ItemSize = new CoreGraphics.CGSize(collectionView.Bounds.Width / Logic.RoleCount, collectionView.Bounds.Height);
                 cell.Setup(Logic, indexPath.Row);
                 return cell;

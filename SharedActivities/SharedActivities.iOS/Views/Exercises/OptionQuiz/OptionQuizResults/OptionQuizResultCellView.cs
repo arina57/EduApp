@@ -5,13 +5,13 @@ using SharedActivities.Core.ViewModels.Exercises.Results;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.OptionQuizResults {
-    public partial class OptionQuizResultCell : UITableViewCell {
-        public static readonly NSString Key = new NSString(nameof(OptionQuizResultCell));
+    public partial class OptionQuizResultCellView : UITableViewCell {
+        public static readonly NSString Key = new NSString(nameof(OptionQuizResultCellView));
         public static readonly UINib Nib = UINib.FromName(Key, NSBundle.MainBundle);
-        public OptionQuizResultCell(IntPtr handle) : base(handle) {
+        public OptionQuizResultCellView(IntPtr handle) : base(handle) {
         }
 
-        public OptionQuizResultCell() {
+        public OptionQuizResultCellView() {
         }
 
         private PossibleAnswersSource possibleAnswersSource;
@@ -21,7 +21,7 @@ namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.OptionQuizResults {
 
         public override void AwakeFromNib() {
             base.AwakeFromNib();
-            PossibleAnswersTable.RegisterNibForCellReuse(OptionQuizResultAnswerOptionCell.Nib, "OptionQuizResultAnswerOptionCellReuse");
+            PossibleAnswersTable.RegisterNibForCellReuse(OptionQuizResultAnswerOptionCellView.Nib, "OptionQuizResultAnswerOptionCellReuse");
             possibleAnswersSource = new PossibleAnswersSource();
             PossibleAnswersTable.Source = possibleAnswersSource;
             //HeightContraint.Active = false;
@@ -80,7 +80,7 @@ namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.OptionQuizResults {
             }
 
             public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath) {
-                var cell = tableView.DequeueReusableCell("OptionQuizResultAnswerOptionCellReuse") as OptionQuizResultAnswerOptionCell;
+                var cell = tableView.DequeueReusableCell("OptionQuizResultAnswerOptionCellReuse") as OptionQuizResultAnswerOptionCellView;
                 cell.Setup(viewModel, questionNumber, indexPath.Row);
                 cell.LayoutSubviews();
                 return cell;

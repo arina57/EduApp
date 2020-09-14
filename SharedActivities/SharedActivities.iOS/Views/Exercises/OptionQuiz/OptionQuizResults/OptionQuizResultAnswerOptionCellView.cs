@@ -6,13 +6,13 @@ using UIKit;
 using Xamarin.Essentials;
 
 namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.OptionQuizResults {
-    public partial class OptionQuizResultAnswerOptionCell : UITableViewCell {
-        public static readonly NSString Key = new NSString(nameof(OptionQuizResultAnswerOptionCell));
+    public partial class OptionQuizResultAnswerOptionCellView : UITableViewCell {
+        public static readonly NSString Key = new NSString(nameof(OptionQuizResultAnswerOptionCellView));
         public static readonly UINib Nib = UINib.FromName(Key, NSBundle.MainBundle);
-        public OptionQuizResultAnswerOptionCell(IntPtr handle) : base(handle) {
+        public OptionQuizResultAnswerOptionCellView(IntPtr handle) : base(handle) {
         }
 
-        public OptionQuizResultAnswerOptionCell() : base() {
+        public OptionQuizResultAnswerOptionCellView() : base() {
         }
 
         internal void Setup(OptionQuizResultViewModel viewModel, int questionNumber, int answerOption) {

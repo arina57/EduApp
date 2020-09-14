@@ -10,8 +10,8 @@ using System.CodeDom.Compiler;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.ReadingQuiz {
-    [Register("ReadingQuiz")]
-    partial class ReadingQuiz {
+    [Register("ReadingQuizView")]
+    partial class ReadingQuizView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         CrossLibrary.iOS.Views.CrossContainerView ActivityTitleContainer { get; set; }

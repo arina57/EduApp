@@ -8,8 +8,8 @@ using System.CodeDom.Compiler;
 using Foundation;
 
 namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.ReadingQuiz {
-    [Register("ReadingQuizCell")]
-    partial class ReadingQuizCell {
+    [Register("ReadingQuizCellView")]
+    partial class ReadingQuizCellView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         UIKit.UIView ImageView { get; set; }

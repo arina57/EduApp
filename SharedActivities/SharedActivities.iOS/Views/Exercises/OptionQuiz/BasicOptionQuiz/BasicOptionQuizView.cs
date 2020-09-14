@@ -4,13 +4,13 @@ using SharedActivities.Core.ViewModels.Exercises;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.BasicOptionQuiz {
-    public partial class BasicOptionQuiz : CrossUIViewController<BasicOptionQuizViewModel> {
+    public partial class BasicOptionQuizView : CrossUIViewController<BasicOptionQuizViewModel> {
 
-        public BasicOptionQuiz() {
+        public BasicOptionQuizView() {
         }
 
 
-        public BasicOptionQuiz(IntPtr handle) : base(handle) {
+        public BasicOptionQuizView(IntPtr handle) : base(handle) {
         }
 
         public override void ViewDidLoad() {

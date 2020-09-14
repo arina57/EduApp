@@ -11,8 +11,8 @@ using System.CodeDom.Compiler;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.OptionQuizResults {
-    [Register("OptionQuizResult")]
-    partial class OptionQuizResult {
+    [Register("OptionQuizResultView")]
+    partial class OptionQuizResultView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         ContentSizedTableView ResultsTable { get; set; }

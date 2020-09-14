@@ -10,8 +10,8 @@ using System.CodeDom.Compiler;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.OptionQuizResults {
-    [Register("OptionQuizResultCell")]
-    partial class OptionQuizResultCell {
+    [Register("OptionQuizResultCellView")]
+    partial class OptionQuizResultCellView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         UIKit.UIView AnswerCheckImageView { get; set; }

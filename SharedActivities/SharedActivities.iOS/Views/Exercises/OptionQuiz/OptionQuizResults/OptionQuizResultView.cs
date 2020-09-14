@@ -5,10 +5,10 @@ using SharedActivities.Core.ViewModels.Exercises.Results;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.OptionQuizResults {
-    public partial class OptionQuizResult : CrossUIViewController<OptionQuizResultViewModel> {
+    public partial class OptionQuizResultView : CrossUIViewController<OptionQuizResultViewModel> {
 
 
-        public OptionQuizResult() {
+        public OptionQuizResultView() {
         }
 
         public override void RefreshUILocale() {
@@ -18,7 +18,7 @@ namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.OptionQuizResults {
 
         public override void ViewDidLoad() {
             base.ViewDidLoad();
-            ResultsTable.RegisterNibForCellReuse(OptionQuizResultCell.Nib, "ResultsReuseCell");
+            ResultsTable.RegisterNibForCellReuse(OptionQuizResultCellView.Nib, "ResultsReuseCell");
             ResultsTable.Source = new ResultsSource(this);
         }
 
@@ -29,15 +29,15 @@ namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.OptionQuizResults {
         }
 
         private class ResultsSource : UITableViewSource {
-            private OptionQuizResult resultExplaination;
+            private OptionQuizResultView resultExplaination;
             private OptionQuizResultViewModel ViewModel => resultExplaination.ViewModel;
-            public ResultsSource(OptionQuizResult resultExplaination) {
+            public ResultsSource(OptionQuizResultView resultExplaination) {
                 this.resultExplaination = resultExplaination;
             }
 
             public override void RowSelected(UITableView tableView, NSIndexPath indexPath) {
                 tableView.DeselectRow(indexPath, false);
-                var cell = tableView.CellAt(indexPath) as OptionQuizResultCell;
+                var cell = tableView.CellAt(indexPath) as OptionQuizResultCellView;
                 cell.Expanded = !cell.Expanded;
                 tableView.ReloadData();
                 tableView.LayoutSubviews();
@@ -47,7 +47,7 @@ namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.OptionQuizResults {
             }
 
             public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath) {
-                var cell = tableView.DequeueReusableCell("ResultsReuseCell") as OptionQuizResultCell;
+                var cell = tableView.DequeueReusableCell("ResultsReuseCell") as OptionQuizResultCellView;
                 if (cell.QuestionNumber == -1) {
 
                 }

@@ -12,8 +12,8 @@ using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.DialogueOptionQuiz
 {
-    [Register ("DialogueOptionQuiz")]
-    partial class DialogueOptionQuiz
+    [Register ("DialogueOptionQuizView")]
+    partial class DialogueOptionQuizView
     {
         [Outlet]
         DiscreteProgressView ProgressView { get; set; }

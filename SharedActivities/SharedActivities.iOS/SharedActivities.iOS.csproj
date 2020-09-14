@@ -100,43 +100,43 @@
     <Compile Include="Views\Exercises\OptionQuiz\OptionQuizCellView.designer.cs">
       <DependentUpon>OptionQuizCellView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultCell.cs" />
-    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultCell.designer.cs">
-      <DependentUpon>OptionQuizResultCell.cs</DependentUpon>
+    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultCellView.cs" />
+    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultCellView.designer.cs">
+      <DependentUpon>OptionQuizResultCellView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultAnswerOptionCell.cs" />
-    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultAnswerOptionCell.designer.cs">
-      <DependentUpon>OptionQuizResultAnswerOptionCell.cs</DependentUpon>
+    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultAnswerOptionCellView.cs" />
+    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultAnswerOptionCellView.designer.cs">
+      <DependentUpon>OptionQuizResultAnswerOptionCellView.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Exercises\ScoringView.cs" />
     <Compile Include="Views\Exercises\ScoringView.designer.cs">
       <DependentUpon>ScoringView.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomViews\CircularProgressBar.cs" />
-    <Compile Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\DialogueOptionQuiz.cs" />
-    <Compile Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\DialogueOptionQuiz.designer.cs">
-      <DependentUpon>DialogueOptionQuiz.cs</DependentUpon>
+    <Compile Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\DialogueOptionQuizView.cs" />
+    <Compile Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\DialogueOptionQuizView.designer.cs">
+      <DependentUpon>DialogueOptionQuizView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\DialogueOptionQuizCell.cs" />
-    <Compile Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\DialogueOptionQuizCell.designer.cs">
-      <DependentUpon>DialogueOptionQuizCell.cs</DependentUpon>
+    <Compile Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\DialogueOptionQuizCellView.cs" />
+    <Compile Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\DialogueOptionQuizCellView.designer.cs">
+      <DependentUpon>DialogueOptionQuizCellView.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomViews\DiscreteProgressView.cs" />
-    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResult.cs" />
-    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResult.designer.cs">
-      <DependentUpon>OptionQuizResult.cs</DependentUpon>
+    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultView.cs" />
+    <Compile Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultView.designer.cs">
+      <DependentUpon>OptionQuizResultView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuiz.cs" />
-    <Compile Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuiz.designer.cs">
-      <DependentUpon>ReadingQuiz.cs</DependentUpon>
+    <Compile Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuizView.cs" />
+    <Compile Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuizView.designer.cs">
+      <DependentUpon>ReadingQuizView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuizCell.cs" />
-    <Compile Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuizCell.designer.cs">
-      <DependentUpon>ReadingQuizCell.cs</DependentUpon>
+    <Compile Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuizCellView.cs" />
+    <Compile Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuizCellView.designer.cs">
+      <DependentUpon>ReadingQuizCellView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Exercises\OptionQuiz\BasicOptionQuiz\BasicOptionQuiz.cs" />
-    <Compile Include="Views\Exercises\OptionQuiz\BasicOptionQuiz\BasicOptionQuiz.designer.cs">
-      <DependentUpon>BasicOptionQuiz.cs</DependentUpon>
+    <Compile Include="Views\Exercises\OptionQuiz\BasicOptionQuiz\BasicOptionQuizView.cs" />
+    <Compile Include="Views\Exercises\OptionQuiz\BasicOptionQuiz\BasicOptionQuizView.designer.cs">
+      <DependentUpon>BasicOptionQuizView.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Exercises\PhraseMatch\PhraseMatch.cs" />
     <Compile Include="Views\Exercises\PhraseMatch\PhraseMatch.designer.cs">
@@ -221,15 +221,15 @@
     <InterfaceDefinition Include="Views\Exercises\GapFill\GapFillResultsView.xib" />
     <InterfaceDefinition Include="Views\Exercises\OptionQuiz\OptionQuizView.xib" />
     <InterfaceDefinition Include="Views\Exercises\OptionQuiz\OptionQuizCellView.xib" />
-    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultCell.xib" />
-    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultAnswerOptionCell.xib" />
+    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultCellView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultAnswerOptionCellView.xib" />
     <InterfaceDefinition Include="Views\Exercises\ScoringView.xib" />
-    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\DialogueOptionQuiz.xib" />
-    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\DialogueOptionQuizCell.xib" />
-    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResult.xib" />
-    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuiz.xib" />
-    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuizCell.xib" />
-    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\BasicOptionQuiz\BasicOptionQuiz.xib" />
+    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\DialogueOptionQuizView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\DialogueOptionQuiz\DialogueOptionQuizCellView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuizView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuizCellView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\OptionQuiz\BasicOptionQuiz\BasicOptionQuizView.xib" />
     <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatch.xib" />
     <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchMatchCell.xib" />
     <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchMainCell.xib" />

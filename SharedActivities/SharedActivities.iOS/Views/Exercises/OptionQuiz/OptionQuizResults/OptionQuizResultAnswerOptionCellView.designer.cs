@@ -10,8 +10,8 @@ using System.CodeDom.Compiler;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.OptionQuizResults {
-    [Register("OptionQuizResultAnswerOptionCell")]
-    partial class OptionQuizResultAnswerOptionCell {
+    [Register("OptionQuizResultAnswerOptionCellView")]
+    partial class OptionQuizResultAnswerOptionCellView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         UIKit.UILabel AnswerOptionLabel { get; set; }

@@ -40,7 +40,7 @@ namespace SharedActivities.iOS.Views.Exercises.GapFill {
 
             public override void RowSelected(UITableView tableView, NSIndexPath indexPath) {
                 tableView.DeselectRow(indexPath, false);
-                var cell = tableView.CellAt(indexPath) as OptionQuizResultCell;
+                var cell = tableView.CellAt(indexPath) as OptionQuizResultCellView;
                 cell.Expanded = !cell.Expanded;
                 tableView.ReloadData();
                 tableView.LayoutSubviews();

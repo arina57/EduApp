@@ -8,8 +8,8 @@ using System.CodeDom.Compiler;
 using Foundation;
 
 namespace SharedActivities.iOS.Views.Exercises.OptionQuiz.DialogueOptionQuiz {
-    [Register("DialogueOptionQuizCell")]
-    partial class DialogueOptionQuizCell {
+    [Register("DialogueOptionQuizCellView")]
+    partial class DialogueOptionQuizCellView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         UIKit.UIView CharacterImageView { get; set; }
