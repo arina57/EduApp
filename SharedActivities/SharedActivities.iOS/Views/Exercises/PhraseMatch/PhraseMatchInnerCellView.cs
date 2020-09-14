@@ -5,17 +5,17 @@ using SharedActivities.Core.ViewModels.Exercises;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
-    public partial class PhraseMatchInnerCell : UITableViewCell, IDraggableItem {
-        public static readonly NSString Key = new NSString(nameof(PhraseMatchInnerCell));
+    public partial class PhraseMatchInnerCellView : UITableViewCell, IDraggableItem {
+        public static readonly NSString Key = new NSString(nameof(PhraseMatchInnerCellView));
         public static readonly UINib Nib = UINib.FromName(Key, NSBundle.MainBundle);
         private PhraseMatchViewModel viewModel;
         private int mainPhraseId;
         private int matchPhraseId;
 
-        static PhraseMatchInnerCell() {
+        static PhraseMatchInnerCellView() {
         }
 
-        protected PhraseMatchInnerCell(IntPtr handle) : base(handle) {
+        protected PhraseMatchInnerCellView(IntPtr handle) : base(handle) {
             // Note: this .ctor should not contain any initialization logic.
         }
 

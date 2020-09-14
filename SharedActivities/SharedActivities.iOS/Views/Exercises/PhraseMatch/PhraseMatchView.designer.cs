@@ -11,8 +11,8 @@ using System.CodeDom.Compiler;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
-    [Register("PhraseMatch")]
-    partial class PhraseMatch {
+    [Register("PhraseMatchView")]
+    partial class PhraseMatchView {
 
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]

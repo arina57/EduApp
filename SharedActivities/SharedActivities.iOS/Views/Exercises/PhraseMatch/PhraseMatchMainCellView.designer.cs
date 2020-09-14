@@ -11,8 +11,8 @@ using System.CodeDom.Compiler;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
-    [Register("PhraseMatchMainCell")]
-    partial class PhraseMatchMainCell {
+    [Register("PhraseMatchMainCellView")]
+    partial class PhraseMatchMainCellView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         UIKit.UIView CorrectImageContainer { get; set; }

@@ -138,32 +138,32 @@
     <Compile Include="Views\Exercises\OptionQuiz\BasicOptionQuiz\BasicOptionQuizView.designer.cs">
       <DependentUpon>BasicOptionQuizView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatch.cs" />
-    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatch.designer.cs">
-      <DependentUpon>PhraseMatch.cs</DependentUpon>
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchView.cs" />
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchView.designer.cs">
+      <DependentUpon>PhraseMatchView.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomViews\DashedBorderView.cs" />
     <Compile Include="CustomViews\StaggeredCollectionViewLayout.cs" />
-    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchMatchCell.cs" />
-    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchMatchCell.designer.cs">
-      <DependentUpon>PhraseMatchMatchCell.cs</DependentUpon>
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchMatchCellView.cs" />
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchMatchCellView.designer.cs">
+      <DependentUpon>PhraseMatchMatchCellView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchMainCell.cs" />
-    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchMainCell.designer.cs">
-      <DependentUpon>PhraseMatchMainCell.cs</DependentUpon>
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchMainCellView.cs" />
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchMainCellView.designer.cs">
+      <DependentUpon>PhraseMatchMainCellView.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchDragView.cs" />
     <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchDragView.designer.cs">
       <DependentUpon>PhraseMatchDragView.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Exercises\PhraseMatch\IDraggableItem.cs" />
-    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchInnerCell.cs" />
-    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchInnerCell.designer.cs">
-      <DependentUpon>PhraseMatchInnerCell.cs</DependentUpon>
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchInnerCellView.cs" />
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchInnerCellView.designer.cs">
+      <DependentUpon>PhraseMatchInnerCellView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchResults.cs" />
-    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchResults.designer.cs">
-      <DependentUpon>PhraseMatchResults.cs</DependentUpon>
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchResultsView.cs" />
+    <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchResultsView.designer.cs">
+      <DependentUpon>PhraseMatchResultsView.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Exercises\WordWeb\WordWeb.cs" />
     <Compile Include="Views\Exercises\WordWeb\WordWeb.designer.cs">
@@ -230,12 +230,12 @@
     <InterfaceDefinition Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuizView.xib" />
     <InterfaceDefinition Include="Views\Exercises\OptionQuiz\ReadingQuiz\ReadingQuizCellView.xib" />
     <InterfaceDefinition Include="Views\Exercises\OptionQuiz\BasicOptionQuiz\BasicOptionQuizView.xib" />
-    <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatch.xib" />
-    <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchMatchCell.xib" />
-    <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchMainCell.xib" />
+    <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchMatchCellView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchMainCellView.xib" />
     <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchDragView.xib" />
-    <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchInnerCell.xib" />
-    <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchResults.xib" />
+    <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchInnerCellView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchResultsView.xib" />
     <InterfaceDefinition Include="Views\Exercises\WordWeb\WordWeb.xib" />
     <InterfaceDefinition Include="Views\Exercises\WordWeb\WordWebLeftCell.xib" />
     <InterfaceDefinition Include="Views\Exercises\WordWeb\WordWebRightCell.xib" />

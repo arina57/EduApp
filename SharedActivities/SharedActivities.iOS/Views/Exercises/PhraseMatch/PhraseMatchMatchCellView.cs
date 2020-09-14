@@ -4,14 +4,14 @@ using SharedActivities.Core.ViewModels.Exercises;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
-    public partial class PhraseMatchMatchCell : UICollectionViewCell, IDraggableItem {
-        public static readonly NSString Key = new NSString(nameof(PhraseMatchMatchCell));
+    public partial class PhraseMatchMatchCellView : UICollectionViewCell, IDraggableItem {
+        public static readonly NSString Key = new NSString(nameof(PhraseMatchMatchCellView));
         public static readonly UINib Nib = UINib.FromName(Key, NSBundle.MainBundle);
 
 
   
 
-        protected PhraseMatchMatchCell(IntPtr handle) : base(handle) {
+        protected PhraseMatchMatchCellView(IntPtr handle) : base(handle) {
             // Note: this .ctor should not contain any initialization logic.
         }
 

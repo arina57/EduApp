@@ -6,8 +6,8 @@ using SharedActivities.Core.ViewModels.Exercises;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
-    public partial class PhraseMatchMainCell : UITableViewCell {
-        public static readonly string Key = nameof(PhraseMatchMainCell);
+    public partial class PhraseMatchMainCellView : UITableViewCell {
+        public static readonly string Key = nameof(PhraseMatchMainCellView);
         public static readonly UINib Nib = UINib.FromName(Key, NSBundle.MainBundle);
         private Action<UIPanGestureRecognizer> dragActionHandler;
         private PhraseMatchViewModel viewModel;
@@ -18,12 +18,12 @@ namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
 
         public override void AwakeFromNib() {
             base.AwakeFromNib();
-            SelectedMatches.RegisterNibForCellReuse(PhraseMatchInnerCell.Nib, "InnerResuseCell");
+            SelectedMatches.RegisterNibForCellReuse(PhraseMatchInnerCellView.Nib, "InnerResuseCell");
             SelectedMatches.Source = new MatchesSource(this);
             SelectionStyle = UITableViewCellSelectionStyle.None;
         }
 
-        protected PhraseMatchMainCell(IntPtr handle) : base(handle) {
+        protected PhraseMatchMainCellView(IntPtr handle) : base(handle) {
             // Note: this .ctor should not contain any initialization logic.
         }
 
@@ -46,15 +46,15 @@ namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
         }
 
         private class MatchesSource : UITableViewSource {
-            private PhraseMatchMainCell phraseMatchingPoolMainPhraseCell;
+            private PhraseMatchMainCellView phraseMatchingPoolMainPhraseCell;
             PhraseMatchViewModel Logic => phraseMatchingPoolMainPhraseCell.viewModel;
-            public MatchesSource(PhraseMatchMainCell phraseMatchingPoolMainPhraseCell) {
+            public MatchesSource(PhraseMatchMainCellView phraseMatchingPoolMainPhraseCell) {
 
                 this.phraseMatchingPoolMainPhraseCell = phraseMatchingPoolMainPhraseCell;
             }
 
             public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath) {
-                var cell = tableView.DequeueReusableCell("InnerResuseCell") as PhraseMatchInnerCell;
+                var cell = tableView.DequeueReusableCell("InnerResuseCell") as PhraseMatchInnerCellView;
                 if ((cell.GestureRecognizers == null || !cell.GestureRecognizers.Any()) && phraseMatchingPoolMainPhraseCell.dragActionHandler != null) {
                     cell.AddGestureRecognizer(new UIPanGestureRecognizer(phraseMatchingPoolMainPhraseCell.dragActionHandler));
                 }

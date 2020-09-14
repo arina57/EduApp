@@ -11,18 +11,18 @@ using UIKit;
 using Xamarin.Essentials;
 
 namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
-    public partial class PhraseMatch : CrossUIViewController<PhraseMatchViewModel> {
+    public partial class PhraseMatchView : CrossUIViewController<PhraseMatchViewModel> {
         private StaggeredCollectionViewLayout collectionViewLayout;
         //private readonly UILabel draglabel = new UILabel();
         //private readonly DashedBorderView dragView = new DashedBorderView();
         private readonly PhraseMatchDragView dragView = Functions.LoadViewFromXib<PhraseMatchDragView>();
-        HashSet<PhraseMatchMainCell> mainPhraseCells = new HashSet<PhraseMatchMainCell>();
+        HashSet<PhraseMatchMainCellView> mainPhraseCells = new HashSet<PhraseMatchMainCellView>();
 
 
-        public PhraseMatch(IntPtr handle) : base(handle) {
+        public PhraseMatchView(IntPtr handle) : base(handle) {
         }
 
-        public PhraseMatch() {
+        public PhraseMatchView() {
         }
 
         public override void ViewDidLoad() {
@@ -37,11 +37,11 @@ namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
             collectionViewLayout.HeightForItem = GetHeightForItem;
 
             MatchPhraseOptions.Source = new MatchPhraseOptionSource(this);
-            MatchPhraseOptions.RegisterNibForCell(PhraseMatchMatchCell.Nib, "MatchPhraseResuseCell");
+            MatchPhraseOptions.RegisterNibForCell(PhraseMatchMatchCellView.Nib, "MatchPhraseResuseCell");
 
             //matchPhraseOptionsFlowControl.ItemSize = new CoreGraphics.CGSize(MatchPhraseOptions.Bounds.Width / 2.5, matchPhraseOptionsFlowControl.ItemSize.Height);
 
-            MainPhraseOptions.RegisterNibForCellReuse(PhraseMatchMainCell.Nib, "MainPhraseResuseCell");
+            MainPhraseOptions.RegisterNibForCellReuse(PhraseMatchMainCellView.Nib, "MainPhraseResuseCell");
 
             MainPhraseOptions.Source = new MainPhraseOptionSource(this);
 
@@ -146,9 +146,9 @@ namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
         }
 
         private class MatchPhraseOptionSource : UICollectionViewSource {
-            private PhraseMatch phraseMatchingPool;
+            private PhraseMatchView phraseMatchingPool;
             private PhraseMatchViewModel ViewModel => phraseMatchingPool.ViewModel;
-            public MatchPhraseOptionSource(PhraseMatch phraseMatchingPool) {
+            public MatchPhraseOptionSource(PhraseMatchView phraseMatchingPool) {
                 this.phraseMatchingPool = phraseMatchingPool;
             }
 
@@ -157,7 +157,7 @@ namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
             public override nint GetItemsCount(UICollectionView collectionView, nint section) => ViewModel.AvailableMatchCount;
 
             public override UICollectionViewCell GetCell(UICollectionView collectionView, NSIndexPath indexPath) {
-                var cell = collectionView.DequeueReusableCell("MatchPhraseResuseCell", indexPath) as PhraseMatchMatchCell;
+                var cell = collectionView.DequeueReusableCell("MatchPhraseResuseCell", indexPath) as PhraseMatchMatchCellView;
                 if (cell.GestureRecognizers == null || !cell.GestureRecognizers.Any()) {
                     cell.AddGestureRecognizer(new UIPanGestureRecognizer(phraseMatchingPool.WasDragged));
 
@@ -171,16 +171,16 @@ namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
         }
 
         private class MainPhraseOptionSource : UITableViewSource {
-            private PhraseMatch phraseMatchingPool;
+            private PhraseMatchView phraseMatchingPool;
             private PhraseMatchViewModel ViewModel => phraseMatchingPool.ViewModel;
-            public MainPhraseOptionSource(PhraseMatch phraseMatchingPool) {
+            public MainPhraseOptionSource(PhraseMatchView phraseMatchingPool) {
                 this.phraseMatchingPool = phraseMatchingPool;
             }
 
 
 
             public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath) {
-                var cell = tableView.DequeueReusableCell("MainPhraseResuseCell") as PhraseMatchMainCell;
+                var cell = tableView.DequeueReusableCell("MainPhraseResuseCell") as PhraseMatchMainCellView;
                 phraseMatchingPool.mainPhraseCells.Add(cell);
                 cell.Setup(ViewModel, indexPath.Row, phraseMatchingPool.WasDragged);
                 //tableView.LayoutIfNeeded();

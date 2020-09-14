@@ -8,8 +8,8 @@ using System.CodeDom.Compiler;
 using Foundation;
 
 namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
-    [Register("PhraseMatchInnerCell")]
-    partial class PhraseMatchInnerCell {
+    [Register("PhraseMatchInnerCellView")]
+    partial class PhraseMatchInnerCellView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         UIKit.UILabel Label { get; set; }

@@ -11,8 +11,8 @@ using System.CodeDom.Compiler;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
-    [Register("PhraseMatchMatchCell")]
-    partial class PhraseMatchMatchCell {
+    [Register("PhraseMatchMatchCellView")]
+    partial class PhraseMatchMatchCellView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         DashedBorderView BorderView { get; set; }

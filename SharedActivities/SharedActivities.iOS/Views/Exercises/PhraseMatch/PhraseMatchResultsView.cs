@@ -5,10 +5,10 @@ using SharedActivities.Core.ViewModels.Exercises.Results;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
-    public partial class PhraseMatchResults : CrossUIViewController<PhraseMatchResultsViewModel> {
+    public partial class PhraseMatchResultsView : CrossUIViewController<PhraseMatchResultsViewModel> {
 
 
-        public PhraseMatchResults() {
+        public PhraseMatchResultsView() {
         }
 
         public override void RefreshUILocale() {
@@ -18,7 +18,7 @@ namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
 
         public override void ViewDidLoad() {
             base.ViewDidLoad();
-            ResultsTable.RegisterNibForCellReuse(PhraseMatchMainCell.Nib, "PhraseMatchResultsCell");
+            ResultsTable.RegisterNibForCellReuse(PhraseMatchMainCellView.Nib, "PhraseMatchResultsCell");
             ResultsTable.Source = new ResultsSource(this);
         }
 
@@ -31,14 +31,14 @@ namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
         }
 
         private class ResultsSource : UITableViewSource {
-            private PhraseMatchResults resultExplaination;
+            private PhraseMatchResultsView resultExplaination;
             private PhraseMatchResultsViewModel ViewModel => resultExplaination.ViewModel;
-            public ResultsSource(PhraseMatchResults resultExplaination) {
+            public ResultsSource(PhraseMatchResultsView resultExplaination) {
                 this.resultExplaination = resultExplaination;
             }
 
             public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath) {
-                var cell = tableView.DequeueReusableCell("PhraseMatchResultsCell") as PhraseMatchMainCell;
+                var cell = tableView.DequeueReusableCell("PhraseMatchResultsCell") as PhraseMatchMainCellView;
                 cell.Setup(ViewModel.PhraseMatchViewModel, indexPath.Row);
                 //cell.Expanded = false;
                 return cell;

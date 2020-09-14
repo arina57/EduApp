@@ -11,8 +11,8 @@ using System.CodeDom.Compiler;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
-    [Register("PhraseMatchResults")]
-    partial class PhraseMatchResults {
+    [Register("PhraseMatchResultsView")]
+    partial class PhraseMatchResultsView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         ContentSizedTableView ResultsTable { get; set; }
