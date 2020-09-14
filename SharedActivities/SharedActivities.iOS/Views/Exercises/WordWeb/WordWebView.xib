@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WordWeb">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WordWebView">
             <connections>
                 <outlet property="HeadingView" destination="boc-Ky-81o" id="name-outlet-boc-Ky-81o"/>
                 <outlet property="LeftTable" destination="LlZ-mZ-s3A" id="name-outlet-LlZ-mZ-s3A"/>

@@ -10,25 +10,16 @@ using System.CodeDom.Compiler;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.WordWeb {
-    [Register("WordWebRightCell")]
-    partial class WordWebRightCell {
+    [Register("WordWebDotCellView")]
+    partial class WordWebDotCellView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         UIKit.UIView DotView { get; set; }
-
-        [Outlet]
-        [GeneratedCode("iOS Designer", "1.0")]
-        UIKit.UILabel PhraseLabel { get; set; }
 
         void ReleaseDesignerOutlets() {
             if (DotView != null) {
                 DotView.Dispose();
                 DotView = null;
-            }
-
-            if (PhraseLabel != null) {
-                PhraseLabel.Dispose();
-                PhraseLabel = null;
             }
         }
     }

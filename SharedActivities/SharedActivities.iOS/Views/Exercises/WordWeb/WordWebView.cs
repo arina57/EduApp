@@ -9,23 +9,23 @@ using SharedActivities.Core.ViewModels.Exercises;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.WordWeb {
-    public partial class WordWeb : CrossUIViewController<WordWebViewModel> {
+    public partial class WordWebView : CrossUIViewController<WordWebViewModel> {
 
-        HashSet<WordWebRightCell> matchCells = new HashSet<WordWebRightCell>();
-        HashSet<WordWebDotCell> mainPhraseDotCell = new HashSet<WordWebDotCell>();
+        HashSet<WordWebRightCellView> matchCells = new HashSet<WordWebRightCellView>();
+        HashSet<WordWebDotCellView> mainPhraseDotCell = new HashSet<WordWebDotCellView>();
 
-        public WordWeb(IntPtr handle) : base(handle) {
+        public WordWebView(IntPtr handle) : base(handle) {
 
         }
 
-        public WordWeb() {
+        public WordWebView() {
         }
 
         public override void ViewDidLoad() {
             base.ViewDidLoad();
             
-            LeftTable.RegisterNibForCellReuse(WordWebLeftCell.Nib, "LeftCell");
-            RightTable.RegisterNibForCellReuse(WordWebRightCell.Nib, "RightCell");
+            LeftTable.RegisterNibForCellReuse(WordWebLeftCellView.Nib, "LeftCell");
+            RightTable.RegisterNibForCellReuse(WordWebRightCellView.Nib, "RightCell");
 
             LeftTable.Source = new MainPhraseTableSource(this);
             RightTable.Source = new MatchPhraseTableSource(this);
@@ -72,15 +72,15 @@ namespace SharedActivities.iOS.Views.Exercises.WordWeb {
         }
 
         private class MainPhraseTableSource : UITableViewSource {
-            private WordWeb wordWeb;
+            private WordWebView wordWeb;
             WordWebViewModel ViewModel => wordWeb.ViewModel;
 
-            public MainPhraseTableSource(WordWeb phraseMatchingPoolLineMatch) {
+            public MainPhraseTableSource(WordWebView phraseMatchingPoolLineMatch) {
                 this.wordWeb = phraseMatchingPoolLineMatch;
             }
 
             public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath) {
-                var cell = tableView.DequeueReusableCell("LeftCell") as WordWebLeftCell;
+                var cell = tableView.DequeueReusableCell("LeftCell") as WordWebLeftCellView;
                 cell.Setup(ViewModel,
                            indexPath.Row,
                            wordWeb.MainPhrase_Dragged,
@@ -95,15 +95,15 @@ namespace SharedActivities.iOS.Views.Exercises.WordWeb {
 
 
         private class MatchPhraseTableSource : UITableViewSource {
-            private WordWeb phraseMatchingPoolLineMatch;
+            private WordWebView phraseMatchingPoolLineMatch;
             WordWebViewModel Logic => phraseMatchingPoolLineMatch.ViewModel;
 
-            public MatchPhraseTableSource(WordWeb phraseMatchingPoolLineMatch) {
+            public MatchPhraseTableSource(WordWebView phraseMatchingPoolLineMatch) {
                 this.phraseMatchingPoolLineMatch = phraseMatchingPoolLineMatch;
             }
 
             public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath) {
-                var cell = tableView.DequeueReusableCell("RightCell") as WordWebRightCell;
+                var cell = tableView.DequeueReusableCell("RightCell") as WordWebRightCellView;
                 if (cell.Position == -1) {
                     //if the cell hasn't been used before add the gesture recogniser
                     var gesture = new UILongPressGestureRecognizer();
@@ -130,7 +130,7 @@ namespace SharedActivities.iOS.Views.Exercises.WordWeb {
         /// <param name="gesture"></param>
         /// <param name="cell"></param>
         /// <param name="dotCell"></param>
-        private void MainPhrase_Dragged(UILongPressGestureRecognizer gesture, WordWebLeftCell cell, WordWebDotCell dotCell) {
+        private void MainPhrase_Dragged(UILongPressGestureRecognizer gesture, WordWebLeftCellView cell, WordWebDotCellView dotCell) {
             //get the touch location
             var touchPoint = gesture.LocationInView(this.LineDrawingView);
             switch (gesture.State) {
@@ -177,7 +177,7 @@ namespace SharedActivities.iOS.Views.Exercises.WordWeb {
         /// </summary>
         /// <param name="gesture"></param>
         /// <param name="cell"></param>
-        private void Match_Dragged(UILongPressGestureRecognizer gesture, WordWebRightCell cell) {
+        private void Match_Dragged(UILongPressGestureRecognizer gesture, WordWebRightCellView cell) {
             //find where the touch was
             var touchPoint = gesture.LocationInView(this.LineDrawingView);
             switch (gesture.State) {

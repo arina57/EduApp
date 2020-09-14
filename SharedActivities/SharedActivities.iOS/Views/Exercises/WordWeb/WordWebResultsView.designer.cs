@@ -11,8 +11,8 @@ using System.CodeDom.Compiler;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.WordWeb {
-    [Register("WordWebResults")]
-    partial class WordWebResults {
+    [Register("WordWebResultsView")]
+    partial class WordWebResultsView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         UIKit.UITableView LeftTable { get; set; }

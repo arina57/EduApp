@@ -8,8 +8,8 @@ using System.CodeDom.Compiler;
 using Foundation;
 
 namespace SharedActivities.iOS.Views.Exercises.WordWeb {
-    [Register("WordWebLeftCell")]
-    partial class WordWebLeftCell {
+    [Register("WordWebLeftCellView")]
+    partial class WordWebLeftCellView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         UIKit.UIView CorrectView { get; set; }

@@ -6,8 +6,8 @@ using Foundation;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.WordWeb {
-    public partial class WordWebDotCell : UITableViewCell {
-        public static readonly NSString Key = new NSString(nameof(WordWebDotCell));
+    public partial class WordWebDotCellView : UITableViewCell {
+        public static readonly NSString Key = new NSString(nameof(WordWebDotCellView));
         public static readonly UINib Nib = UINib.FromName(Key, NSBundle.MainBundle);
         private Color color = Color.Gray;
 
@@ -27,7 +27,7 @@ namespace SharedActivities.iOS.Views.Exercises.WordWeb {
 
         public CGRect DotFrame => DotView.Frame;
 
-        public WordWebDotCell(IntPtr handle) : base(handle) {
+        public WordWebDotCellView(IntPtr handle) : base(handle) {
         }
 
         public override void LayoutSubviews() {

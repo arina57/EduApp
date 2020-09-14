@@ -8,29 +8,29 @@ using UIKit;
 using static CrossLibrary.MathAndGeometry;
 
 namespace SharedActivities.iOS.Views.Exercises.WordWeb {
-    public partial class WordWebLeftCell : UITableViewCell {
+    public partial class WordWebLeftCellView : UITableViewCell {
 
-        public static readonly NSString Key = new NSString(nameof(WordWebLeftCell));
+        public static readonly NSString Key = new NSString(nameof(WordWebLeftCellView));
         public static readonly UINib Nib = UINib.FromName(Key, NSBundle.MainBundle);
         private int numberOfMatches = 0;
         private Color dotColor;
-        private Action<UILongPressGestureRecognizer, WordWebLeftCell, WordWebDotCell> dragAction;
+        private Action<UILongPressGestureRecognizer, WordWebLeftCellView, WordWebDotCellView> dragAction;
         private LineDrawingView lineDrawingView;
 
         public int Position { get; private set; } = -1;
         public int MainPhraseId { get; private set; } = -1;
 
         private WordWebViewModel viewModel;
-        HashSet<WordWebDotCell> mainPhraseDotCell;
-        public WordWebLeftCell(IntPtr handle) : base(handle) {
+        HashSet<WordWebDotCellView> mainPhraseDotCell;
+        public WordWebLeftCellView(IntPtr handle) : base(handle) {
 
         }
 
 
         public void Setup(WordWebViewModel viewModel,
                           int row,
-                          Action<UILongPressGestureRecognizer, WordWebLeftCell, WordWebDotCell> dragAction,
-                          HashSet<WordWebDotCell> mainPhraseDotCell,
+                          Action<UILongPressGestureRecognizer, WordWebLeftCellView, WordWebDotCellView> dragAction,
+                          HashSet<WordWebDotCellView> mainPhraseDotCell,
                           LineDrawingView lineDrawingView, bool userBorder = false) {
             this.viewModel = viewModel;
             this.mainPhraseDotCell = mainPhraseDotCell;
@@ -50,7 +50,7 @@ namespace SharedActivities.iOS.Views.Exercises.WordWeb {
             numberOfMatches = viewModel.PossibleMatches(row);
             dotColor = viewModel.MainPhraseColor(row);
 
-            DotsTable.RegisterNibForCellReuse(WordWebDotCell.Nib, "DotCell");
+            DotsTable.RegisterNibForCellReuse(WordWebDotCellView.Nib, "DotCell");
             DotsTable.Source = new DotsTableSource(this);
             DotsTable.ReloadData();
 
@@ -71,14 +71,14 @@ namespace SharedActivities.iOS.Views.Exercises.WordWeb {
         }
 
         private class DotsTableSource : UITableViewSource {
-            private WordWebLeftCell leftCell;
+            private WordWebLeftCellView leftCell;
             private WordWebViewModel ViewModel => leftCell.viewModel;
-            public DotsTableSource(WordWebLeftCell phraseMatchingPoolLineMatchLeftCell) {
+            public DotsTableSource(WordWebLeftCellView phraseMatchingPoolLineMatchLeftCell) {
                 this.leftCell = phraseMatchingPoolLineMatchLeftCell;
             }
 
             public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath) {
-                var cell = tableView.DequeueReusableCell("DotCell", indexPath) as WordWebDotCell;
+                var cell = tableView.DequeueReusableCell("DotCell", indexPath) as WordWebDotCellView;
                 if (cell.GestureRecognizers == null || cell.GestureRecognizers.Length == 0) {
                     var gesture = new UILongPressGestureRecognizer();
                     gesture.MinimumPressDuration = 0;

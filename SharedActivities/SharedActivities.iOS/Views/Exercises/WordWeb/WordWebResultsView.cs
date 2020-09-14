@@ -7,11 +7,11 @@ using SharedActivities.Core.ViewModels.Exercises.Results;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.WordWeb {
-    public partial class WordWebResults : CrossUIViewController<WordWebResultsViewModel> {
+    public partial class WordWebResultsView : CrossUIViewController<WordWebResultsViewModel> {
 
-        HashSet<WordWebRightCell> matchCells = new HashSet<WordWebRightCell>();
-        HashSet<WordWebDotCell> mainPhraseDotCell = new HashSet<WordWebDotCell>();
-        public WordWebResults() {
+        HashSet<WordWebRightCellView> matchCells = new HashSet<WordWebRightCellView>();
+        HashSet<WordWebDotCellView> mainPhraseDotCell = new HashSet<WordWebDotCellView>();
+        public WordWebResultsView() {
         }
 
         public override void RefreshUILocale() {
@@ -56,8 +56,8 @@ namespace SharedActivities.iOS.Views.Exercises.WordWeb {
 
         public override void ViewDidLoad() {
             base.ViewDidLoad();
-            LeftTable.RegisterNibForCellReuse(WordWebLeftCell.Nib, "LeftCellReuse");
-            RightTable.RegisterNibForCellReuse(WordWebRightCell.Nib, "RightCellReuse");
+            LeftTable.RegisterNibForCellReuse(WordWebLeftCellView.Nib, "LeftCellReuse");
+            RightTable.RegisterNibForCellReuse(WordWebRightCellView.Nib, "RightCellReuse");
 
             LeftTable.Source = new MainPhraseTableSource(this);
             RightTable.Source = new MatchPhraseTableSource(this);
@@ -65,15 +65,15 @@ namespace SharedActivities.iOS.Views.Exercises.WordWeb {
 
 
         private class MainPhraseTableSource : UITableViewSource {
-            private WordWebResults phraseMatchingPoolLineMatch;
+            private WordWebResultsView phraseMatchingPoolLineMatch;
             WordWebViewModel ViewModel => phraseMatchingPoolLineMatch.ViewModel.WordWebViewModel;
 
-            public MainPhraseTableSource(WordWebResults phraseMatchingPoolLineMatch) {
+            public MainPhraseTableSource(WordWebResultsView phraseMatchingPoolLineMatch) {
                 this.phraseMatchingPoolLineMatch = phraseMatchingPoolLineMatch;
             }
 
             public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath) {
-                var cell = tableView.DequeueReusableCell("LeftCellReuse") as WordWebLeftCell;
+                var cell = tableView.DequeueReusableCell("LeftCellReuse") as WordWebLeftCellView;
                 cell.Setup(ViewModel, indexPath.Row, null, phraseMatchingPoolLineMatch.mainPhraseDotCell, phraseMatchingPoolLineMatch.LineDrawingView);
                 return cell;
             }
@@ -84,15 +84,15 @@ namespace SharedActivities.iOS.Views.Exercises.WordWeb {
 
 
         private class MatchPhraseTableSource : UITableViewSource {
-            private WordWebResults phraseMatchingPoolLineMatch;
+            private WordWebResultsView phraseMatchingPoolLineMatch;
             WordWebViewModel Logic => phraseMatchingPoolLineMatch.ViewModel.WordWebViewModel;
 
-            public MatchPhraseTableSource(WordWebResults phraseMatchingPoolLineMatch) {
+            public MatchPhraseTableSource(WordWebResultsView phraseMatchingPoolLineMatch) {
                 this.phraseMatchingPoolLineMatch = phraseMatchingPoolLineMatch;
             }
 
             public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath) {
-                var cell = tableView.DequeueReusableCell("RightCellReuse") as WordWebRightCell;
+                var cell = tableView.DequeueReusableCell("RightCellReuse") as WordWebRightCellView;
                 if (cell.Position == -1) {
                     //Add the cell to the hash set of cells
                     phraseMatchingPoolLineMatch.matchCells.Add(cell);

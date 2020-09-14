@@ -8,9 +8,9 @@ using UIKit;
 using static CrossLibrary.MathAndGeometry;
 
 namespace SharedActivities.iOS.Views.Exercises.WordWeb {
-    public partial class WordWebRightCell : UITableViewCell {
+    public partial class WordWebRightCellView : UITableViewCell {
 
-        public static readonly NSString Key = new NSString(nameof(WordWebRightCell));
+        public static readonly NSString Key = new NSString(nameof(WordWebRightCellView));
         public static readonly UINib Nib = UINib.FromName(Key, NSBundle.MainBundle);
         private LOTAnimationView dotImage;
         private Color color;
@@ -30,7 +30,7 @@ namespace SharedActivities.iOS.Views.Exercises.WordWeb {
 
 
 
-        public WordWebRightCell(IntPtr handle) : base(handle) {
+        public WordWebRightCellView(IntPtr handle) : base(handle) {
         }
 
         public void Setup(WordWebViewModel viewModel, int row, LineDrawingView lineDrawingView) {

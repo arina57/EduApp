@@ -11,8 +11,8 @@ using System.CodeDom.Compiler;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.WordWeb {
-    [Register("WordWeb")]
-    partial class WordWeb {
+    [Register("WordWebView")]
+    partial class WordWebView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         CrossLibrary.iOS.Views.CrossContainerView HeadingView { get; set; }

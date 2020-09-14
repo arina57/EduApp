@@ -41,7 +41,6 @@
     <Folder Include="CrossPlatformImplimentations\" />
     <Folder Include="Views\" />
     <Folder Include="Views\Exercises\" />
-    <Folder Include="Views\Exercises\Results\" />
     <Folder Include="Views\Exercises\GapFill\" />
     <Folder Include="CustomViews\" />
     <Folder Include="Views\Exercises\OptionQuiz\" />
@@ -165,26 +164,26 @@
     <Compile Include="Views\Exercises\PhraseMatch\PhraseMatchResultsView.designer.cs">
       <DependentUpon>PhraseMatchResultsView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Exercises\WordWeb\WordWeb.cs" />
-    <Compile Include="Views\Exercises\WordWeb\WordWeb.designer.cs">
-      <DependentUpon>WordWeb.cs</DependentUpon>
+    <Compile Include="Views\Exercises\WordWeb\WordWebView.cs" />
+    <Compile Include="Views\Exercises\WordWeb\WordWebView.designer.cs">
+      <DependentUpon>WordWebView.cs</DependentUpon>
     </Compile>
     <Compile Include="IOSGeometry.cs" />
-    <Compile Include="Views\Exercises\WordWeb\WordWebLeftCell.cs" />
-    <Compile Include="Views\Exercises\WordWeb\WordWebLeftCell.designer.cs">
-      <DependentUpon>WordWebLeftCell.cs</DependentUpon>
+    <Compile Include="Views\Exercises\WordWeb\WordWebLeftCellView.cs" />
+    <Compile Include="Views\Exercises\WordWeb\WordWebLeftCellView.designer.cs">
+      <DependentUpon>WordWebLeftCellView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Exercises\WordWeb\WordWebRightCell.cs" />
-    <Compile Include="Views\Exercises\WordWeb\WordWebRightCell.designer.cs">
-      <DependentUpon>WordWebRightCell.cs</DependentUpon>
+    <Compile Include="Views\Exercises\WordWeb\WordWebRightCellView.cs" />
+    <Compile Include="Views\Exercises\WordWeb\WordWebRightCellView.designer.cs">
+      <DependentUpon>WordWebRightCellView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Exercises\WordWeb\WordWebDotCell.cs" />
-    <Compile Include="Views\Exercises\WordWeb\WordWebDotCell.designer.cs">
-      <DependentUpon>WordWebDotCell.cs</DependentUpon>
+    <Compile Include="Views\Exercises\WordWeb\WordWebDotCellView.cs" />
+    <Compile Include="Views\Exercises\WordWeb\WordWebDotCellView.designer.cs">
+      <DependentUpon>WordWebDotCellView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Exercises\WordWeb\WordWebResults.cs" />
-    <Compile Include="Views\Exercises\WordWeb\WordWebResults.designer.cs">
-      <DependentUpon>WordWebResults.cs</DependentUpon>
+    <Compile Include="Views\Exercises\WordWeb\WordWebResultsView.cs" />
+    <Compile Include="Views\Exercises\WordWeb\WordWebResultsView.designer.cs">
+      <DependentUpon>WordWebResultsView.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomViews\LineDrawingView.cs" />
   </ItemGroup>
@@ -236,11 +235,11 @@
     <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchDragView.xib" />
     <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchInnerCellView.xib" />
     <InterfaceDefinition Include="Views\Exercises\PhraseMatch\PhraseMatchResultsView.xib" />
-    <InterfaceDefinition Include="Views\Exercises\WordWeb\WordWeb.xib" />
-    <InterfaceDefinition Include="Views\Exercises\WordWeb\WordWebLeftCell.xib" />
-    <InterfaceDefinition Include="Views\Exercises\WordWeb\WordWebRightCell.xib" />
-    <InterfaceDefinition Include="Views\Exercises\WordWeb\WordWebDotCell.xib" />
-    <InterfaceDefinition Include="Views\Exercises\WordWeb\WordWebResults.xib" />
+    <InterfaceDefinition Include="Views\Exercises\WordWeb\WordWebView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\WordWeb\WordWebLeftCellView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\WordWeb\WordWebRightCellView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\WordWeb\WordWebDotCellView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\WordWeb\WordWebResultsView.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
