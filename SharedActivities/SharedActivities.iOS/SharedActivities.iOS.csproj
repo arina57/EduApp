@@ -64,32 +64,32 @@
     <Compile Include="Views\UnitPracticeCellView.designer.cs">
       <DependentUpon>UnitPracticeCellView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Exercises\GapFill\GapFill.cs" />
-    <Compile Include="Views\Exercises\GapFill\GapFill.designer.cs">
-      <DependentUpon>GapFill.cs</DependentUpon>
+    <Compile Include="Views\Exercises\GapFill\GapFillView.cs" />
+    <Compile Include="Views\Exercises\GapFill\GapFillView.designer.cs">
+      <DependentUpon>GapFillView.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomViews\ContentSizedCollectionView.cs" />
-    <Compile Include="Views\Exercises\GapFill\GapFillCell.cs" />
-    <Compile Include="Views\Exercises\GapFill\GapFillCell.designer.cs">
-      <DependentUpon>GapFillCell.cs</DependentUpon>
+    <Compile Include="Views\Exercises\GapFill\GapFillCellView.cs" />
+    <Compile Include="Views\Exercises\GapFill\GapFillCellView.designer.cs">
+      <DependentUpon>GapFillCellView.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomViews\ReplaceableTextUITextView.cs" />
     <Compile Include="CustomViews\MyUITextInputStringTokenizer.cs" />
-    <Compile Include="Views\Exercises\GapFill\GapFillVocabCell.cs" />
-    <Compile Include="Views\Exercises\GapFill\GapFillVocabCell.designer.cs">
-      <DependentUpon>GapFillVocabCell.cs</DependentUpon>
+    <Compile Include="Views\Exercises\GapFill\GapFillVocabCellView.cs" />
+    <Compile Include="Views\Exercises\GapFill\GapFillVocabCellView.designer.cs">
+      <DependentUpon>GapFillVocabCellView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\ActivityTitle.cs" />
-    <Compile Include="Views\ActivityTitle.designer.cs">
-      <DependentUpon>ActivityTitle.cs</DependentUpon>
+    <Compile Include="Views\ActivityTitleView.cs" />
+    <Compile Include="Views\ActivityTitleView.designer.cs">
+      <DependentUpon>ActivityTitleView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\PracticeHeading.cs" />
-    <Compile Include="Views\PracticeHeading.designer.cs">
-      <DependentUpon>PracticeHeading.cs</DependentUpon>
+    <Compile Include="Views\PracticeHeadingView.cs" />
+    <Compile Include="Views\PracticeHeadingView.designer.cs">
+      <DependentUpon>PracticeHeadingView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Exercises\GapFill\GapFillResults.cs" />
-    <Compile Include="Views\Exercises\GapFill\GapFillResults.designer.cs">
-      <DependentUpon>GapFillResults.cs</DependentUpon>
+    <Compile Include="Views\Exercises\GapFill\GapFillResultsView.cs" />
+    <Compile Include="Views\Exercises\GapFill\GapFillResultsView.designer.cs">
+      <DependentUpon>GapFillResultsView.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomViews\ContentSizedTableView.cs" />
     <Compile Include="Views\Exercises\OptionQuiz\OptionQuizView.cs" />
@@ -213,12 +213,12 @@
   <ItemGroup>
     <InterfaceDefinition Include="Views\UnitPracticeView.xib" />
     <InterfaceDefinition Include="Views\UnitPracticeCellView.xib" />
-    <InterfaceDefinition Include="Views\Exercises\GapFill\GapFill.xib" />
-    <InterfaceDefinition Include="Views\Exercises\GapFill\GapFillCell.xib" />
-    <InterfaceDefinition Include="Views\Exercises\GapFill\GapFillVocabCell.xib" />
-    <InterfaceDefinition Include="Views\ActivityTitle.xib" />
-    <InterfaceDefinition Include="Views\PracticeHeading.xib" />
-    <InterfaceDefinition Include="Views\Exercises\GapFill\GapFillResults.xib" />
+    <InterfaceDefinition Include="Views\Exercises\GapFill\GapFillView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\GapFill\GapFillCellView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\GapFill\GapFillVocabCellView.xib" />
+    <InterfaceDefinition Include="Views\ActivityTitleView.xib" />
+    <InterfaceDefinition Include="Views\PracticeHeadingView.xib" />
+    <InterfaceDefinition Include="Views\Exercises\GapFill\GapFillResultsView.xib" />
     <InterfaceDefinition Include="Views\Exercises\OptionQuiz\OptionQuizView.xib" />
     <InterfaceDefinition Include="Views\Exercises\OptionQuiz\OptionQuizCellView.xib" />
     <InterfaceDefinition Include="Views\Exercises\OptionQuiz\OptionQuizResults\OptionQuizResultCell.xib" />

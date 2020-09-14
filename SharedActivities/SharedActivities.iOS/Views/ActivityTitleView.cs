@@ -5,11 +5,11 @@ using SharedActivities.Core.ViewModels;
 using UIKit;
 
 namespace SharedActivities.iOS.Views {
-    public partial class ActivityTitle : CrossUIViewController<ActivityTitleViewModel> {
-        public ActivityTitle(IntPtr handle) : base(handle) {
+    public partial class ActivityTitleView : CrossUIViewController<ActivityTitleViewModel> {
+        public ActivityTitleView(IntPtr handle) : base(handle) {
         }
 
-        public ActivityTitle() {
+        public ActivityTitleView() {
         }
 
         public override void ViewDidLoad() {

@@ -9,10 +9,10 @@ using UIKit;
 using Xamarin.Essentials;
 
 namespace SharedActivities.iOS.Views {
-    public partial class PracticeHeading : CrossUIViewController<PracticeHeadingViewModel> {
+    public partial class PracticeHeadingView : CrossUIViewController<PracticeHeadingViewModel> {
 
 
-        public PracticeHeading() : base() {
+        public PracticeHeadingView() : base() {
         }
 
         private LOTAnimationView pointsImage;

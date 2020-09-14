@@ -8,7 +8,7 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GapFillResults">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GapFillResultsView">
             <connections>
                 <outlet property="ResultsTable" destination="EXT-kD-3mK" id="name-outlet-EXT-kD-3mK"/>
                 <outlet property="ScoreViewContainer" destination="Z6m-ua-vxX" id="name-outlet-Z6m-ua-vxX"/>

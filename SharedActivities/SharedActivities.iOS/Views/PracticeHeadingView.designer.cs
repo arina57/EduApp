@@ -11,8 +11,8 @@ using UIKit;
 
 namespace SharedActivities.iOS.Views
 {
-    [Register ("PracticeHeading")]
-    partial class PracticeHeading
+    [Register ("PracticeHeadingView")]
+    partial class PracticeHeadingView
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]

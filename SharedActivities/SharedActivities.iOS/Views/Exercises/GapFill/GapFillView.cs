@@ -10,27 +10,27 @@ using UIKit;
 using Xamarin.Essentials;
 
 namespace SharedActivities.iOS.Views.Exercises.GapFill {
-    public partial class GapFill : CrossUIViewController<GapFillViewModel> {
+    public partial class GapFillView : CrossUIViewController<GapFillViewModel> {
         private UICollectionViewFlowLayout vocabCollectionFlowControl;
         private readonly UILabel draglabel = new UILabel();
-        public GapFill(IntPtr handle) : base(handle) {
+        public GapFillView(IntPtr handle) : base(handle) {
         }
 
-        public GapFill() {
+        public GapFillView() {
         }
 
         public override void ViewDidLoad() {
             base.ViewDidLoad();
             //VocabCollection.RegisterClassForCell(typeof(VocabCollectionCell), "VocabCollectionCell");
 
-            VocabCollection.RegisterNibForCell(GapFillVocabCell.Nib, "VocabCollectionCell");
+            VocabCollection.RegisterNibForCell(GapFillVocabCellView.Nib, "VocabCollectionCell");
 
             VocabCollection.Source = new VocabCollectionSource(this);
             vocabCollectionFlowControl = new UICollectionViewFlowLayout();
             vocabCollectionFlowControl.MinimumInteritemSpacing = 0;
             vocabCollectionFlowControl.MinimumLineSpacing = 0;
             VocabCollection.CollectionViewLayout = vocabCollectionFlowControl;
-            GapFillTable.RegisterNibForCellReuse(GapFillCell.Nib, "GapFillCell");
+            GapFillTable.RegisterNibForCellReuse(GapFillCellView.Nib, "GapFillCellView");
             GapFillTable.Source = new GapFillTableSource(this);
             //VocabCollection.AddShadow();
             this.View.AddSubview(draglabel);
@@ -68,14 +68,14 @@ namespace SharedActivities.iOS.Views.Exercises.GapFill {
 
 
         private class VocabCollectionSource : UICollectionViewSource {
-            private GapFill unorderedGapFill;
+            private GapFillView unorderedGapFill;
             private GapFillViewModel ViewModel => unorderedGapFill.ViewModel;
-            public VocabCollectionSource(GapFill unorderedGapFill) {
+            public VocabCollectionSource(GapFillView unorderedGapFill) {
                 this.unorderedGapFill = unorderedGapFill;
             }
 
             public override UICollectionViewCell GetCell(UICollectionView collectionView, NSIndexPath indexPath) {
-                var cell = collectionView.DequeueReusableCell("VocabCollectionCell", indexPath) as GapFillVocabCell;
+                var cell = collectionView.DequeueReusableCell("VocabCollectionCell", indexPath) as GapFillVocabCellView;
                 if (cell.GestureRecognizers == null || !cell.GestureRecognizers.Any()) { // if the cell has never been used
                     cell.AddGestureRecognizer(new UIPanGestureRecognizer(unorderedGapFill.VocabWasDragged));
                 }
@@ -90,7 +90,7 @@ namespace SharedActivities.iOS.Views.Exercises.GapFill {
         }
 
         private void VocabWasDragged(UIPanGestureRecognizer gesture) {
-            var draggedItem = gesture.View as GapFillVocabCell;
+            var draggedItem = gesture.View as GapFillVocabCellView;
             var dragPoint = gesture.LocationInView(this.View);
             switch (gesture.State) {
                 case UIGestureRecognizerState.Possible:
@@ -133,7 +133,7 @@ namespace SharedActivities.iOS.Views.Exercises.GapFill {
                 case UIGestureRecognizerState.Began:
                     var pointInDraggedItem = this.View.ConvertPointToView(dragPoint, draggedItem);
                     dragLocation = draggedItem.GetTextLocation(pointInDraggedItem);
-                    if (dragLocation != null && dragLocation.IsAMatch && draggedItem.Superview is GapFillCell gapFillTableCell
+                    if (dragLocation != null && dragLocation.IsAMatch && draggedItem.Superview is GapFillCellView gapFillTableCell
                             && ViewModel.GetAnswerTagIndex(gapFillTableCell.Position, dragLocation.MatchNumber) != -1) {
                         draglabel.Hidden = false;
                         draglabel.Center = dragPoint;
@@ -153,7 +153,7 @@ namespace SharedActivities.iOS.Views.Exercises.GapFill {
                     break;
                 case UIGestureRecognizerState.Ended:
                     if (dragLocation != null && dragLocation.IsAMatch) {
-                        var position = ((GapFillCell)draggedItem.Superview).Position;
+                        var position = ((GapFillCellView)draggedItem.Superview).Position;
                         if (VocabCollection.Frame.Contains(dragPoint)) {
                             ViewModel.RemoveAnswerAtPosition(position, dragLocation.MatchNumber);
                         } else {
@@ -176,7 +176,7 @@ namespace SharedActivities.iOS.Views.Exercises.GapFill {
         private void FindIfInTable(int tagId, CGPoint dragPoint) {
             if (GapFillTable.Frame.Contains(dragPoint)) {
                 for (int i = 0; i < ViewModel.PhraseCount; i++) {
-                    if (GapFillTable.CellAt(NSIndexPath.FromRowSection(i, 0)) is GapFillCell cell
+                    if (GapFillTable.CellAt(NSIndexPath.FromRowSection(i, 0)) is GapFillCellView cell
                         && cell.ReplaceableTextView.Frame.Contains(this.View.ConvertPointToView(dragPoint, cell))) {
                         var dropLocation = cell.ReplaceableTextView.GetTextLocation(this.View.ConvertPointToView(dragPoint, cell.ReplaceableTextView));
                         if (dropLocation != null && dropLocation.IsAMatch) {
@@ -191,14 +191,14 @@ namespace SharedActivities.iOS.Views.Exercises.GapFill {
 
         private void FindIfInTable(CGPoint dragPoint) {
             for (int i = 0; i < ViewModel.PhraseCount; i++) {
-                if (GapFillTable.CellAt(NSIndexPath.FromRowSection(i, 0)) is GapFillCell cell) {
+                if (GapFillTable.CellAt(NSIndexPath.FromRowSection(i, 0)) is GapFillCellView cell) {
                     cell.ReplaceableTextView.RemoveLinkBackgroundColors();
                 }
             }
 
             if (GapFillTable.Frame.Contains(dragPoint)) {
                 for (int i = 0; i < ViewModel.PhraseCount; i++) {
-                    if (GapFillTable.CellAt(NSIndexPath.FromRowSection(i, 0)) is GapFillCell cell
+                    if (GapFillTable.CellAt(NSIndexPath.FromRowSection(i, 0)) is GapFillCellView cell
                         && cell.ReplaceableTextView.Frame.Contains(this.View.ConvertPointToView(dragPoint, cell))) {
                         var dropLocation = cell.ReplaceableTextView.GetTextLocation(this.View.ConvertPointToView(dragPoint, cell.ReplaceableTextView));
                         if (dropLocation != null && dropLocation.IsAMatch) {
@@ -218,15 +218,15 @@ namespace SharedActivities.iOS.Views.Exercises.GapFill {
 
 
         private class GapFillTableSource : UITableViewSource {
-            private GapFill unorderedGapFill;
+            private GapFillView unorderedGapFill;
             private GapFillViewModel ViewModel => unorderedGapFill.ViewModel;
 
-            public GapFillTableSource(GapFill unorderedGapFill) {
+            public GapFillTableSource(GapFillView unorderedGapFill) {
                 this.unorderedGapFill = unorderedGapFill;
             }
 
             public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath) {
-                var cell = tableView.DequeueReusableCell("GapFillCell", indexPath) as GapFillCell;
+                var cell = tableView.DequeueReusableCell("GapFillCellView", indexPath) as GapFillCellView;
                 if (cell.Position == -1) { // if the cell has never been used
                     var gesture = new UIPanGestureRecognizer();
                     //gesture.MinimumPressDuration = 0.1f;

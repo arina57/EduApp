@@ -8,8 +8,8 @@ using System.CodeDom.Compiler;
 using Foundation;
 
 namespace SharedActivities.iOS.Views.Exercises.GapFill {
-    [Register("GapFillVocabCell")]
-    partial class GapFillVocabCell {
+    [Register("GapFillVocabCellView")]
+    partial class GapFillVocabCellView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         UIKit.UILabel VocabLabel { get; set; }

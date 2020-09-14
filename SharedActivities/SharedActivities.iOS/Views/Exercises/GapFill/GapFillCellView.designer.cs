@@ -8,8 +8,8 @@ using System.CodeDom.Compiler;
 using Foundation;
 
 namespace SharedActivities.iOS.Views.Exercises.GapFill {
-    [Register("GapFillCell")]
-    partial class GapFillCell {
+    [Register("GapFillCellView")]
+    partial class GapFillCellView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         UIKit.UIView FaceImageView { get; set; }

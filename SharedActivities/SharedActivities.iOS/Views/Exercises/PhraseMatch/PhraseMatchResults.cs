@@ -39,12 +39,12 @@ namespace SharedActivities.iOS.Views.Exercises.PhraseMatch {
 
             public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath) {
                 var cell = tableView.DequeueReusableCell("PhraseMatchResultsCell") as PhraseMatchMainCell;
-                cell.Setup(ViewModel.PhraseMatchingPoolViewModel, indexPath.Row);
+                cell.Setup(ViewModel.PhraseMatchViewModel, indexPath.Row);
                 //cell.Expanded = false;
                 return cell;
             }
 
-            public override nint RowsInSection(UITableView tableview, nint section) => ViewModel.PhraseMatchingPoolViewModel.TotalNumberOfQuestions;
+            public override nint RowsInSection(UITableView tableview, nint section) => ViewModel.PhraseMatchViewModel.TotalNumberOfQuestions;
         }
     }
 }

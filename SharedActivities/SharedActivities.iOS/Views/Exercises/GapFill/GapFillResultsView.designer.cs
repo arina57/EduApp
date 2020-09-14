@@ -10,8 +10,8 @@ using System.CodeDom.Compiler;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.GapFill {
-    [Register("GapFillResults")]
-    partial class GapFillResults {
+    [Register("GapFillResultsView")]
+    partial class GapFillResultsView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         SharedActivities.iOS.CustomViews.ContentSizedTableView ResultsTable { get; set; }

@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActivityTitle">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActivityTitleView">
             <connections>
                 <outlet property="QuestionIconView" destination="vud-UF-rFs" id="name-outlet-vud-UF-rFs"/>
                 <outlet property="SituationLabel" destination="4RL-ge-q6n" id="name-outlet-4RL-ge-q6n"/>

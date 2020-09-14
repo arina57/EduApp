@@ -10,8 +10,8 @@ using System.CodeDom.Compiler;
 using UIKit;
 
 namespace SharedActivities.iOS.Views.Exercises.GapFill {
-    [Register("GapFill")]
-    partial class GapFill {
+    [Register("GapFillView")]
+    partial class GapFillView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         UIKit.UITableView GapFillTable { get; set; }

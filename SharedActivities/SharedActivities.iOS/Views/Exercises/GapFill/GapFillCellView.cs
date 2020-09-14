@@ -7,15 +7,15 @@ using UIKit;
 using Xamarin.Essentials;
 
 namespace SharedActivities.iOS.Views.Exercises.GapFill {
-    public partial class GapFillCell : UITableViewCell {
+    public partial class GapFillCellView : UITableViewCell {
 
-        public static readonly NSString Key = new NSString("GapFillCell");
+        public static readonly NSString Key = new NSString(nameof(GapFillCellView));
         public static readonly UINib Nib = UINib.FromName(Key, NSBundle.MainBundle);
         public int Position { get; private set; } = -1;
         public ReplaceableTextUITextView ReplaceableTextView => ReplaceableText;
         readonly string spacing = "" + '\u00A0' + '\u00A0' + '\u00A0';
         string SpacedText(string text) => spacing + text + spacing;
-        public GapFillCell(IntPtr handle) : base(handle) {
+        public GapFillCellView(IntPtr handle) : base(handle) {
         }
 
 

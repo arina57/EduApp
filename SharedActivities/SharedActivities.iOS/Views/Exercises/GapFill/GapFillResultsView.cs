@@ -7,10 +7,10 @@ using SharedActivities.Core.ViewModels.Exercises;
 using SharedActivities.iOS.Views.Exercises.OptionQuiz.OptionQuizResults;
 
 namespace SharedActivities.iOS.Views.Exercises.GapFill {
-    public partial class GapFillResults : CrossUIViewController<GapFillResultsViewModel> {
+    public partial class GapFillResultsView : CrossUIViewController<GapFillResultsViewModel> {
 
 
-        public GapFillResults() {
+        public GapFillResultsView() {
         }
 
         public override void RefreshUILocale() {
@@ -20,7 +20,7 @@ namespace SharedActivities.iOS.Views.Exercises.GapFill {
 
         public override void ViewDidLoad() {
             base.ViewDidLoad();
-            ResultsTable.RegisterNibForCellReuse(GapFillCell.Nib, "ResultsReuseCell");
+            ResultsTable.RegisterNibForCellReuse(GapFillCellView.Nib, "ResultsReuseCell");
             ResultsTable.Source = new ResultsSource(ViewModel.GapFillViewModel);
         }
 
@@ -50,7 +50,7 @@ namespace SharedActivities.iOS.Views.Exercises.GapFill {
             }
 
             public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath) {
-                var cell = tableView.DequeueReusableCell("ResultsReuseCell") as GapFillCell;
+                var cell = tableView.DequeueReusableCell("ResultsReuseCell") as GapFillCellView;
                 cell.Setup(viewModel, indexPath.Row);
                 return cell;
             }

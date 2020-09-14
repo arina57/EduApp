@@ -10,8 +10,8 @@ using System.CodeDom.Compiler;
 using UIKit;
 
 namespace SharedActivities.iOS.Views {
-    [Register("ActivityTitle")]
-    partial class ActivityTitle {
+    [Register("ActivityTitleView")]
+    partial class ActivityTitleView {
         [Outlet]
         [GeneratedCode("iOS Designer", "1.0")]
         UIKit.UIView QuestionIconView { get; set; }
